@@ -1,0 +1,123 @@
+﻿<!DOCTYPE HTML>
+<HTML>
+ <HEAD>
+  <TITLE> JSC3D - BMW Demo </TITLE>
+  <META NAME="Author" CONTENT="JSC3D">
+ </HEAD>
+
+ <BODY>
+	<div style="width:490px; margin:auto; position:relative; font-size: 9pt; color: #777777;">
+		<canvas id="cv" style="border: 1px solid;" width="490" height="368" ></canvas>
+		<div id="tip" style="display:block; color:#ffffff; padding:5px; position:absolute; left:10px; top:315px; background-color:#000000; height:32px; width:250px; border-radius:5px; border:1px solid #777777; font-family:Arial,sans-serif; opacity:0.5;"> 
+			Drag mouse to rotate <br> Drag mouse with shift pressed to zoom
+		</div>
+		<button id="low_quality" onclick="setDefinition('low');">low quality</button>
+		<button id="standard_quality" onclick="setDefinition('standard');">standard quality</button>
+		<button id="high_quality" onclick="setDefinition('high');">high quality</button>
+		<p style="font-family:Arial,sans-serif;">The model used here is exported from BS Contact's tech demo. You may also want to see the original impressive demo from <a href="http://www.bitmanagement.de/developer/contact/examples/bmw/bmw_reflect.wrl">here</a>. <b>Should not</b> be used for any commercial purpose.<p>
+	</div>
+	<script type="text/javascript" src="../jsc3d.js"></script>
+	<script type="text/javascript" src="../jsc3d.touch.js"></script>
+	<script type="text/javascript">
+	var canvas = document.getElementById('cv');
+	var viewer = new JSC3D.Viewer(canvas);
+	viewer.setParameter('SceneUrl', 'bmw/bmw.obj');
+	viewer.setParameter('InitRotationX', 0);
+	viewer.setParameter('InitRotationY', 0);
+	viewer.setParameter('InitRotationZ', 0);
+	viewer.setParameter('ModelColor', '#CAA618');
+	viewer.setParameter('BackgroundColor1', '#FFFFFF');
+	viewer.setParameter('BackgroundColor2', '#383840');
+	viewer.setParameter('RenderMode', 'texturesmooth');
+	viewer.setParameter('SphereMapUrl', 'bmw/dullchrome.jpg');
+	viewer.init();
+	viewer.update();
+
+	var ctx = canvas.getContext('2d');
+
+	var colorMenu = new Image;
+	colorMenu.src = 'bmw/menu.gif';
+
+	var isMenuOpen = false;
+	var menuOffsetX = 10;
+	var menuOffsetY = 10;
+	var menuItems = [undefined, '#EFEBE0', '#FF9900', '#CC0000', '#330033', '#000066', '#003333'];
+
+	function isMenuLoaded() {
+		return colorMenu.width > 0 && colorMenu.height > 0;
+	}
+
+	function whichMenuItem(x, y) {
+		if(isMenuLoaded() && 
+			x >= menuOffsetX && x < menuOffsetX + colorMenu.width &&
+			y >= menuOffsetY && y < menuOffsetY + colorMenu.height)
+			return Math.floor((y - menuOffsetY) * menuItems.length /  colorMenu.height);
+
+		return -1;
+	}
+
+	function drawMenu() {
+		if(isMenuLoaded()) {
+			if(isMenuOpen)
+				ctx.drawImage(colorMenu, menuOffsetX, menuOffsetY, colorMenu.width, colorMenu.height);
+			else
+				ctx.drawImage(colorMenu, 0, 0, colorMenu.width, colorMenu.height / menuItems.length, menuOffsetX, menuOffsetY, colorMenu.width, colorMenu.height / menuItems.length);
+		}
+	}
+
+	function changeCarBodyColor(color) {
+		var scene = viewer.getScene();
+		if(scene) {
+			var objects = scene.getChildren();
+			for(var i=0; i<objects.length; i++) {
+				if(objects[i].material && 
+					objects[i].hasTexture() && objects[i].texture.srcUrl.indexOf('dullchrome.jpg') >= 0) {
+					// change diffuse color of car body to the given one
+					objects[i].material.diffuseColor = color;
+					objects[i].material.simulateSpecular = true;
+					// re-generate material's palette to apply the changes
+					objects[i].material.generatePalette();
+					// enable environment mapping on car body
+					objects[i].isEnvironmentCast = true;
+				}
+			}
+
+			viewer.update();
+		}
+	}
+
+	viewer.afterupdate = function() {
+		drawMenu();
+	};
+
+	viewer.onmouseup = function(x, y) {
+		if(isMenuLoaded()) {
+			var itemIndex = whichMenuItem(x, y);
+			if(isMenuOpen) {
+				if(itemIndex > 0) {
+					var item = menuItems[itemIndex];
+					changeCarBodyColor(parseInt(item.substring(1), 16));
+				}
+				else if(itemIndex == 0)
+					// fold menu
+					isMenuOpen = false;
+					viewer.update(true); // do not generate new frame, just repaint it to apply the new menu state
+			}
+			else {
+				if(itemIndex == 0)
+					// unfold menu
+					isMenuOpen = true;
+					viewer.update(true); // do not generate new frame, just repaint it
+			}
+		}
+	};
+
+	function setDefinition(definition) {
+		if(viewer.getScene()) {
+			viewer.setDefinition(definition);
+			viewer.update();
+		}
+	}
+  </script>
+ </BODY>
+</HTML>

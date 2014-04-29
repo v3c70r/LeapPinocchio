@@ -29,6 +29,8 @@ Leap::Frame frame;
 int width = 1024;
 int height = 768;
 
+bool calib = false;
+
 //
 ///* Ortho (if used) */
 double _left = 0.0;		/* ortho view volume params */
@@ -216,6 +218,7 @@ void drawMesh(const Mesh &m, bool flatShading, Vector3 trans)
 {
     int i;
     Vector3 normal;
+    glColor3d(.5, .5, .5);
 
     glBegin(GL_TRIANGLES);
     for(i = 0; i < (int)m.edges.size(); ++i) {
@@ -337,8 +340,14 @@ void timerFunction(int value)
         const Leap::Hand hand = frame.hands()[0];
         const Leap::FingerList fingers = hand.fingers();
         //std::cout<<fingers.count()<<std::endl;
-        if (fingers.count() <= 4)
-            myDefMesh->dir.setCurDir(fingers);
+        if (fingers.count() <= 4){
+            if (!calib)
+                myDefMesh->dir.setCurDir(fingers);
+            else
+                myDefMesh->dir.setOriginDir(fingers);
+        }
+        
+
 
     }
     //if (!frame.hands().isEmpty())

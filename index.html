@@ -1,7 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Getting Started with JSC3D</title>
+    </head>
+        <body>
 <H1> Leap Motion Puppet </H1>
 
 <a href="./doc/readme.html">READ ME</a></br>
 <a href="./doc/video.mp4">Video</a></br>
 <a href="./doc/report.pdf">Report</a></br>
-
 I am working on a better website, please check it later <a href="http://users.encs.concordia.ca/~g_qing/691fProj/">here</a>!
+
+<br/>
+		<canvas id="cv" width=640 height=480>
+        It seems you are using an outdated browser that does not support canvas :-(
+        </canvas>
+        <script type="text/javascript" src="./webData/jsc3d/jsc3d.js"></script>
+        <script type="text/javascript" src="./webData/jsc3d/jsc3d.touch.js"></script>
+        <script type="text/javascript">
+            var viewer = new JSC3D.Viewer(document.getElementById('cv'));
+            viewer.setParameter('SceneUrl',         './myMain/Model1.obj');
+            viewer.setParameter('ModelColor',       '#CAA618');
+            viewer.setParameter('BackgroundColor1', '#E5D7BA');
+            viewer.setParameter('BackgroundColor2', '#383840');
+            viewer.setParameter('RenderMode',       'flat');
+            viewer.init();
+            viewer.update();
+        </script>
+    </body>
+</html>

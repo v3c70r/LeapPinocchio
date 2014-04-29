@@ -44,26 +44,74 @@ class LeapDir
             cout<<originDir[0][0]<<" | "
             <<originDir[1][0]<<" | "
             <<originDir[2][0]<<" | \n";
+            
         }
+
+        void setOriginDir(Leap::FingerList fingers)
+        {
+            vector<Vector3> fig;
+            fig.resize(originDir.size());
+
+            if (fingers.count() == 3){ //Have three fingers;
+                for (int i=0; i<3; i++){
+                    originDir[i][0] = fingers[i].direction().normalized().x;
+                    originDir[i][1] = fingers[i].direction().normalized().y;
+                    originDir[i][2] = fingers[i].direction().normalized().z;
+
+                    fig[i][0] = fingers[i].tipPosition().normalized().x;
+                    fig[i][1] = fingers[i].tipPosition().normalized().y;
+                    fig[i][2] = fingers[i].tipPosition().normalized().z;
+                }
+                sorteVec(originDir, fig);
+            }
+        }
+
         void setCurDir(Leap::FingerList fingers)
         {
+            vector<Vector3> fig;
+            fig.resize(curDir.size());
             if (fingers.count() == 3){ //Have three fingers;
                 for (int i=0; i<3; i++){
                     curDir[i][0] = fingers[i].direction().normalized().x;
                     curDir[i][1] = fingers[i].direction().normalized().y;
                     curDir[i][2] = fingers[i].direction().normalized().z;
+
+                    fig[i][0] = fingers[i].tipPosition().normalized().x;
+                    fig[i][1] = fingers[i].tipPosition().normalized().y;
+                    fig[i][2] = fingers[i].tipPosition().normalized().z;
                 }
-                sorteVec(curDir);
-
+                sorteVec(curDir, fig);
             }
-
            // cout<<curDir[0][0]<<" | "
            // <<curDir[1][0]<<" | "
            // <<curDir[2][0]<<" | \n";
                 
         }
 
+        void invVector(vector<Vector3> &in)
+        {
+            for (unsigned i=0; i<in.size();i ++)
+                for (int j=0; j<3; j++)
+                    in[i][j] = -in[i][j];
+        }
+
         //Sort vectors by x coordinate
+        void sorteVec(vector<Vector3> &in, vector<Vector3> figPos)
+        {
+            if (figPos[0][0] < figPos[1][0])
+                if (figPos[0][0]<figPos[2][0])
+                    if (figPos[1][0]<figPos[2][0]);
+                    else{
+                        swap(in[1],in[2]);}
+                else {swap(in[0],in[2]); swap(in[1],in[2]);}
+            else
+                if (figPos[1][0] < figPos[2][0])
+                    if(figPos[0][0]<figPos[2][0])
+                        swap(in[0], in[1]);
+                    else{swap(in[0], in[2]); swap(in[0], in[1]);}
+                else swap(in[0], in[2]);
+        }
+
         void sorteVec(vector<Vector3> &in)
         {
             if (in[0][0] < in[1][0])

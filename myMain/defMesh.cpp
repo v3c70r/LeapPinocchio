@@ -24,7 +24,6 @@ vector<Transform<> > DefMesh::computeTransforms() const
     Quaternion<> trans1(dir.originDir[0], dir.curDir[0]);
     Quaternion<> trans2(dir.originDir[1], dir.curDir[1]);
     Quaternion<> trans3(dir.originDir[2], dir.curDir[2]);
-    //
     
     //Debug
     //Vector3 axi(1,0,0);
@@ -33,9 +32,9 @@ vector<Transform<> > DefMesh::computeTransforms() const
     //Quaternion<> trans3(axi, -angle);
     //EndDebug
 
-    rotations[13] =  Transform<>(trans1).linearComponent() ;        //Lefthand
-    rotations[16] =  Transform<>(trans3).linearComponent() ;        //Righthand
-    rotations[2] =  Transform<>(trans2).linearComponent() ;         //Head
+    rotations[13] =  Transform<>(trans1.inverse()).linearComponent() ;        //Lefthand
+    rotations[16] =  Transform<>(trans3.inverse()).linearComponent() ;        //Righthand
+    rotations[2] =  Transform<>(trans2.inverse()).linearComponent() ;         //Head
 
     vector<Vector3> tm;
     tm.push_back(match[0]);

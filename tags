@@ -1,0 +1,1663 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ATTACHMENT_H	Pinocchio/attachment.h	20;"	d	language:C++
+AllShortestPather	Pinocchio/graphutils.h	/^    AllShortestPather() {}$/;"	f	language:C++	class:AllShortestPather
+AllShortestPather	Pinocchio/graphutils.h	/^    AllShortestPather(const PtGraph &g)$/;"	f	language:C++	class:AllShortestPather
+AllShortestPather	Pinocchio/graphutils.h	/^class AllShortestPather$/;"	c	language:C++
+ArgData	DemoUI/processor.cpp	/^    ArgData() :$/;"	f	language:C++	struct:ArgData
+ArgData	DemoUI/processor.cpp	/^struct ArgData$/;"	s	language:C++	file:
+ArrayIndexer	Pinocchio/indexer.h	/^    ArrayIndexer() : root(NULL) {}$/;"	f	language:C++	class:ArrayIndexer
+ArrayIndexer	Pinocchio/indexer.h	/^class ArrayIndexer$/;"	c	language:C++
+Attachment	Pinocchio/attachment.cpp	/^Attachment::Attachment(const Attachment &att)$/;"	f	language:C++	class:Attachment
+Attachment	Pinocchio/attachment.cpp	/^Attachment::Attachment(const Mesh &mesh, const Skeleton &skeleton, const vector<Vector3> &match, const VisibilityTester *tester)$/;"	f	language:C++	class:Attachment
+Attachment	Pinocchio/attachment.h	/^    Attachment() : a(NULL) {}$/;"	f	language:C++	class:Attachment
+Attachment	Pinocchio/attachment.h	/^class PINOCCHIO_API Attachment$/;"	c	language:C++
+AttachmentPrivate	Pinocchio/attachment.cpp	/^    AttachmentPrivate() {}$/;"	f	language:C++	class:AttachmentPrivate
+AttachmentPrivate	Pinocchio/attachment.cpp	/^class AttachmentPrivate$/;"	c	language:C++	file:
+AttachmentPrivate1	Pinocchio/attachment.cpp	/^    AttachmentPrivate1() {}$/;"	f	language:C++	class:AttachmentPrivate1
+AttachmentPrivate1	Pinocchio/attachment.cpp	/^    AttachmentPrivate1(const Mesh &mesh, const Skeleton &skeleton, const vector<Vector3> &match, const VisibilityTester *tester)$/;"	f	language:C++	class:AttachmentPrivate1
+AttachmentPrivate1	Pinocchio/attachment.cpp	/^class AttachmentPrivate1 : public AttachmentPrivate {$/;"	c	language:C++	file:
+BitComparator	Pinocchio/vector.h	/^template<> class BitComparator<1>$/;"	c	language:C++
+BitComparator	Pinocchio/vector.h	/^template<int Dim> class BitComparator$/;"	c	language:C++
+CC	DemoUI/Makefile	/^CC = g++$/;"	m	language:Make
+CC	Pinocchio/Makefile	/^CC = g++$/;"	m	language:Make
+CCFLAGS	DemoUI/Makefile	/^CCFLAGS = -c -Wall -O3 -I..\/Pinocchio\/$/;"	m	language:Make
+CCFLAGS	Pinocchio/Makefile	/^CCFLAGS = -c -O3 -Wall -fPIC$/;"	m	language:Make
+CHECK	Pinocchio/graphutils.cpp	22;"	d	language:C++	file:
+CHECK	Pinocchio/mesh.cpp	630;"	d	language:C++	file:
+CUBE	Pinocchio/mathutils.h	/^template<class T> T CUBE(const T & x) { return x * x * x; }$/;"	f	language:C++
+CentaurSkeleton	Pinocchio/skeleton.cpp	/^CentaurSkeleton::CentaurSkeleton()$/;"	f	language:C++	class:CentaurSkeleton
+CentaurSkeleton	Pinocchio/skeleton.h	/^class PINOCCHIO_API CentaurSkeleton : public Skeleton$/;"	c	language:C++
+CircleGesture	leapSDK/include/Leap.h	/^  class CircleGesture : public Gesture$/;"	c	language:C++	namespace:Leap
+CircleGesture	leapSDK/lib/Leap.py	/^class CircleGesture(Gesture):$/;"	c	language:Python
+CircleGesture_class_type	leapSDK/lib/Leap.py	/^CircleGesture_class_type = LeapPython.CircleGesture_class_type$/;"	v	language:Python
+CircleGesture_class_type	leapSDK/lib/Leap.py	/^def CircleGesture_class_type():$/;"	f	language:Python
+CircleGesture_swigregister	leapSDK/lib/Leap.py	/^CircleGesture_swigregister = LeapPython.CircleGesture_swigregister$/;"	v	language:Python
+Config	leapSDK/include/Leap.h	/^  class Config : public Interface {$/;"	c	language:C++	namespace:Leap
+Config	leapSDK/lib/Leap.py	/^class Config(Interface):$/;"	c	language:Python
+Config_swigregister	leapSDK/lib/Leap.py	/^Config_swigregister = LeapPython.Config_swigregister$/;"	v	language:Python
+ConstListIterator	leapSDK/include/Leap.h	/^    ConstListIterator<L,T>(const L& list, int index) : m_list(list), m_index(index) {}$/;"	f	language:C++	class:Leap::ConstListIterator
+ConstListIterator	leapSDK/include/Leap.h	/^  class ConstListIterator {$/;"	c	language:C++	namespace:Leap
+Constraint	Pinocchio/lsqSolver.h	/^        Constraint() {}$/;"	f	language:C++	struct:LSQSystem::Constraint
+Constraint	Pinocchio/lsqSolver.h	/^        Constraint(bool inHard, const map<V, double> &inLhs, double inRhs = 0.)$/;"	f	language:C++	struct:LSQSystem::Constraint
+Constraint	Pinocchio/lsqSolver.h	/^    struct Constraint {$/;"	s	language:C++	class:LSQSystem
+Controller	leapSDK/include/Leap.h	/^  class Controller : public Interface {$/;"	c	language:C++	namespace:Leap
+Controller	leapSDK/lib/Leap.py	/^class Controller(Interface):$/;"	c	language:Python
+Controller_swigregister	leapSDK/lib/Leap.py	/^Controller_swigregister = LeapPython.Controller_swigregister$/;"	v	language:Python
+DEBUGGING_H	Pinocchio/debugging.h	20;"	d	language:C++
+DEFMESH_H	myMain/defMesh.h	3;"	d	language:C++
+DEFMESH_H_INCLUDED	DemoUI/defmesh.h	24;"	d	language:C++
+DEG_TO_RAD	leapSDK/include/LeapMath.h	/^static const float DEG_TO_RAD  = 0.0174532925f;$/;"	m	language:C++	namespace:Leap
+DEG_TO_RAD	leapSDK/lib/Leap.py	/^DEG_TO_RAD = cvar.DEG_TO_RAD$/;"	v	language:Python
+DERIV_H_INCLUDED	Pinocchio/deriv.h	20;"	d	language:C++
+DISPLAYMESH_H	DemoUI/DisplayMesh.h	24;"	d	language:C++
+DL	Pinocchio/pointprojector.h	/^    struct DL { bool operator()(const pair<double, int> &p1,$/;"	s	language:C++	class:ObjectProjector
+DLess	Pinocchio/pointprojector.h	/^        DLess(int inDim, const vector<Obj> &inObjs) : dim(inDim), objs(inObjs) {}$/;"	f	language:C++	class:ObjectProjector::DLess
+DLess	Pinocchio/pointprojector.h	/^    class DLess$/;"	c	language:C++	class:ObjectProjector
+DNode	Pinocchio/dtree.h	/^    DNode(MyRect r) : Data(this), parent(NULL), rect(r)$/;"	f	language:C++	class:DNode
+DNode	Pinocchio/dtree.h	/^    DNode(Self *inParent, int inChildIndex) : Data(this), parent(inParent), childIndex(inChildIndex)$/;"	f	language:C++	class:DNode
+DNode	Pinocchio/dtree.h	/^class DNode : public Data$/;"	c	language:C++
+DRootNode	Pinocchio/dtree.h	/^    DRootNode(MyRect r = MyRect(Vec(), Vec().apply(bind2nd(plus<double>(), 1.)))) : Node(r)$/;"	f	language:C++	class:DRootNode
+DRootNode	Pinocchio/dtree.h	/^class DRootNode : public DNode<Data, Dim>, public Indexer<DNode<Data, Dim>, Dim>$/;"	c	language:C++
+DTREE_H	Pinocchio/dtree.h	20;"	d	language:C++
+Debugging	Pinocchio/debugging.h	/^class Debugging$/;"	c	language:C++
+DefMesh	DemoUI/defmesh.h	/^    DefMesh(const Mesh inMesh, const Skeleton &inOrigSkel, const vector<Vector3> &inMatch,$/;"	f	language:C++	class:DefMesh
+DefMesh	DemoUI/defmesh.h	/^class DefMesh : public DisplayMesh$/;"	c	language:C++
+DefMesh	myMain/defMesh.h	/^    DefMesh(const Mesh inMesh, const Skeleton &inOrigSkel, const vector<Vector3> &inMatch, const Attachment &inAttachment)$/;"	f	language:C++	class:DefMesh
+DefMesh	myMain/defMesh.h	/^class DefMesh$/;"	c	language:C++
+Deriv	Pinocchio/deriv.h	/^    Deriv() : x(Real()) {}$/;"	f	language:C++	class:Deriv
+Deriv	Pinocchio/deriv.h	/^    Deriv(const Real &inX) : x(inX) {}$/;"	f	language:C++	class:Deriv
+Deriv	Pinocchio/deriv.h	/^    Deriv(const Real &inX, const Vector<Real, Vars> &inD) : x(inX), d(inD) {}$/;"	f	language:C++	class:Deriv
+Deriv	Pinocchio/deriv.h	/^    Deriv(const Real &inX, int varNum) : x(inX) { d[varNum] = Real(1.); }$/;"	f	language:C++	class:Deriv
+Deriv	Pinocchio/deriv.h	/^    Deriv(const Self &inD) : x(inD.x), d(inD.d) {}$/;"	f	language:C++	class:Deriv
+Deriv	Pinocchio/deriv.h	/^class Deriv$/;"	c	language:C++
+DerivRV	Pinocchio/deriv.h	68;"	d	language:C++
+DerivRV	Pinocchio/deriv.h	92;"	d	language:C++
+Device	leapSDK/include/Leap.h	/^  class Device : public Interface {$/;"	c	language:C++	namespace:Leap
+Device	leapSDK/lib/Leap.py	/^class Device(Interface):$/;"	c	language:Python
+DeviceList	leapSDK/include/Leap.h	/^  class DeviceList : public Interface {$/;"	c	language:C++	namespace:Leap
+DeviceList	leapSDK/lib/Leap.py	/^class DeviceList(Interface):$/;"	c	language:Python
+DeviceList_swigregister	leapSDK/lib/Leap.py	/^DeviceList_swigregister = LeapPython.DeviceList_swigregister$/;"	v	language:Python
+Device_swigregister	leapSDK/lib/Leap.py	/^Device_swigregister = LeapPython.Device_swigregister$/;"	v	language:Python
+DisjointPF	Pinocchio/embedding.cpp	/^    DisjointPF(FP *inFp) : PenaltyFunction(inFp) { }$/;"	f	language:C++	class:DisjointPF
+DisjointPF	Pinocchio/embedding.cpp	/^class DisjointPF : public PenaltyFunction$/;"	c	language:C++	file:
+DisplayMesh	DemoUI/DisplayMesh.h	/^class DisplayMesh$/;"	c	language:C++
+DistData	Pinocchio/quaddisttree.h	/^    DistData(NodeType *inNode) : node(inNode) {}$/;"	f	language:C++	class:DistData
+DistData	Pinocchio/quaddisttree.h	/^class DistData : public DistFunction<Dim>$/;"	c	language:C++
+DistFunction	Pinocchio/quaddisttree.h	/^class DistFunction : public Multilinear<double, Dim>$/;"	c	language:C++
+DistObjEval	Pinocchio/quaddisttree.h	/^        DistObjEval(const ObjectProjector<3, Tri3Object> &inProj, const Mesh &m) : proj(inProj), mint(m, Vector3(1, 0, 0))$/;"	f	language:C++	class:OctTreeMaker::DistObjEval
+DistObjEval	Pinocchio/quaddisttree.h	/^    class DistObjEval$/;"	c	language:C++	class:OctTreeMaker
+DistPF	Pinocchio/embedding.cpp	/^    DistPF(FP *inFp) : PenaltyFunction(inFp) { }$/;"	f	language:C++	class:DistPF
+DistPF	Pinocchio/embedding.cpp	/^class DistPF : public PenaltyFunction$/;"	c	language:C++	file:
+DllMain	Pinocchio/Pinocchio.cpp	/^BOOL APIENTRY DllMain( HMODULE hModule,$/;"	f	language:C++
+DotPF	Pinocchio/embedding.cpp	/^    DotPF(FP *inFp) : PenaltyFunction(inFp) { }$/;"	f	language:C++	class:DotPF
+DotPF	Pinocchio/embedding.cpp	/^class DotPF : public PenaltyFunction$/;"	c	language:C++	file:
+DoublePF	Pinocchio/embedding.cpp	/^    DoublePF(FP *inFp) : PenaltyFunction(inFp) { }$/;"	f	language:C++	class:DoublePF
+DoublePF	Pinocchio/embedding.cpp	/^class DoublePF : public PenaltyFunction$/;"	c	language:C++	file:
+DumbIndexer	Pinocchio/indexer.h	/^        DumbIndexer() : root(NULL) {}$/;"	f	language:C++	class:DumbIndexer
+DumbIndexer	Pinocchio/indexer.h	/^class DumbIndexer$/;"	c	language:C++
+DupPF	Pinocchio/embedding.cpp	/^    DupPF(FP *inFp) : PenaltyFunction(inFp) { }$/;"	f	language:C++	class:DupPF
+DupPF	Pinocchio/embedding.cpp	/^class DupPF : public PenaltyFunction$/;"	c	language:C++	file:
+EigPrivate	Pinocchio/matrix.cpp	/^namespace EigPrivate$/;"	n	language:C++	file:
+ExtremPF	Pinocchio/embedding.cpp	/^    ExtremPF(FP *inFp) : PenaltyFunction(inFp) { }$/;"	f	language:C++	class:ExtremPF
+ExtremPF	Pinocchio/embedding.cpp	/^class ExtremPF : public PenaltyFunction$/;"	c	language:C++	file:
+FILTER_H_INCLUDED	DemoUI/filter.h	24;"	d	language:C++
+FP	Pinocchio/embedding.cpp	/^    FP(const PtGraph &inG, const Skeleton &inSk, const vector<Sphere> &inS)$/;"	f	language:C++	struct:FP
+FP	Pinocchio/embedding.cpp	/^struct FP \/\/information for penalty functions$/;"	s	language:C++	file:
+FileSkeleton	Pinocchio/skeleton.cpp	/^FileSkeleton::FileSkeleton(const std::string &filename)$/;"	f	language:C++	class:FileSkeleton
+FileSkeleton	Pinocchio/skeleton.h	/^class PINOCCHIO_API FileSkeleton : public Skeleton$/;"	c	language:C++
+Finger	leapSDK/include/Leap.h	/^  class Finger : public Pointable {$/;"	c	language:C++	namespace:Leap
+Finger	leapSDK/lib/Leap.py	/^class Finger(Pointable):$/;"	c	language:Python
+FingerList	leapSDK/include/Leap.h	/^  class FingerList : public Interface {$/;"	c	language:C++	namespace:Leap
+FingerList	leapSDK/lib/Leap.py	/^class FingerList(Interface):$/;"	c	language:Python
+FingerList_swigregister	leapSDK/lib/Leap.py	/^FingerList_swigregister = LeapPython.FingerList_swigregister$/;"	v	language:Python
+Finger_swigregister	leapSDK/lib/Leap.py	/^Finger_swigregister = LeapPython.Finger_swigregister$/;"	v	language:Python
+FloatArray	leapSDK/include/LeapMath.h	/^struct FloatArray {$/;"	s	language:C++	namespace:Leap
+FootPF	Pinocchio/embedding.cpp	/^    FootPF(FP *inFp) : PenaltyFunction(inFp) { }$/;"	f	language:C++	class:FootPF
+FootPF	Pinocchio/embedding.cpp	/^class FootPF : public PenaltyFunction$/;"	c	language:C++	file:
+Frame	leapSDK/include/Leap.h	/^  class Frame : public Interface {$/;"	c	language:C++	namespace:Leap
+Frame	leapSDK/lib/Leap.py	/^class Frame(Interface):$/;"	c	language:Python
+Frame_swigregister	leapSDK/lib/Leap.py	/^Frame_swigregister = LeapPython.Frame_swigregister$/;"	v	language:Python
+GRAPHUTILS_H	Pinocchio/graphutils.h	20;"	d	language:C++
+Gesture	leapSDK/include/Leap.h	/^  class Gesture : public Interface {$/;"	c	language:C++	namespace:Leap
+Gesture	leapSDK/lib/Leap.py	/^class Gesture(Interface):$/;"	c	language:Python
+GestureList	leapSDK/include/Leap.h	/^  class GestureList : public Interface {$/;"	c	language:C++	namespace:Leap
+GestureList	leapSDK/lib/Leap.py	/^class GestureList(Interface):$/;"	c	language:Python
+GestureList_swigregister	leapSDK/lib/Leap.py	/^GestureList_swigregister = LeapPython.GestureList_swigregister$/;"	v	language:Python
+Gesture_swigregister	leapSDK/lib/Leap.py	/^Gesture_swigregister = LeapPython.Gesture_swigregister$/;"	v	language:Python
+GlobalDotPF	Pinocchio/embedding.cpp	/^    GlobalDotPF(FP *inFp) : PenaltyFunction(inFp) { }$/;"	f	language:C++	class:GlobalDotPF
+GlobalDotPF	Pinocchio/embedding.cpp	/^class GlobalDotPF : public PenaltyFunction$/;"	c	language:C++	file:
+HASHUTILS_H	Pinocchio/hashutils.h	20;"	d	language:C++
+Hand	leapSDK/include/Leap.h	/^  class Hand : public Interface {$/;"	c	language:C++	namespace:Leap
+Hand	leapSDK/lib/Leap.py	/^class Hand(Interface):$/;"	c	language:Python
+HandList	leapSDK/include/Leap.h	/^  class HandList : public Interface {$/;"	c	language:C++	namespace:Leap
+HandList	leapSDK/lib/Leap.py	/^class HandList(Interface):$/;"	c	language:Python
+HandList_swigregister	leapSDK/lib/Leap.py	/^HandList_swigregister = LeapPython.HandList_swigregister$/;"	v	language:Python
+Hand_swigregister	leapSDK/lib/Leap.py	/^Hand_swigregister = LeapPython.Hand_swigregister$/;"	v	language:Python
+HashIndex	Pinocchio/indexer.h	/^    HashIndex() { for(int i = 0; i < num; ++i) nodeMap[i] = make_pair(-1, (Node *)NULL); }$/;"	f	language:C++	class:HashIndex
+HashIndex	Pinocchio/indexer.h	/^template<class Node, int Level> class HashIndex$/;"	c	language:C++
+HashIndexer	Pinocchio/indexer.h	/^        HashIndexer() : root(NULL) {}$/;"	f	language:C++	class:HashIndexer
+HashIndexer	Pinocchio/indexer.h	/^class HashIndexer$/;"	c	language:C++
+HorseSkeleton	Pinocchio/skeleton.cpp	/^HorseSkeleton::HorseSkeleton()$/;"	f	language:C++	class:HorseSkeleton
+HorseSkeleton	Pinocchio/skeleton.h	/^class PINOCCHIO_API HorseSkeleton : public Skeleton$/;"	c	language:C++
+HumanSkeleton	Pinocchio/skeleton.cpp	/^HumanSkeleton::HumanSkeleton()$/;"	f	language:C++	class:HumanSkeleton
+HumanSkeleton	Pinocchio/skeleton.h	/^class PINOCCHIO_API HumanSkeleton : public Skeleton$/;"	c	language:C++
+INDEXER_H	Pinocchio/indexer.h	20;"	d	language:C++
+INTERSECTOR_H	Pinocchio/intersector.h	20;"	d	language:C++
+Implementation	leapSDK/include/Leap.h	/^    struct Implementation {$/;"	s	language:C++	class:Leap::Interface
+Indexer	Pinocchio/indexer.h	/^    Indexer() : root(NULL) {}$/;"	f	language:C++	class:Indexer
+Indexer	Pinocchio/indexer.h	/^class Indexer$/;"	c	language:C++
+Inf	Pinocchio/graphutils.h	/^        Inf(double inDist, int inNode, int inPrev) : dist(inDist), node(inNode), prev(inPrev) {}$/;"	f	language:C++	struct:ShortestPather::Inf
+Inf	Pinocchio/graphutils.h	/^    struct Inf$/;"	s	language:C++	class:ShortestPather
+InteractionBox	leapSDK/include/Leap.h	/^  class InteractionBox : public Interface {$/;"	c	language:C++	namespace:Leap
+InteractionBox	leapSDK/lib/Leap.py	/^class InteractionBox(Interface):$/;"	c	language:Python
+InteractionBox_swigregister	leapSDK/lib/Leap.py	/^InteractionBox_swigregister = LeapPython.InteractionBox_swigregister$/;"	v	language:Python
+Interface	leapSDK/include/Leap.h	/^  class LEAP_EXPORT_CLASS Interface {$/;"	c	language:C++	namespace:Leap
+Interface	leapSDK/lib/Leap.py	/^class Interface(_object):$/;"	c	language:Python
+Interface_swigregister	leapSDK/lib/Leap.py	/^Interface_swigregister = LeapPython.Interface_swigregister$/;"	v	language:Python
+Intersector	Pinocchio/intersector.h	/^    Intersector() : mesh(NULL) {}$/;"	f	language:C++	class:Intersector
+Intersector	Pinocchio/intersector.h	/^    Intersector(const Mesh &m, const Vector3 &inDir) : mesh(&m), dir(inDir) { init(); }$/;"	f	language:C++	class:Intersector
+Intersector	Pinocchio/intersector.h	/^class PINOCCHIO_API Intersector {$/;"	c	language:C++
+KeyTapGesture	leapSDK/include/Leap.h	/^  class KeyTapGesture : public Gesture$/;"	c	language:C++	namespace:Leap
+KeyTapGesture	leapSDK/lib/Leap.py	/^class KeyTapGesture(Gesture):$/;"	c	language:Python
+KeyTapGesture_class_type	leapSDK/lib/Leap.py	/^KeyTapGesture_class_type = LeapPython.KeyTapGesture_class_type$/;"	v	language:Python
+KeyTapGesture_class_type	leapSDK/lib/Leap.py	/^def KeyTapGesture_class_type():$/;"	f	language:Python
+KeyTapGesture_swigregister	leapSDK/lib/Leap.py	/^KeyTapGesture_swigregister = LeapPython.KeyTapGesture_swigregister$/;"	v	language:Python
+LEAPLISTEN_H	myMain/leapListener.h	2;"	d	language:C++
+LEAP_EXPORT	leapSDK/include/Leap.h	29;"	d	language:C++
+LEAP_EXPORT	leapSDK/include/Leap.h	31;"	d	language:C++
+LEAP_EXPORT	leapSDK/include/Leap.h	33;"	d	language:C++
+LEAP_EXPORT	leapSDK/include/Leap.h	38;"	d	language:C++
+LEAP_EXPORT	leapSDK/include/Leap.h	42;"	d	language:C++
+LEAP_EXPORT_CLASS	leapSDK/include/Leap.h	35;"	d	language:C++
+LEAP_EXPORT_CLASS	leapSDK/include/Leap.h	39;"	d	language:C++
+LEAP_EXPORT_CLASS	leapSDK/include/Leap.h	43;"	d	language:C++
+LEAP_EXPORT_PLUGIN	leapSDK/include/Leap.h	36;"	d	language:C++
+LEAP_EXPORT_PLUGIN	leapSDK/include/Leap.h	40;"	d	language:C++
+LEAP_EXPORT_PLUGIN	leapSDK/include/Leap.h	44;"	d	language:C++
+LIBS	DemoUI/Makefile	/^LIBS = -lm -L..\/Pinocchio\/ -lpinocchio -lfltk -lfltk_gl$/;"	m	language:Make
+LIBS	Pinocchio/Makefile	/^LIBS = -lm -shared -fPIC$/;"	m	language:Make
+LLTMatrix	Pinocchio/lsqSolver.h	/^class LLTMatrix$/;"	c	language:C++
+LSQSOLVER_H_INCLUDED	Pinocchio/lsqSolver.h	20;"	d	language:C++
+LSQSystem	Pinocchio/lsqSolver.h	/^    LSQSystem() : factoredMatrix(NULL) {}$/;"	f	language:C++	class:LSQSystem
+LSQSystem	Pinocchio/lsqSolver.h	/^template<class V, class C> class LSQSystem$/;"	c	language:C++
+Leap	leapSDK/include/Leap.h	/^namespace Leap {$/;"	n	language:C++
+Leap	leapSDK/include/LeapMath.h	/^namespace Leap {$/;"	n	language:C++
+LeapListener	myMain/leapListener.h	/^class LeapListener : public Listener {$/;"	c	language:C++
+LeapPython	leapSDK/lib/Leap.py	/^    LeapPython = swig_import_helper()$/;"	v	language:Python
+LineSegment	DemoUI/MyWindow.h	/^    LineSegment() : thickness(1.) {}$/;"	f	language:C++	struct:LineSegment
+LineSegment	DemoUI/MyWindow.h	/^    LineSegment(const Vector3 &inP1, const Vector3 &inP2,$/;"	f	language:C++	struct:LineSegment
+LineSegment	DemoUI/MyWindow.h	/^struct LineSegment$/;"	s	language:C++
+Listener	leapSDK/include/Leap.h	/^    LEAP_EXPORT Listener() {}$/;"	f	language:C++	class:Leap::Listener
+Listener	leapSDK/include/Leap.h	/^  class Listener {$/;"	c	language:C++	namespace:Leap
+Listener	leapSDK/lib/Leap.py	/^class Listener(_object):$/;"	c	language:Python
+Listener_swigregister	leapSDK/lib/Leap.py	/^Listener_swigregister = LeapPython.Listener_swigregister$/;"	v	language:Python
+LookupTable	Pinocchio/indexer.cpp	/^    LookupTable()$/;"	f	language:C++	class:LookupTable
+LookupTable	Pinocchio/indexer.cpp	/^class LookupTable$/;"	c	language:C++	file:
+LookupTable3	Pinocchio/indexer.cpp	/^        LookupTable3()$/;"	f	language:C++	class:LookupTable3
+LookupTable3	Pinocchio/indexer.cpp	/^class LookupTable3$/;"	c	language:C++	file:
+MAKE_HASH	Pinocchio/hashutils.h	44;"	d	language:C++
+MAT	myMain/main.cpp	164;"	d	language:C++	file:
+MAT	myMain/main.cpp	67;"	d	language:C++	file:
+MATHUTILS_H_INCLUDED	Pinocchio/mathutils.h	20;"	d	language:C++
+MATRIX_H_INCLUDED	Pinocchio/matrix.h	20;"	d	language:C++
+MESH_H	Pinocchio/mesh.h	20;"	d	language:C++
+MFace	Pinocchio/mesh.cpp	/^    MFace(int v1, int v2, int v3)$/;"	f	language:C++	struct:MFace
+MFace	Pinocchio/mesh.cpp	/^struct MFace$/;"	s	language:C++	file:
+MOTION_H	DemoUI/motion.h	24;"	d	language:C++
+MULTILINEAR_H_INCLUDED	Pinocchio/multilinear.h	20;"	d	language:C++
+MYWINDOW_H	DemoUI/MyWindow.h	24;"	d	language:C++
+M_PI	Pinocchio/mathutils.h	36;"	d	language:C++
+Matrix	leapSDK/include/LeapMath.h	/^  Matrix() :$/;"	f	language:C++	struct:Leap::Matrix
+Matrix	leapSDK/include/LeapMath.h	/^  Matrix(const Matrix& other) :$/;"	f	language:C++	struct:Leap::Matrix
+Matrix	leapSDK/include/LeapMath.h	/^  Matrix(const Vector& _xBasis, const Vector& _yBasis, const Vector& _zBasis) :$/;"	f	language:C++	struct:Leap::Matrix
+Matrix	leapSDK/include/LeapMath.h	/^  Matrix(const Vector& _xBasis, const Vector& _yBasis, const Vector& _zBasis, const Vector& _origin) :$/;"	f	language:C++	struct:Leap::Matrix
+Matrix	leapSDK/include/LeapMath.h	/^  Matrix(const Vector& axis, float angleRadians) :$/;"	f	language:C++	struct:Leap::Matrix
+Matrix	leapSDK/include/LeapMath.h	/^  Matrix(const Vector& axis, float angleRadians, const Vector& translation)$/;"	f	language:C++	struct:Leap::Matrix
+Matrix	leapSDK/include/LeapMath.h	/^struct Matrix$/;"	s	language:C++	namespace:Leap
+Matrix	leapSDK/lib/Leap.py	/^class Matrix(_object):$/;"	c	language:Python
+Matrix3	Pinocchio/transform.h	/^    Matrix3(const Real &diag = Real()) { m[0] = m[4] = m[8] = diag; m[1] = m[2] = m[3] = m[5] = m[6] = m[7] = Real(); }$/;"	f	language:C++	class:Matrix3
+Matrix3	Pinocchio/transform.h	/^    Matrix3(const S &) { } \/\/no initialization$/;"	f	language:C++	class:Matrix3
+Matrix3	Pinocchio/transform.h	/^    Matrix3(const Self &inM) { for(int i = 0; i < 9; ++i) m[i] = inM[i]; }$/;"	f	language:C++	class:Matrix3
+Matrix3	Pinocchio/transform.h	/^    Matrix3(const Vec &c1, const Vec &c2, const Vec &c3) {$/;"	f	language:C++	class:Matrix3
+Matrix3	Pinocchio/transform.h	/^template<class Real = double> class Matrix3 {$/;"	c	language:C++
+Matrix_swigregister	leapSDK/lib/Leap.py	/^Matrix_swigregister = LeapPython.Matrix_swigregister$/;"	v	language:Python
+Matrixn	Pinocchio/matrix.h	/^    Matrixn() {}$/;"	f	language:C++	class:Matrixn
+Matrixn	Pinocchio/matrix.h	/^    Matrixn(const Vectorn<Vectorn<Real> > &inM) : m(inM) {}$/;"	f	language:C++	class:Matrixn
+Matrixn	Pinocchio/matrix.h	/^    Matrixn(int rows, int cols, const Real &init = Real()) : m(rows, Vec(cols, init)) {}$/;"	f	language:C++	class:Matrixn
+Matrixn	Pinocchio/matrix.h	/^class Matrixn$/;"	c	language:C++
+Mesh	Pinocchio/mesh.cpp	/^Mesh::Mesh(const string &file)$/;"	f	language:C++	class:Mesh
+Mesh	Pinocchio/mesh.h	/^    Mesh() : scale(1.) {}$/;"	f	language:C++	class:Mesh
+Mesh	Pinocchio/mesh.h	/^class PINOCCHIO_API Mesh {$/;"	c	language:C++
+MeshEdge	Pinocchio/mesh.h	/^    MeshEdge() : vertex(-1), prev(-1), twin(-1) {}$/;"	f	language:C++	struct:MeshEdge
+MeshEdge	Pinocchio/mesh.h	/^struct MeshEdge$/;"	s	language:C++
+MeshVertex	Pinocchio/mesh.h	/^    MeshVertex() : edge(-1) {}$/;"	f	language:C++	struct:MeshVertex
+MeshVertex	Pinocchio/mesh.h	/^struct MeshVertex$/;"	s	language:C++
+Motion	DemoUI/motion.cpp	/^Motion::Motion(const string &file) : fixedFrame(-1)$/;"	f	language:C++	class:Motion
+Motion	DemoUI/motion.h	/^class Motion$/;"	c	language:C++
+MotionFilter	DemoUI/filter.h	/^    MotionFilter(const vector<Vector3> &inJoints, const vector<int> inPrev)$/;"	f	language:C++	class:MotionFilter
+MotionFilter	DemoUI/filter.h	/^class MotionFilter$/;"	c	language:C++
+Multilinear	Pinocchio/multilinear.h	/^  Multilinear()$/;"	f	language:C++	class:Multilinear
+Multilinear	Pinocchio/multilinear.h	/^class Multilinear$/;"	c	language:C++
+MyIndexer	Pinocchio/dtree.h	/^    typedef Indexer<Node, Dim> MyIndexer;$/;"	t	language:C++	class:DRootNode
+MyLLTMatrix	Pinocchio/lsqSolver.cpp	/^class MyLLTMatrix : public LLTMatrix$/;"	c	language:C++	file:
+MyRect	Pinocchio/dtree.h	/^    typedef Rect<double, Dim> MyRect;$/;"	t	language:C++	class:DNode
+MyRect	Pinocchio/dtree.h	/^    typedef Rect<double, Dim> MyRect;$/;"	t	language:C++	class:DRootNode
+MyRect	Pinocchio/quaddisttree.h	/^    typedef Rect<double, Dim> MyRect;$/;"	t	language:C++	class:DistFunction
+MyWindow	DemoUI/MyWindow.cpp	/^MyWindow::MyWindow() : Fl_Gl_Window(1024, 768, "Pinocchio"), flatShading(true), floor(true), skeleton(false)$/;"	f	language:C++	class:MyWindow
+MyWindow	DemoUI/MyWindow.h	/^class MyWindow : public Fl_Gl_Window$/;"	c	language:C++
+NOMATCH	Pinocchio/embedding.cpp	/^static const double NOMATCH = 1e10;$/;"	v	language:C++	file:
+Next	Pinocchio/rect.h	/^    typedef RectOp<Dim - 1> Next;$/;"	t	language:C++	class:_RectPrivate::RectOp
+Next	Pinocchio/vector.h	/^    typedef BitComparator<Dim - 1> Next;$/;"	t	language:C++	class:BitComparator
+Next	Pinocchio/vector.h	/^    typedef VecOp<Dim - 1> Next;$/;"	t	language:C++	class:_VectorPrivate::VecOp
+Node	Pinocchio/dtree.h	/^    typedef DNode<Data, Dim> Node;$/;"	t	language:C++	class:DRootNode
+NodeType	Pinocchio/quaddisttree.h	/^    typedef DNode<DistData<Dim>, Dim> NodeType;$/;"	t	language:C++	class:DistData
+OBJECTS	DemoUI/Makefile	/^OBJECTS = demoUI.o MyWindow.o defmesh.o processor.o motion.o filter.o$/;"	m	language:Make
+OBJECTS	Pinocchio/Makefile	/^OBJECTS = attachment.o discretization.o indexer.o lsqSolver.o mesh.o \\$/;"	m	language:Make
+ONEVAR	Pinocchio/deriv.h	69;"	d	language:C++
+ONEVAR	Pinocchio/deriv.h	84;"	d	language:C++
+OPAS	Pinocchio/matrix.h	100;"	d	language:C++
+OPAS	Pinocchio/matrix.h	95;"	d	language:C++
+OPAS	Pinocchio/rect.h	80;"	d	language:C++
+OPAS	Pinocchio/rect.h	83;"	d	language:C++
+OPAS	Pinocchio/transform.h	149;"	d	language:C++
+OPAS	Pinocchio/transform.h	154;"	d	language:C++
+OPAS	Pinocchio/vector.h	174;"	d	language:C++
+OPAS	Pinocchio/vector.h	179;"	d	language:C++
+OPAS	Pinocchio/vector.h	76;"	d	language:C++
+OPAS	Pinocchio/vector.h	81;"	d	language:C++
+OUT	Pinocchio/mesh.cpp	33;"	d	language:C++	file:
+ObjectProjector	Pinocchio/pointprojector.h	/^    ObjectProjector() {}$/;"	f	language:C++	class:ObjectProjector
+ObjectProjector	Pinocchio/pointprojector.h	/^    ObjectProjector(const vector<Obj> &inObjs) : objs(inObjs)$/;"	f	language:C++	class:ObjectProjector
+ObjectProjector	Pinocchio/pointprojector.h	/^class ObjectProjector$/;"	c	language:C++
+OctTreeMaker	Pinocchio/quaddisttree.h	/^template<class RootNode = OctTreeRoot> class OctTreeMaker $/;"	c	language:C++
+OctTreeNode	Pinocchio/quaddisttree.h	/^typedef DistData<3>::NodeType OctTreeNode;$/;"	t	language:C++
+OctTreeRoot	Pinocchio/quaddisttree.h	/^typedef DRootNode<DistData<3>, 3> OctTreeRoot;$/;"	t	language:C++
+PI	leapSDK/include/LeapMath.h	/^static const float PI          = 3.1415926536f;$/;"	m	language:C++	namespace:Leap
+PI	leapSDK/lib/Leap.py	/^PI = cvar.PI$/;"	v	language:Python
+PINOCCHIOAPI_H	Pinocchio/pinocchioApi.h	20;"	d	language:C++
+PINOCCHIO_API	Pinocchio/Pinocchio.h	27;"	d	language:C++
+PINOCCHIO_API	Pinocchio/Pinocchio.h	29;"	d	language:C++
+PINOCCHIO_API	Pinocchio/Pinocchio.h	32;"	d	language:C++
+POINTPROJECTOR_H	Pinocchio/pointprojector.h	20;"	d	language:C++
+POLICY_BACKGROUND_FRAMES	leapSDK/include/Leap.h	/^      POLICY_BACKGROUND_FRAMES = (1 << 0)$/;"	e	language:C++	enum:Leap::Controller::PolicyFlag
+POLICY_BACKGROUND_FRAMES	leapSDK/lib/Leap.py	/^    POLICY_BACKGROUND_FRAMES = LeapPython.Controller_POLICY_BACKGROUND_FRAMES$/;"	v	language:Python	class:Controller
+POLICY_DEFAULT	leapSDK/include/Leap.h	/^      POLICY_DEFAULT = 0,$/;"	e	language:C++	enum:Leap::Controller::PolicyFlag
+POLICY_DEFAULT	leapSDK/lib/Leap.py	/^    POLICY_DEFAULT = LeapPython.Controller_POLICY_DEFAULT$/;"	v	language:Python	class:Controller
+PROCESSOR_H	DemoUI/processor.h	24;"	d	language:C++
+PartialMatch	Pinocchio/embedding.cpp	/^    PartialMatch(int vsz) : penalty(0), heuristic(0) { vTaken.resize(vsz, false); }$/;"	f	language:C++	struct:PartialMatch
+PartialMatch	Pinocchio/embedding.cpp	/^struct PartialMatch$/;"	s	language:C++	file:
+PenaltyFunction	Pinocchio/embedding.cpp	/^    PenaltyFunction(FP *inFp) : fp(inFp), weight(0.01) {}$/;"	f	language:C++	class:PenaltyFunction
+PenaltyFunction	Pinocchio/embedding.cpp	/^class PenaltyFunction$/;"	c	language:C++	file:
+PinocchioOutput	Pinocchio/pinocchioApi.h	/^    PinocchioOutput() : attachment(NULL) {}$/;"	f	language:C++	struct:PinocchioOutput
+PinocchioOutput	Pinocchio/pinocchioApi.h	/^struct PinocchioOutput$/;"	s	language:C++
+PointObjDistEval	Pinocchio/quaddisttree.h	/^        PointObjDistEval(const ObjectProjector<3, Vec3Object> &inProj, const RootNode *inDTree) : proj(inProj), dTree(inDTree) {}$/;"	f	language:C++	class:OctTreeMaker::PointObjDistEval
+PointObjDistEval	Pinocchio/quaddisttree.h	/^    class PointObjDistEval$/;"	c	language:C++	class:OctTreeMaker
+Pointable	leapSDK/include/Leap.h	/^  class Pointable : public Interface {$/;"	c	language:C++	namespace:Leap
+Pointable	leapSDK/lib/Leap.py	/^class Pointable(Interface):$/;"	c	language:Python
+PointableList	leapSDK/include/Leap.h	/^  class PointableList : public Interface {$/;"	c	language:C++	namespace:Leap
+PointableList	leapSDK/lib/Leap.py	/^class PointableList(Interface):$/;"	c	language:Python
+PointableList_swigregister	leapSDK/lib/Leap.py	/^PointableList_swigregister = LeapPython.PointableList_swigregister$/;"	v	language:Python
+Pointable_swigregister	leapSDK/lib/Leap.py	/^Pointable_swigregister = LeapPython.Pointable_swigregister$/;"	v	language:Python
+PolicyFlag	leapSDK/include/Leap.h	/^    enum PolicyFlag {$/;"	g	language:C++	class:Leap::Controller
+PtGraph	Pinocchio/graphutils.h	/^struct PtGraph$/;"	s	language:C++
+QUAD	Pinocchio/mathutils.h	/^template<class T> T QUAD(const T & x) { return SQR(SQR(x)); }$/;"	f	language:C++
+QUADDISTTREE_H	Pinocchio/quaddisttree.h	20;"	d	language:C++
+QuadSkeleton	Pinocchio/skeleton.cpp	/^QuadSkeleton::QuadSkeleton()$/;"	f	language:C++	class:QuadSkeleton
+QuadSkeleton	Pinocchio/skeleton.h	/^class PINOCCHIO_API QuadSkeleton : public Skeleton$/;"	c	language:C++
+Quaternion	Pinocchio/transform.h	/^    Quaternion() : r(1.) { } \/\/initialize to identity$/;"	f	language:C++	class:Quaternion
+Quaternion	Pinocchio/transform.h	/^    Quaternion(const Quaternion &q) : r(q.r), v(q.v) {} \/\/copy constructor$/;"	f	language:C++	class:Quaternion
+Quaternion	Pinocchio/transform.h	/^    Quaternion(const Real &inR, const Vector<Real, 3> &inV) : r(inR), v(inV) {}$/;"	f	language:C++	class:Quaternion
+Quaternion	Pinocchio/transform.h	/^    template<class R> Quaternion(const Quaternion<R> &q) : r(q.r), v(q.v) {} \/\/convert quaternions of other types$/;"	f	language:C++	class:Quaternion
+Quaternion	Pinocchio/transform.h	/^    template<class R> Quaternion(const Vector<R, 3> &axis, const R &angle) : r(cos(angle * Real(0.5))), v(sin(angle * Real(0.5)) * axis.normalize()) {}$/;"	f	language:C++	class:Quaternion
+Quaternion	Pinocchio/transform.h	/^    template<class R> Quaternion(const Vector<R, 3> &from, const Vector<R, 3> &to) : r(1.)$/;"	f	language:C++	class:Quaternion
+Quaternion	Pinocchio/transform.h	/^class Quaternion \/\/normalized quaternion for representing rotations$/;"	c	language:C++
+RAD_TO_DEG	leapSDK/include/LeapMath.h	/^static const float RAD_TO_DEG  = 57.295779513f;$/;"	m	language:C++	namespace:Leap
+RAD_TO_DEG	leapSDK/lib/Leap.py	/^RAD_TO_DEG = cvar.RAD_TO_DEG$/;"	v	language:Python
+RECT_H_INCLUDED	Pinocchio/rect.h	20;"	d	language:C++
+RNode	Pinocchio/pointprojector.h	/^    struct RNode$/;"	s	language:C++	class:ObjectProjector
+RO	Pinocchio/rect.h	/^    typedef _RectPrivate::RectOp<Dim> RO;$/;"	t	language:C++	class:Rect
+ROUND	Pinocchio/mathutils.h	/^inline int ROUND(double x) { return (int)(x + 0.5); }$/;"	f	language:C++
+RP	Pinocchio/refinement.cpp	/^    RP(TreeType *inD, const Skeleton &inSk, const vector<Vector3> &medialSurface)$/;"	f	language:C++	struct:RP
+RP	Pinocchio/refinement.cpp	/^struct RP \/\/information for refined embedding$/;"	s	language:C++	file:
+RRD	Pinocchio/rect.h	140;"	d	language:C++
+Rec	Pinocchio/pointprojector.h	/^    typedef Rect<double, Dim> Rec;$/;"	t	language:C++	class:ObjectProjector
+Rect	Pinocchio/rect.h	/^    Rect() : empty(true) {}$/;"	f	language:C++	class:Rect
+Rect	Pinocchio/rect.h	/^    Rect(bool inEmpty, const Vec &inLo, const Vec &inHi) : empty(inEmpty), lo(inLo), hi(inHi) { }$/;"	f	language:C++	class:Rect
+Rect	Pinocchio/rect.h	/^    Rect(const Rect &inRect) : empty(inRect.empty), lo(inRect.lo), hi(inRect.hi) {}$/;"	f	language:C++	class:Rect
+Rect	Pinocchio/rect.h	/^    Rect(const Vec &inLo, const Vec &inHi) : lo(inLo), hi(inHi) { markEmpty(); }$/;"	f	language:C++	class:Rect
+Rect	Pinocchio/rect.h	/^    Rect(const Vec &vec) : empty(false), lo(vec), hi(vec) {}$/;"	f	language:C++	class:Rect
+Rect	Pinocchio/rect.h	/^    template<class Iter> Rect(Iter start, const Iter &finish) : empty(false)$/;"	f	language:C++	class:Rect
+Rect	Pinocchio/rect.h	/^    template<class R> Rect(const Rect<R, Dim> &inRect) : empty(inRect.empty), lo(inRect.lo), hi(inRect.hi) {}$/;"	f	language:C++	class:Rect
+Rect	Pinocchio/rect.h	/^class Rect {$/;"	c	language:C++
+Rect2	Pinocchio/rect.h	/^typedef Rect<double, 2> Rect2;$/;"	t	language:C++
+Rect3	Pinocchio/rect.h	/^typedef Rect<double, 3> Rect3;$/;"	t	language:C++
+RectOp	Pinocchio/rect.h	/^class RectOp$/;"	c	language:C++	namespace:_RectPrivate
+RectOp	Pinocchio/rect.h	/^class RectOp<1>$/;"	c	language:C++	namespace:_RectPrivate
+S	Pinocchio/transform.h	/^    struct S { S(int) { } };$/;"	f	language:C++	struct:Matrix3::S
+S	Pinocchio/transform.h	/^    struct S { S(int) { } };$/;"	s	language:C++	class:Matrix3
+SIGN	Pinocchio/mathutils.h	/^inline int SIGN(double x) { return (x > 0.) ? 1 : -1; }$/;"	f	language:C++
+SKELETON_H	Pinocchio/skeleton.h	20;"	d	language:C++
+SPDMatrix	Pinocchio/lsqSolver.h	/^    SPDMatrix(const vector<vector<pair<int, double> > > &inM) : m(inM) {}$/;"	f	language:C++	class:SPDMatrix
+SPDMatrix	Pinocchio/lsqSolver.h	/^class SPDMatrix$/;"	c	language:C++
+SQR	Pinocchio/mathutils.h	/^template<class T> T SQR(const T & x) { return x * x; }$/;"	f	language:C++
+STATE_INVALID	leapSDK/include/Leap.h	/^      STATE_INVALID = -1,$/;"	e	language:C++	enum:Leap::Gesture::State
+STATE_INVALID	leapSDK/lib/Leap.py	/^    STATE_INVALID = LeapPython.Gesture_STATE_INVALID$/;"	v	language:Python	class:Gesture
+STATE_START	leapSDK/include/Leap.h	/^      STATE_START   = 1,$/;"	e	language:C++	enum:Leap::Gesture::State
+STATE_START	leapSDK/lib/Leap.py	/^    STATE_START = LeapPython.Gesture_STATE_START$/;"	v	language:Python	class:Gesture
+STATE_STOP	leapSDK/include/Leap.h	/^      STATE_STOP    = 3,$/;"	e	language:C++	enum:Leap::Gesture::State
+STATE_STOP	leapSDK/lib/Leap.py	/^    STATE_STOP = LeapPython.Gesture_STATE_STOP$/;"	v	language:Python	class:Gesture
+STATE_UPDATE	leapSDK/include/Leap.h	/^      STATE_UPDATE  = 2,$/;"	e	language:C++	enum:Leap::Gesture::State
+STATE_UPDATE	leapSDK/lib/Leap.py	/^    STATE_UPDATE = LeapPython.Gesture_STATE_UPDATE$/;"	v	language:Python	class:Gesture
+Screen	leapSDK/include/Leap.h	/^  class Screen : public Interface {$/;"	c	language:C++	namespace:Leap
+Screen	leapSDK/lib/Leap.py	/^class Screen(Interface):$/;"	c	language:Python
+ScreenList	leapSDK/include/Leap.h	/^  class ScreenList : public Interface {$/;"	c	language:C++	namespace:Leap
+ScreenList	leapSDK/lib/Leap.py	/^class ScreenList(Interface):$/;"	c	language:Python
+ScreenList_swigregister	leapSDK/lib/Leap.py	/^ScreenList_swigregister = LeapPython.ScreenList_swigregister$/;"	v	language:Python
+ScreenTapGesture	leapSDK/include/Leap.h	/^  class ScreenTapGesture : public Gesture$/;"	c	language:C++	namespace:Leap
+ScreenTapGesture	leapSDK/lib/Leap.py	/^class ScreenTapGesture(Gesture):$/;"	c	language:Python
+ScreenTapGesture_class_type	leapSDK/lib/Leap.py	/^ScreenTapGesture_class_type = LeapPython.ScreenTapGesture_class_type$/;"	v	language:Python
+ScreenTapGesture_class_type	leapSDK/lib/Leap.py	/^def ScreenTapGesture_class_type():$/;"	f	language:Python
+ScreenTapGesture_swigregister	leapSDK/lib/Leap.py	/^ScreenTapGesture_swigregister = LeapPython.ScreenTapGesture_swigregister$/;"	v	language:Python
+Screen_swigregister	leapSDK/lib/Leap.py	/^Screen_swigregister = LeapPython.Screen_swigregister$/;"	v	language:Python
+Self	Pinocchio/deriv.h	/^    typedef Deriv<Real, Vars> Self;$/;"	t	language:C++	class:Deriv
+Self	Pinocchio/dtree.h	/^    typedef DNode<Data, Dim> Self;$/;"	t	language:C++	class:DNode
+Self	Pinocchio/dtree.h	/^    typedef DRootNode<Data, Dim, Indexer> Self;$/;"	t	language:C++	class:DRootNode
+Self	Pinocchio/matrix.h	/^    typedef Matrixn<Real> Self;$/;"	t	language:C++	class:Matrixn
+Self	Pinocchio/matrix.h	/^    typedef Vectorn<Real> Self;$/;"	t	language:C++	class:Vectorn
+Self	Pinocchio/rect.h	/^    typedef Rect<Real, Dim> Self;$/;"	t	language:C++	class:Rect
+Self	Pinocchio/transform.h	/^    typedef Matrix3<Real> Self;$/;"	t	language:C++	class:Matrix3
+Self	Pinocchio/vector.h	/^    typedef Vector<Real, -1> Self;$/;"	t	language:C++	class:Vector
+Self	Pinocchio/vector.h	/^    typedef Vector<Real, Dim> Self;$/;"	t	language:C++	class:Vector
+ShortestPather	Pinocchio/graphutils.cpp	/^ShortestPather::ShortestPather(const PtGraph &g, int root)$/;"	f	language:C++	class:ShortestPather
+ShortestPather	Pinocchio/graphutils.h	/^class ShortestPather$/;"	c	language:C++
+Skeleton	Pinocchio/skeleton.h	/^    Skeleton() {}$/;"	f	language:C++	class:Skeleton
+Skeleton	Pinocchio/skeleton.h	/^class PINOCCHIO_API Skeleton {$/;"	c	language:C++
+Sphere	Pinocchio/pinocchioApi.h	/^    Sphere() : radius(0.) {}$/;"	f	language:C++	struct:Sphere
+Sphere	Pinocchio/pinocchioApi.h	/^    Sphere(const Vector3 &inC, double inR) : center(inC), radius(inR) {}$/;"	f	language:C++	struct:Sphere
+Sphere	Pinocchio/pinocchioApi.h	/^struct Sphere {$/;"	s	language:C++
+State	leapSDK/include/Leap.h	/^    enum State {$/;"	g	language:C++	class:Leap::Gesture
+StaticDisplayMesh	DemoUI/DisplayMesh.h	/^    StaticDisplayMesh(const Mesh &inM) : m(inM) {}$/;"	f	language:C++	class:StaticDisplayMesh
+StaticDisplayMesh	DemoUI/DisplayMesh.h	/^class StaticDisplayMesh : public DisplayMesh$/;"	c	language:C++
+StlVtx	Pinocchio/mesh.cpp	/^    StlVtx(double x, double y, double z) : Vector3(x, y, z) {}$/;"	f	language:C++	class:StlVtx
+StlVtx	Pinocchio/mesh.cpp	/^class StlVtx : public Vector3$/;"	c	language:C++	file:
+SwigPyIterator	leapSDK/lib/Leap.py	/^class SwigPyIterator(_object):$/;"	c	language:Python
+SwigPyIterator_swigregister	leapSDK/lib/Leap.py	/^SwigPyIterator_swigregister = LeapPython.SwigPyIterator_swigregister$/;"	v	language:Python
+SwipeGesture	leapSDK/include/Leap.h	/^  class SwipeGesture : public Gesture$/;"	c	language:C++	namespace:Leap
+SwipeGesture	leapSDK/lib/Leap.py	/^class SwipeGesture(Gesture):$/;"	c	language:Python
+SwipeGesture_class_type	leapSDK/lib/Leap.py	/^SwipeGesture_class_type = LeapPython.SwipeGesture_class_type$/;"	v	language:Python
+SwipeGesture_class_type	leapSDK/lib/Leap.py	/^def SwipeGesture_class_type():$/;"	f	language:Python
+SwipeGesture_swigregister	leapSDK/lib/Leap.py	/^SwipeGesture_swigregister = LeapPython.SwipeGesture_swigregister$/;"	v	language:Python
+SymPF	Pinocchio/embedding.cpp	/^    SymPF(FP *inFp) : PenaltyFunction(inFp) { }$/;"	f	language:C++	class:SymPF
+SymPF	Pinocchio/embedding.cpp	/^class SymPF : public PenaltyFunction$/;"	c	language:C++	file:
+TRANSFORM_H	Pinocchio/transform.h	20;"	d	language:C++
+TWOVAR	Pinocchio/deriv.h	85;"	d	language:C++
+TWOVAR	Pinocchio/deriv.h	91;"	d	language:C++
+TYPE_BOOLEAN	leapSDK/include/Leap.h	/^      TYPE_BOOLEAN = 1,$/;"	e	language:C++	enum:Leap::Config::ValueType
+TYPE_BOOLEAN	leapSDK/lib/Leap.py	/^    TYPE_BOOLEAN = LeapPython.Config_TYPE_BOOLEAN$/;"	v	language:Python	class:Config
+TYPE_CIRCLE	leapSDK/include/Leap.h	/^      TYPE_CIRCLE     = 4,$/;"	e	language:C++	enum:Leap::Gesture::Type
+TYPE_CIRCLE	leapSDK/lib/Leap.py	/^    TYPE_CIRCLE = LeapPython.Gesture_TYPE_CIRCLE$/;"	v	language:Python	class:Gesture
+TYPE_FLOAT	leapSDK/include/Leap.h	/^      TYPE_FLOAT   = 6,$/;"	e	language:C++	enum:Leap::Config::ValueType
+TYPE_FLOAT	leapSDK/lib/Leap.py	/^    TYPE_FLOAT = LeapPython.Config_TYPE_FLOAT$/;"	v	language:Python	class:Config
+TYPE_INT32	leapSDK/include/Leap.h	/^      TYPE_INT32   = 2,$/;"	e	language:C++	enum:Leap::Config::ValueType
+TYPE_INT32	leapSDK/lib/Leap.py	/^    TYPE_INT32 = LeapPython.Config_TYPE_INT32$/;"	v	language:Python	class:Config
+TYPE_INVALID	leapSDK/include/Leap.h	/^      TYPE_INVALID    = -1,$/;"	e	language:C++	enum:Leap::Gesture::Type
+TYPE_INVALID	leapSDK/lib/Leap.py	/^    TYPE_INVALID = LeapPython.Gesture_TYPE_INVALID$/;"	v	language:Python	class:Gesture
+TYPE_KEY_TAP	leapSDK/include/Leap.h	/^      TYPE_KEY_TAP    = 6$/;"	e	language:C++	enum:Leap::Gesture::Type
+TYPE_KEY_TAP	leapSDK/lib/Leap.py	/^    TYPE_KEY_TAP = LeapPython.Gesture_TYPE_KEY_TAP$/;"	v	language:Python	class:Gesture
+TYPE_SCREEN_TAP	leapSDK/include/Leap.h	/^      TYPE_SCREEN_TAP = 5,$/;"	e	language:C++	enum:Leap::Gesture::Type
+TYPE_SCREEN_TAP	leapSDK/lib/Leap.py	/^    TYPE_SCREEN_TAP = LeapPython.Gesture_TYPE_SCREEN_TAP$/;"	v	language:Python	class:Gesture
+TYPE_STRING	leapSDK/include/Leap.h	/^      TYPE_STRING  = 8$/;"	e	language:C++	enum:Leap::Config::ValueType
+TYPE_STRING	leapSDK/lib/Leap.py	/^    TYPE_STRING = LeapPython.Config_TYPE_STRING$/;"	v	language:Python	class:Config
+TYPE_SWIPE	leapSDK/include/Leap.h	/^      TYPE_SWIPE      = 1,$/;"	e	language:C++	enum:Leap::Gesture::Type
+TYPE_SWIPE	leapSDK/lib/Leap.py	/^    TYPE_SWIPE = LeapPython.Gesture_TYPE_SWIPE$/;"	v	language:Python	class:Gesture
+TYPE_UNKNOWN	leapSDK/include/Leap.h	/^      TYPE_UNKNOWN = 0,$/;"	e	language:C++	enum:Leap::Config::ValueType
+TYPE_UNKNOWN	leapSDK/lib/Leap.py	/^    TYPE_UNKNOWN = LeapPython.Config_TYPE_UNKNOWN$/;"	v	language:Python	class:Config
+TaucsLLTMatrix	Pinocchio/lsqSolver.cpp	/^    TaucsLLTMatrix() : m(NULL), factorization(NULL), sz(0) {}$/;"	f	language:C++	class:TaucsLLTMatrix
+TaucsLLTMatrix	Pinocchio/lsqSolver.cpp	/^class TaucsLLTMatrix : public LLTMatrix$/;"	c	language:C++	file:
+Tool	leapSDK/include/Leap.h	/^  class Tool : public Pointable {$/;"	c	language:C++	namespace:Leap
+Tool	leapSDK/lib/Leap.py	/^class Tool(Pointable):$/;"	c	language:Python
+ToolList	leapSDK/include/Leap.h	/^  class ToolList : public Interface {$/;"	c	language:C++	namespace:Leap
+ToolList	leapSDK/lib/Leap.py	/^class ToolList(Interface):$/;"	c	language:Python
+ToolList_swigregister	leapSDK/lib/Leap.py	/^ToolList_swigregister = LeapPython.ToolList_swigregister$/;"	v	language:Python
+Tool_swigregister	leapSDK/lib/Leap.py	/^Tool_swigregister = LeapPython.Tool_swigregister$/;"	v	language:Python
+Transform	Pinocchio/transform.h	/^    Transform() : scale(1.) {}$/;"	f	language:C++	class:Transform
+Transform	Pinocchio/transform.h	/^    Transform(const Quaternion<Real> &inRot, Real inScale = Real(1.), Vec inTrans = Vec()) : rot(inRot), scale(inScale), trans(inTrans) {}$/;"	f	language:C++	class:Transform
+Transform	Pinocchio/transform.h	/^    Transform(const Transform &t) : rot(t.rot), scale(t.scale), trans(t.trans) {}$/;"	f	language:C++	class:Transform
+Transform	Pinocchio/transform.h	/^    explicit Transform(const Real &inScale) : scale(inScale) {}$/;"	f	language:C++	class:Transform
+Transform	Pinocchio/transform.h	/^    explicit Transform(const Vec &inTrans) : scale(1.), trans(inTrans) {}$/;"	f	language:C++	class:Transform
+Transform	Pinocchio/transform.h	/^template<class Real = double> class Transform { \/\/T(v) = (rot * v * scale) + trans$/;"	c	language:C++
+TreeType	Pinocchio/pinocchioApi.h	/^typedef DRootNode<DistData<3>, 3, ArrayIndexer> TreeType; \/\/our distance field octree type$/;"	t	language:C++
+Tri3Object	Pinocchio/pointprojector.h	/^    Tri3Object(const Vector3 &inV1, const Vector3 &inV2, const Vector3 &inV3) : v1(inV1), v2(inV2), v3(inV3) {}$/;"	f	language:C++	struct:Tri3Object
+Tri3Object	Pinocchio/pointprojector.h	/^struct Tri3Object$/;"	s	language:C++
+Type	leapSDK/include/Leap.h	/^    enum Type {$/;"	g	language:C++	class:Leap::Gesture
+UTILS_H_INCLUDED	Pinocchio/utils.h	20;"	d	language:C++
+VECTOR_H_INCLUDED	Pinocchio/vector.h	20;"	d	language:C++
+VECUTILS_H_INCLUDED	Pinocchio/vecutils.h	20;"	d	language:C++
+VO	Pinocchio/vector.h	/^    typedef _VectorPrivate::VecOp<Dim> VO;$/;"	t	language:C++	class:Vector
+VRD	Pinocchio/rect.h	139;"	d	language:C++
+VRD	Pinocchio/vector.h	228;"	d	language:C++
+VRD	Pinocchio/vector.h	329;"	d	language:C++
+VRD1	Pinocchio/vector.h	229;"	d	language:C++
+VRD1	Pinocchio/vector.h	330;"	d	language:C++
+ValueType	leapSDK/include/Leap.h	/^    enum ValueType {$/;"	g	language:C++	class:Leap::Config
+Vec	Pinocchio/dtree.h	/^    typedef Vector<double, Dim> Vec;$/;"	t	language:C++	class:DNode
+Vec	Pinocchio/dtree.h	/^    typedef Vector<double, Dim> Vec;$/;"	t	language:C++	class:DRootNode
+Vec	Pinocchio/indexer.h	/^        typedef typename Node::Vec Vec;$/;"	t	language:C++	class:DumbIndexer
+Vec	Pinocchio/indexer.h	/^        typedef typename Node::Vec Vec;$/;"	t	language:C++	class:HashIndexer
+Vec	Pinocchio/indexer.h	/^    typedef typename Node::Vec Vec;$/;"	t	language:C++	class:ArrayIndexer
+Vec	Pinocchio/indexer.h	/^    typedef typename Node::Vec Vec;$/;"	t	language:C++	class:Indexer
+Vec	Pinocchio/matrix.h	/^    typedef Vectorn<Real> Vec;$/;"	t	language:C++	class:Matrixn
+Vec	Pinocchio/pointprojector.h	/^    typedef Vector<double, Dim> Vec;$/;"	t	language:C++	class:ObjectProjector
+Vec	Pinocchio/rect.h	/^    typedef Vector<Real, Dim> Vec;$/;"	t	language:C++	class:Rect
+Vec	Pinocchio/transform.h	/^    typedef Vector<Real, 3> Vec;$/;"	t	language:C++	class:Matrix3
+Vec	Pinocchio/transform.h	/^    typedef Vector<Real, 3> Vec;$/;"	t	language:C++	class:Transform
+Vec3Object	Pinocchio/pointprojector.h	/^    Vec3Object(const Vector3 &inV) : v(inV) {}$/;"	f	language:C++	struct:Vec3Object
+Vec3Object	Pinocchio/pointprojector.h	/^struct Vec3Object$/;"	s	language:C++
+VecOp	Pinocchio/vector.h	/^class VecOp$/;"	c	language:C++	namespace:_VectorPrivate
+VecOp	Pinocchio/vector.h	/^class VecOp<1>$/;"	c	language:C++	namespace:_VectorPrivate
+Vector	Pinocchio/vector.h	/^    Vector() { VO::assign(Real(), *this); }$/;"	f	language:C++	class:Vector
+Vector	Pinocchio/vector.h	/^    Vector() { }$/;"	f	language:C++	class:Vector
+Vector	Pinocchio/vector.h	/^    Vector(const Real &m1, const Real &m2) { m[0] = m1; m[1] = m2; checkDim<2>(VO()); }$/;"	f	language:C++	class:Vector
+Vector	Pinocchio/vector.h	/^    Vector(const Real &m1, const Real &m2, const Real &m3) { m[0] = m1; m[1] = m2; m[2] = m3; checkDim<3>(VO()); }$/;"	f	language:C++	class:Vector
+Vector	Pinocchio/vector.h	/^    Vector(const Self &other) : m(other.m) { }$/;"	f	language:C++	class:Vector
+Vector	Pinocchio/vector.h	/^    Vector(const Self &other) { VO::assign(other, *this); }$/;"	f	language:C++	class:Vector
+Vector	Pinocchio/vector.h	/^    Vector(const vector<Real> &inM) : m(inM) { }$/;"	f	language:C++	class:Vector
+Vector	Pinocchio/vector.h	/^    explicit Vector(const Real &inM) { m.push_back(inM); }$/;"	f	language:C++	class:Vector
+Vector	Pinocchio/vector.h	/^    explicit Vector(const Real &m) { VO::assign(m, *this); }$/;"	f	language:C++	class:Vector
+Vector	Pinocchio/vector.h	/^    template<class R> Vector(const Vector<R, Dim> &other) { VO::assign(other, *this); }$/;"	f	language:C++	class:Vector
+Vector	Pinocchio/vector.h	/^class Vector$/;"	c	language:C++
+Vector	Pinocchio/vector.h	/^class Vector<Real, -1>$/;"	c	language:C++
+Vector	leapSDK/include/LeapMath.h	/^  Vector() :$/;"	f	language:C++	struct:Leap::Vector
+Vector	leapSDK/include/LeapMath.h	/^  Vector(const Vector& vector) :$/;"	f	language:C++	struct:Leap::Vector
+Vector	leapSDK/include/LeapMath.h	/^  Vector(float _x, float _y, float _z) :$/;"	f	language:C++	struct:Leap::Vector
+Vector	leapSDK/include/LeapMath.h	/^struct Vector {$/;"	s	language:C++	namespace:Leap
+Vector	leapSDK/lib/Leap.py	/^class Vector(_object):$/;"	c	language:Python
+Vector2	Pinocchio/vector.h	/^typedef Vector<double, 2> Vector2;$/;"	t	language:C++
+Vector3	Pinocchio/vector.h	/^typedef Vector<double, 3> Vector3;$/;"	t	language:C++
+Vector_swigregister	leapSDK/lib/Leap.py	/^Vector_swigregister = LeapPython.Vector_swigregister$/;"	v	language:Python
+Vectorn	Pinocchio/matrix.h	/^    Vectorn() {}$/;"	f	language:C++	class:Vectorn
+Vectorn	Pinocchio/matrix.h	/^    Vectorn(const Vectorn &other) : super(other) {}$/;"	f	language:C++	class:Vectorn
+Vectorn	Pinocchio/matrix.h	/^    Vectorn(int sz, const Real &init = Real()) : super(sz, init) {}$/;"	f	language:C++	class:Vectorn
+Vectorn	Pinocchio/matrix.h	/^    template<class Iter> Vectorn(const Iter &from, const Iter &to) : super(from, to) {}$/;"	f	language:C++	class:Vectorn
+Vectorn	Pinocchio/matrix.h	/^    template<class R> Vectorn(const vector<R> &other) : super(other.begin(), other.end()) {}$/;"	f	language:C++	class:Vectorn
+Vectorn	Pinocchio/matrix.h	/^class Vectorn : public vector<Real>$/;"	c	language:C++
+VisTester	Pinocchio/attachment.h	/^    VisTester(const T *t) : tree(t) {}$/;"	f	language:C++	class:VisTester
+VisTester	Pinocchio/attachment.h	/^template<class T> class VisTester : public VisibilityTester$/;"	c	language:C++
+VisibilityTester	Pinocchio/attachment.h	/^class VisibilityTester$/;"	c	language:C++
+ZONE_HOVERING	leapSDK/include/Leap.h	/^      ZONE_HOVERING   = 1,$/;"	e	language:C++	enum:Leap::Pointable::Zone
+ZONE_HOVERING	leapSDK/lib/Leap.py	/^    ZONE_HOVERING = LeapPython.Pointable_ZONE_HOVERING$/;"	v	language:Python	class:Pointable
+ZONE_NONE	leapSDK/include/Leap.h	/^      ZONE_NONE       = 0,$/;"	e	language:C++	enum:Leap::Pointable::Zone
+ZONE_NONE	leapSDK/lib/Leap.py	/^    ZONE_NONE = LeapPython.Pointable_ZONE_NONE$/;"	v	language:Python	class:Pointable
+ZONE_TOUCHING	leapSDK/include/Leap.h	/^      ZONE_TOUCHING   = 2,$/;"	e	language:C++	enum:Leap::Pointable::Zone
+ZONE_TOUCHING	leapSDK/lib/Leap.py	/^    ZONE_TOUCHING = LeapPython.Pointable_ZONE_TOUCHING$/;"	v	language:Python	class:Pointable
+Zone	leapSDK/include/Leap.h	/^    enum Zone {$/;"	g	language:C++	class:Leap::Pointable
+_HASH_NAMESPACE	Pinocchio/hashutils.h	/^namespace _HASH_NAMESPACE {$/;"	n	language:C++
+_HASH_NAMESPACE	Pinocchio/hashutils.h	28;"	d	language:C++
+_RectPrivate	Pinocchio/rect.h	/^namespace _RectPrivate {$/;"	n	language:C++
+_VectorPrivate	Pinocchio/vector.h	/^namespace _VectorPrivate {$/;"	n	language:C++
+__LeapMath_h__	leapSDK/include/LeapMath.h	10;"	d	language:C++
+__Leap_h__	leapSDK/include/Leap.h	10;"	d	language:C++
+__add__	leapSDK/lib/Leap.py	/^    def __add__(self, *args): return LeapPython.SwigPyIterator___add__(self, *args)$/;"	m	language:Python	class:SwigPyIterator	file:
+__add__	leapSDK/lib/Leap.py	/^    def __add__(self, *args): return LeapPython.Vector___add__(self, *args)$/;"	m	language:Python	class:Vector	file:
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:CircleGesture
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Config
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Controller
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Device
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:DeviceList
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Finger
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:FingerList
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Frame
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Gesture
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:GestureList
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Hand
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:HandList
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:InteractionBox
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:KeyTapGesture
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Listener
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Matrix
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Pointable
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:PointableList
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Screen
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:ScreenList
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:ScreenTapGesture
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:SwigPyIterator
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:SwipeGesture
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Tool
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:ToolList
+__del__	leapSDK/lib/Leap.py	/^    __del__ = lambda self : None;$/;"	v	language:Python	class:Vector
+__disown__	leapSDK/lib/Leap.py	/^    def __disown__(self):$/;"	m	language:Python	class:Listener	file:
+__div__	leapSDK/lib/Leap.py	/^    def __div__(self, *args): return LeapPython.Vector___div__(self, *args)$/;"	m	language:Python	class:Vector	file:
+__eq__	leapSDK/lib/Leap.py	/^    def __eq__(self, *args): return LeapPython.Device___eq__(self, *args)$/;"	m	language:Python	class:Device	file:
+__eq__	leapSDK/lib/Leap.py	/^    def __eq__(self, *args): return LeapPython.Frame___eq__(self, *args)$/;"	m	language:Python	class:Frame	file:
+__eq__	leapSDK/lib/Leap.py	/^    def __eq__(self, *args): return LeapPython.Gesture___eq__(self, *args)$/;"	m	language:Python	class:Gesture	file:
+__eq__	leapSDK/lib/Leap.py	/^    def __eq__(self, *args): return LeapPython.Hand___eq__(self, *args)$/;"	m	language:Python	class:Hand	file:
+__eq__	leapSDK/lib/Leap.py	/^    def __eq__(self, *args): return LeapPython.InteractionBox___eq__(self, *args)$/;"	m	language:Python	class:InteractionBox	file:
+__eq__	leapSDK/lib/Leap.py	/^    def __eq__(self, *args): return LeapPython.Matrix___eq__(self, *args)$/;"	m	language:Python	class:Matrix	file:
+__eq__	leapSDK/lib/Leap.py	/^    def __eq__(self, *args): return LeapPython.Pointable___eq__(self, *args)$/;"	m	language:Python	class:Pointable	file:
+__eq__	leapSDK/lib/Leap.py	/^    def __eq__(self, *args): return LeapPython.Screen___eq__(self, *args)$/;"	m	language:Python	class:Screen	file:
+__eq__	leapSDK/lib/Leap.py	/^    def __eq__(self, *args): return LeapPython.SwigPyIterator___eq__(self, *args)$/;"	m	language:Python	class:SwigPyIterator	file:
+__eq__	leapSDK/lib/Leap.py	/^    def __eq__(self, *args): return LeapPython.Vector___eq__(self, *args)$/;"	m	language:Python	class:Vector	file:
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, CircleGesture, name)$/;"	v	language:Python	class:CircleGesture
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Config, name)$/;"	v	language:Python	class:Config
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Controller, name)$/;"	v	language:Python	class:Controller
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Device, name)$/;"	v	language:Python	class:Device
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, DeviceList, name)$/;"	v	language:Python	class:DeviceList
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Finger, name)$/;"	v	language:Python	class:Finger
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, FingerList, name)$/;"	v	language:Python	class:FingerList
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Frame, name)$/;"	v	language:Python	class:Frame
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Gesture, name)$/;"	v	language:Python	class:Gesture
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, GestureList, name)$/;"	v	language:Python	class:GestureList
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Hand, name)$/;"	v	language:Python	class:Hand
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, HandList, name)$/;"	v	language:Python	class:HandList
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, InteractionBox, name)$/;"	v	language:Python	class:InteractionBox
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Interface, name)$/;"	v	language:Python	class:Interface
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, KeyTapGesture, name)$/;"	v	language:Python	class:KeyTapGesture
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Listener, name)$/;"	v	language:Python	class:Listener
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Matrix, name)$/;"	v	language:Python	class:Matrix
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Pointable, name)$/;"	v	language:Python	class:Pointable
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, PointableList, name)$/;"	v	language:Python	class:PointableList
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Screen, name)$/;"	v	language:Python	class:Screen
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, ScreenList, name)$/;"	v	language:Python	class:ScreenList
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, ScreenTapGesture, name)$/;"	v	language:Python	class:ScreenTapGesture
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, SwigPyIterator, name)$/;"	v	language:Python	class:SwigPyIterator
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, SwipeGesture, name)$/;"	v	language:Python	class:SwipeGesture
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Tool, name)$/;"	v	language:Python	class:Tool
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, ToolList, name)$/;"	v	language:Python	class:ToolList
+__getattr__	leapSDK/lib/Leap.py	/^    __getattr__ = lambda self, name: _swig_getattr(self, Vector, name)$/;"	v	language:Python	class:Vector
+__getitem__	leapSDK/lib/Leap.py	/^    def __getitem__(self, *args): return LeapPython.DeviceList___getitem__(self, *args)$/;"	m	language:Python	class:DeviceList	file:
+__getitem__	leapSDK/lib/Leap.py	/^    def __getitem__(self, *args): return LeapPython.FingerList___getitem__(self, *args)$/;"	m	language:Python	class:FingerList	file:
+__getitem__	leapSDK/lib/Leap.py	/^    def __getitem__(self, *args): return LeapPython.GestureList___getitem__(self, *args)$/;"	m	language:Python	class:GestureList	file:
+__getitem__	leapSDK/lib/Leap.py	/^    def __getitem__(self, *args): return LeapPython.HandList___getitem__(self, *args)$/;"	m	language:Python	class:HandList	file:
+__getitem__	leapSDK/lib/Leap.py	/^    def __getitem__(self, *args): return LeapPython.PointableList___getitem__(self, *args)$/;"	m	language:Python	class:PointableList	file:
+__getitem__	leapSDK/lib/Leap.py	/^    def __getitem__(self, *args): return LeapPython.ScreenList___getitem__(self, *args)$/;"	m	language:Python	class:ScreenList	file:
+__getitem__	leapSDK/lib/Leap.py	/^    def __getitem__(self, *args): return LeapPython.ToolList___getitem__(self, *args)$/;"	m	language:Python	class:ToolList	file:
+__getitem__	leapSDK/lib/Leap.py	/^    def __getitem__(self, *args): return LeapPython.Vector___getitem__(self, *args)$/;"	m	language:Python	class:Vector	file:
+__iadd__	leapSDK/lib/Leap.py	/^    def __iadd__(self, *args): return LeapPython.SwigPyIterator___iadd__(self, *args)$/;"	m	language:Python	class:SwigPyIterator	file:
+__iadd__	leapSDK/lib/Leap.py	/^    def __iadd__(self, *args): return LeapPython.Vector___iadd__(self, *args)$/;"	m	language:Python	class:Vector	file:
+__idiv__	leapSDK/lib/Leap.py	/^    def __idiv__(self, *args): return LeapPython.Vector___idiv__(self, *args)$/;"	m	language:Python	class:Vector	file:
+__imul__	leapSDK/lib/Leap.py	/^    def __imul__(self, *args): return LeapPython.Matrix___imul__(self, *args)$/;"	m	language:Python	class:Matrix	file:
+__imul__	leapSDK/lib/Leap.py	/^    def __imul__(self, *args): return LeapPython.Vector___imul__(self, *args)$/;"	m	language:Python	class:Vector	file:
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:Config
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:Device
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:DeviceList
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:FingerList
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:Frame
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:GestureList
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:Hand
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:HandList
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:InteractionBox
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:Listener
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:Pointable
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:PointableList
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:Screen
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:ScreenList
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self): $/;"	m	language:Python	class:ToolList
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args): $/;"	m	language:Python	class:CircleGesture
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args): $/;"	m	language:Python	class:Controller
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args): $/;"	m	language:Python	class:Finger
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args): $/;"	m	language:Python	class:Gesture
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args): $/;"	m	language:Python	class:KeyTapGesture
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args): $/;"	m	language:Python	class:Matrix
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args): $/;"	m	language:Python	class:ScreenTapGesture
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args): $/;"	m	language:Python	class:SwipeGesture
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args): $/;"	m	language:Python	class:Tool
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args): $/;"	m	language:Python	class:Vector
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined - class is abstract")$/;"	m	language:Python	class:SwigPyIterator
+__init__	leapSDK/lib/Leap.py	/^    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")$/;"	m	language:Python	class:Interface
+__isub__	leapSDK/lib/Leap.py	/^    def __isub__(self, *args): return LeapPython.SwigPyIterator___isub__(self, *args)$/;"	m	language:Python	class:SwigPyIterator	file:
+__isub__	leapSDK/lib/Leap.py	/^    def __isub__(self, *args): return LeapPython.Vector___isub__(self, *args)$/;"	m	language:Python	class:Vector	file:
+__iter__	leapSDK/lib/Leap.py	/^    def __iter__(self): return self$/;"	m	language:Python	class:SwigPyIterator	file:
+__iter__	leapSDK/lib/Leap.py	/^    def __iter__(self):$/;"	m	language:Python	class:DeviceList	file:
+__iter__	leapSDK/lib/Leap.py	/^    def __iter__(self):$/;"	m	language:Python	class:FingerList	file:
+__iter__	leapSDK/lib/Leap.py	/^    def __iter__(self):$/;"	m	language:Python	class:GestureList	file:
+__iter__	leapSDK/lib/Leap.py	/^    def __iter__(self):$/;"	m	language:Python	class:HandList	file:
+__iter__	leapSDK/lib/Leap.py	/^    def __iter__(self):$/;"	m	language:Python	class:PointableList	file:
+__iter__	leapSDK/lib/Leap.py	/^    def __iter__(self):$/;"	m	language:Python	class:ScreenList	file:
+__iter__	leapSDK/lib/Leap.py	/^    def __iter__(self):$/;"	m	language:Python	class:ToolList	file:
+__len__	leapSDK/lib/Leap.py	/^    def __len__(self): return LeapPython.DeviceList___len__(self)$/;"	m	language:Python	class:DeviceList	file:
+__len__	leapSDK/lib/Leap.py	/^    def __len__(self): return LeapPython.FingerList___len__(self)$/;"	m	language:Python	class:FingerList	file:
+__len__	leapSDK/lib/Leap.py	/^    def __len__(self): return LeapPython.GestureList___len__(self)$/;"	m	language:Python	class:GestureList	file:
+__len__	leapSDK/lib/Leap.py	/^    def __len__(self): return LeapPython.HandList___len__(self)$/;"	m	language:Python	class:HandList	file:
+__len__	leapSDK/lib/Leap.py	/^    def __len__(self): return LeapPython.PointableList___len__(self)$/;"	m	language:Python	class:PointableList	file:
+__len__	leapSDK/lib/Leap.py	/^    def __len__(self): return LeapPython.ScreenList___len__(self)$/;"	m	language:Python	class:ScreenList	file:
+__len__	leapSDK/lib/Leap.py	/^    def __len__(self): return LeapPython.ToolList___len__(self)$/;"	m	language:Python	class:ToolList	file:
+__mul__	leapSDK/lib/Leap.py	/^    def __mul__(self, *args): return LeapPython.Matrix___mul__(self, *args)$/;"	m	language:Python	class:Matrix	file:
+__mul__	leapSDK/lib/Leap.py	/^    def __mul__(self, *args): return LeapPython.Vector___mul__(self, *args)$/;"	m	language:Python	class:Vector	file:
+__ne__	leapSDK/lib/Leap.py	/^    def __ne__(self, *args): return LeapPython.Device___ne__(self, *args)$/;"	m	language:Python	class:Device	file:
+__ne__	leapSDK/lib/Leap.py	/^    def __ne__(self, *args): return LeapPython.Frame___ne__(self, *args)$/;"	m	language:Python	class:Frame	file:
+__ne__	leapSDK/lib/Leap.py	/^    def __ne__(self, *args): return LeapPython.Gesture___ne__(self, *args)$/;"	m	language:Python	class:Gesture	file:
+__ne__	leapSDK/lib/Leap.py	/^    def __ne__(self, *args): return LeapPython.Hand___ne__(self, *args)$/;"	m	language:Python	class:Hand	file:
+__ne__	leapSDK/lib/Leap.py	/^    def __ne__(self, *args): return LeapPython.InteractionBox___ne__(self, *args)$/;"	m	language:Python	class:InteractionBox	file:
+__ne__	leapSDK/lib/Leap.py	/^    def __ne__(self, *args): return LeapPython.Matrix___ne__(self, *args)$/;"	m	language:Python	class:Matrix	file:
+__ne__	leapSDK/lib/Leap.py	/^    def __ne__(self, *args): return LeapPython.Pointable___ne__(self, *args)$/;"	m	language:Python	class:Pointable	file:
+__ne__	leapSDK/lib/Leap.py	/^    def __ne__(self, *args): return LeapPython.Screen___ne__(self, *args)$/;"	m	language:Python	class:Screen	file:
+__ne__	leapSDK/lib/Leap.py	/^    def __ne__(self, *args): return LeapPython.SwigPyIterator___ne__(self, *args)$/;"	m	language:Python	class:SwigPyIterator	file:
+__ne__	leapSDK/lib/Leap.py	/^    def __ne__(self, *args): return LeapPython.Vector___ne__(self, *args)$/;"	m	language:Python	class:Vector	file:
+__neg__	leapSDK/lib/Leap.py	/^    def __neg__(self): return LeapPython.Vector___neg__(self)$/;"	m	language:Python	class:Vector	file:
+__next__	leapSDK/lib/Leap.py	/^    def __next__(self): return LeapPython.SwigPyIterator___next__(self)$/;"	m	language:Python	class:SwigPyIterator	file:
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:CircleGesture
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Config
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Controller
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Device
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:DeviceList
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Finger
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:FingerList
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Frame
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Gesture
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:GestureList
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Hand
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:HandList
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:InteractionBox
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Interface
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:KeyTapGesture
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Listener
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Matrix
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Pointable
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:PointableList
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Screen
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:ScreenList
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:ScreenTapGesture
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:SwigPyIterator
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:SwipeGesture
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Tool
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:ToolList
+__repr__	leapSDK/lib/Leap.py	/^    __repr__ = _swig_repr$/;"	v	language:Python	class:Vector
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, CircleGesture, name, value)$/;"	v	language:Python	class:CircleGesture
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Config, name, value)$/;"	v	language:Python	class:Config
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Controller, name, value)$/;"	v	language:Python	class:Controller
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Device, name, value)$/;"	v	language:Python	class:Device
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, DeviceList, name, value)$/;"	v	language:Python	class:DeviceList
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Finger, name, value)$/;"	v	language:Python	class:Finger
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, FingerList, name, value)$/;"	v	language:Python	class:FingerList
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Frame, name, value)$/;"	v	language:Python	class:Frame
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Gesture, name, value)$/;"	v	language:Python	class:Gesture
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, GestureList, name, value)$/;"	v	language:Python	class:GestureList
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Hand, name, value)$/;"	v	language:Python	class:Hand
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, HandList, name, value)$/;"	v	language:Python	class:HandList
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, InteractionBox, name, value)$/;"	v	language:Python	class:InteractionBox
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Interface, name, value)$/;"	v	language:Python	class:Interface
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, KeyTapGesture, name, value)$/;"	v	language:Python	class:KeyTapGesture
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Listener, name, value)$/;"	v	language:Python	class:Listener
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Matrix, name, value)$/;"	v	language:Python	class:Matrix
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Pointable, name, value)$/;"	v	language:Python	class:Pointable
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, PointableList, name, value)$/;"	v	language:Python	class:PointableList
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Screen, name, value)$/;"	v	language:Python	class:Screen
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, ScreenList, name, value)$/;"	v	language:Python	class:ScreenList
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, ScreenTapGesture, name, value)$/;"	v	language:Python	class:ScreenTapGesture
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, SwigPyIterator, name, value)$/;"	v	language:Python	class:SwigPyIterator
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, SwipeGesture, name, value)$/;"	v	language:Python	class:SwipeGesture
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Tool, name, value)$/;"	v	language:Python	class:Tool
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, ToolList, name, value)$/;"	v	language:Python	class:ToolList
+__setattr__	leapSDK/lib/Leap.py	/^    __setattr__ = lambda self, name, value: _swig_setattr(self, Vector, name, value)$/;"	v	language:Python	class:Vector
+__str__	leapSDK/lib/Leap.py	/^    def __str__(self): return LeapPython.Device___str__(self)$/;"	m	language:Python	class:Device	file:
+__str__	leapSDK/lib/Leap.py	/^    def __str__(self): return LeapPython.Finger___str__(self)$/;"	m	language:Python	class:Finger	file:
+__str__	leapSDK/lib/Leap.py	/^    def __str__(self): return LeapPython.Frame___str__(self)$/;"	m	language:Python	class:Frame	file:
+__str__	leapSDK/lib/Leap.py	/^    def __str__(self): return LeapPython.Gesture___str__(self)$/;"	m	language:Python	class:Gesture	file:
+__str__	leapSDK/lib/Leap.py	/^    def __str__(self): return LeapPython.Hand___str__(self)$/;"	m	language:Python	class:Hand	file:
+__str__	leapSDK/lib/Leap.py	/^    def __str__(self): return LeapPython.InteractionBox___str__(self)$/;"	m	language:Python	class:InteractionBox	file:
+__str__	leapSDK/lib/Leap.py	/^    def __str__(self): return LeapPython.Matrix___str__(self)$/;"	m	language:Python	class:Matrix	file:
+__str__	leapSDK/lib/Leap.py	/^    def __str__(self): return LeapPython.Pointable___str__(self)$/;"	m	language:Python	class:Pointable	file:
+__str__	leapSDK/lib/Leap.py	/^    def __str__(self): return LeapPython.Screen___str__(self)$/;"	m	language:Python	class:Screen	file:
+__str__	leapSDK/lib/Leap.py	/^    def __str__(self): return LeapPython.Tool___str__(self)$/;"	m	language:Python	class:Tool	file:
+__str__	leapSDK/lib/Leap.py	/^    def __str__(self): return LeapPython.Vector___str__(self)$/;"	m	language:Python	class:Vector	file:
+__sub__	leapSDK/lib/Leap.py	/^    def __sub__(self, *args): return LeapPython.SwigPyIterator___sub__(self, *args)$/;"	m	language:Python	class:SwigPyIterator	file:
+__sub__	leapSDK/lib/Leap.py	/^    def __sub__(self, *args): return LeapPython.Vector___sub__(self, *args)$/;"	m	language:Python	class:Vector	file:
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_CircleGesture$/;"	v	language:Python	class:CircleGesture
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Config$/;"	v	language:Python	class:Config
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Controller$/;"	v	language:Python	class:Controller
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Device$/;"	v	language:Python	class:Device
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_DeviceList$/;"	v	language:Python	class:DeviceList
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Finger$/;"	v	language:Python	class:Finger
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_FingerList$/;"	v	language:Python	class:FingerList
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Frame$/;"	v	language:Python	class:Frame
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Gesture$/;"	v	language:Python	class:Gesture
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_GestureList$/;"	v	language:Python	class:GestureList
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Hand$/;"	v	language:Python	class:Hand
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_HandList$/;"	v	language:Python	class:HandList
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_InteractionBox$/;"	v	language:Python	class:InteractionBox
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_KeyTapGesture$/;"	v	language:Python	class:KeyTapGesture
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Listener$/;"	v	language:Python	class:Listener
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Matrix$/;"	v	language:Python	class:Matrix
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Pointable$/;"	v	language:Python	class:Pointable
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_PointableList$/;"	v	language:Python	class:PointableList
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Screen$/;"	v	language:Python	class:Screen
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_ScreenList$/;"	v	language:Python	class:ScreenList
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_ScreenTapGesture$/;"	v	language:Python	class:ScreenTapGesture
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_SwigPyIterator$/;"	v	language:Python	class:SwigPyIterator
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_SwipeGesture$/;"	v	language:Python	class:SwipeGesture
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Tool$/;"	v	language:Python	class:Tool
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_ToolList$/;"	v	language:Python	class:ToolList
+__swig_destroy__	leapSDK/lib/Leap.py	/^    __swig_destroy__ = LeapPython.delete_Vector$/;"	v	language:Python	class:Vector
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:CircleGesture
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Config
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Controller
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Device
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:DeviceList
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Finger
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:FingerList
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Frame
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Gesture
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:GestureList
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Hand
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:HandList
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:InteractionBox
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Interface
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:KeyTapGesture
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Listener
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Matrix
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Pointable
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:PointableList
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Screen
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:ScreenList
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:ScreenTapGesture
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:SwigPyIterator
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:SwipeGesture
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Tool
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:ToolList
+__swig_getmethods__	leapSDK/lib/Leap.py	/^    __swig_getmethods__ = {}$/;"	v	language:Python	class:Vector
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:CircleGesture
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Config
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Controller
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Device
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:DeviceList
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Finger
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:FingerList
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Frame
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Gesture
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:GestureList
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Hand
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:HandList
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:InteractionBox
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Interface
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:KeyTapGesture
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Listener
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Matrix
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Pointable
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:PointableList
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Screen
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:ScreenList
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:ScreenTapGesture
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:SwigPyIterator
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:SwipeGesture
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Tool
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:ToolList
+__swig_setmethods__	leapSDK/lib/Leap.py	/^    __swig_setmethods__ = {}$/;"	v	language:Python	class:Vector
+_apply	Pinocchio/vector.h	/^    static void _apply(const F &func, const VRD &v, Vector<typename F::result_type, D> &out)$/;"	f	language:C++	class:_VectorPrivate::VecOp
+_apply	Pinocchio/vector.h	/^    static void _apply(const F &func, const VRD &v, const VRD &other, Vector<typename F::result_type, D> &out)$/;"	f	language:C++	class:_VectorPrivate::VecOp
+_bottom	myMain/main.cpp	/^double _bottom = 0.0;$/;"	v	language:C++
+_d	Pinocchio/deriv.h	/^    const Vector<Real, Vars> &_d() const { return d; }$/;"	f	language:C++	class:Deriv
+_dragPosX	myMain/main.cpp	/^double _dragPosX = 0.0;$/;"	v	language:C++
+_dragPosY	myMain/main.cpp	/^double _dragPosY = 0.0;$/;"	v	language:C++
+_dragPosZ	myMain/main.cpp	/^double _dragPosZ = 0.0;$/;"	v	language:C++
+_left	myMain/main.cpp	/^double _left = 0.0;		\/* ortho view volume params *\/$/;"	v	language:C++
+_lookup	Pinocchio/indexer.h	/^inline unsigned int _lookup(const Vector2 &vec)$/;"	f	language:C++
+_lookup	Pinocchio/indexer.h	/^inline unsigned int _lookup(const Vector3 &vec)$/;"	f	language:C++
+_matrix	myMain/main.cpp	/^double _matrix[16];$/;"	v	language:C++
+_matrixI	myMain/main.cpp	/^double _matrixI[16];$/;"	v	language:C++
+_mouseLeft	myMain/main.cpp	/^bool _mouseLeft = false;$/;"	v	language:C++
+_mouseMiddle	myMain/main.cpp	/^bool _mouseMiddle = false;$/;"	v	language:C++
+_mouseRight	myMain/main.cpp	/^bool _mouseRight = false;$/;"	v	language:C++
+_mouseX	myMain/main.cpp	/^int _mouseX = 0;		\/* mouse control variables *\/$/;"	v	language:C++
+_mouseY	myMain/main.cpp	/^int _mouseY = 0;$/;"	v	language:C++
+_newclass	leapSDK/lib/Leap.py	/^    _newclass = 0$/;"	v	language:Python
+_object	leapSDK/lib/Leap.py	/^    class _object : pass$/;"	c	language:Python
+_right	myMain/main.cpp	/^double _right = 0.0;$/;"	v	language:C++
+_swig_getattr	leapSDK/lib/Leap.py	/^def _swig_getattr(self,class_type,name):$/;"	f	language:Python
+_swig_property	leapSDK/lib/Leap.py	/^    _swig_property = property$/;"	v	language:Python
+_swig_repr	leapSDK/lib/Leap.py	/^def _swig_repr(self):$/;"	f	language:Python
+_swig_setattr	leapSDK/lib/Leap.py	/^def _swig_setattr(self,class_type,name,value):$/;"	f	language:Python
+_swig_setattr_nondynamic	leapSDK/lib/Leap.py	/^def _swig_setattr_nondynamic(self,class_type,name,value,static=1):$/;"	f	language:Python
+_top	myMain/main.cpp	/^double _top = 0.0;$/;"	v	language:C++
+_x	Pinocchio/deriv.h	/^    const Real &_x() const { return x; }$/;"	f	language:C++	class:Deriv
+_zFar	myMain/main.cpp	/^double _zFar = 10.0;$/;"	v	language:C++
+_zNear	myMain/main.cpp	/^double _zNear = 0.1;$/;"	v	language:C++
+a	Pinocchio/attachment.h	/^    AttachmentPrivate *a;$/;"	m	language:C++	class:Attachment
+accumulate	Pinocchio/matrix.h	/^    typename Accum::result_type accumulate(const Op &op, const Accum &accum) const$/;"	f	language:C++	class:Vectorn
+accumulate	Pinocchio/matrix.h	/^    typename Accum::result_type accumulate(const Op &op, const Accum &accum, const Self &other) const$/;"	f	language:C++	class:Vectorn
+accumulate	Pinocchio/vector.h	/^    static typename Accum::result_type accumulate(const Op &op, const Accum &, const VRD &v)$/;"	f	language:C++	class:_VectorPrivate::VecOp
+accumulate	Pinocchio/vector.h	/^    static typename Accum::result_type accumulate(const Op &op, const Accum &, const VRD &v, const VRD &other)$/;"	f	language:C++	class:_VectorPrivate::VecOp
+accumulate	Pinocchio/vector.h	/^    static typename Accum::result_type accumulate(const Op &op, const Accum &accum, const VRD &v)$/;"	f	language:C++	class:_VectorPrivate::VecOp
+accumulate	Pinocchio/vector.h	/^    static typename Accum::result_type accumulate(const Op &op, const Accum &accum, const VRD &v, const VRD &other)$/;"	f	language:C++	class:_VectorPrivate::VecOp
+accumulate	Pinocchio/vector.h	/^    typename Accum::result_type accumulate(const Op &op, const Accum &accum) const$/;"	f	language:C++	class:Vector
+accumulate	Pinocchio/vector.h	/^    typename Accum::result_type accumulate(const Op &op, const Accum &accum, const Self &other) const$/;"	f	language:C++	class:Vector
+add	Pinocchio/indexer.h	/^        void add(Node *cur, int level, unsigned int idx)$/;"	f	language:C++	class:HashIndexer
+add	Pinocchio/indexer.h	/^    void add(Node *node, unsigned int idx)$/;"	f	language:C++	class:HashIndex
+addConstraint	Pinocchio/lsqSolver.h	/^    void addConstraint(bool hard, const map<V, double> &lhs, const C &id)$/;"	f	language:C++	class:LSQSystem
+addConstraint	Pinocchio/lsqSolver.h	/^    void addConstraint(bool hard, double rhs, const map<V, double> &lhs)$/;"	f	language:C++	class:LSQSystem
+addLine	DemoUI/MyWindow.h	/^    void addLine(const LineSegment &l) { lines.push_back(l); }$/;"	f	language:C++	class:MyWindow
+addMesh	DemoUI/MyWindow.h	/^    void addMesh(DisplayMesh *inM) { meshes.push_back(inM); }$/;"	f	language:C++	class:MyWindow
+addTranslation	DemoUI/filter.cpp	/^void MotionFilter::addTranslation()$/;"	f	language:C++	class:MotionFilter
+add_listener	leapSDK/lib/Leap.py	/^    def add_listener(self, *args): return LeapPython.Controller_add_listener(self, *args)$/;"	m	language:Python	class:Controller
+adjVector	DemoUI/filter.cpp	/^Vectorn<double> adjVector(const Vectorn<double> &v, const Vectorn<double> &dirs)$/;"	f	language:C++
+advance	leapSDK/lib/Leap.py	/^    def advance(self, *args): return LeapPython.SwigPyIterator_advance(self, *args)$/;"	m	language:Python	class:SwigPyIterator
+angleTo	leapSDK/include/LeapMath.h	/^  float angleTo(const Vector& other) const {$/;"	f	language:C++	struct:Leap::Vector
+angle_to	leapSDK/lib/Leap.py	/^    def angle_to(self, *args): return LeapPython.Vector_angle_to(self, *args)$/;"	m	language:Python	class:Vector
+append	leapSDK/lib/Leap.py	/^    def append(self, *args): return LeapPython.DeviceList_append(self, *args)$/;"	m	language:Python	class:DeviceList
+append	leapSDK/lib/Leap.py	/^    def append(self, *args): return LeapPython.FingerList_append(self, *args)$/;"	m	language:Python	class:FingerList
+append	leapSDK/lib/Leap.py	/^    def append(self, *args): return LeapPython.GestureList_append(self, *args)$/;"	m	language:Python	class:GestureList
+append	leapSDK/lib/Leap.py	/^    def append(self, *args): return LeapPython.HandList_append(self, *args)$/;"	m	language:Python	class:HandList
+append	leapSDK/lib/Leap.py	/^    def append(self, *args): return LeapPython.PointableList_append(self, *args)$/;"	m	language:Python	class:PointableList
+append	leapSDK/lib/Leap.py	/^    def append(self, *args): return LeapPython.ToolList_append(self, *args)$/;"	m	language:Python	class:ToolList
+apply	Pinocchio/matrix.h	/^    template<class F> Vectorn<typename F::result_type> apply(const F &func) const$/;"	f	language:C++	class:Vectorn
+apply	Pinocchio/matrix.h	/^    template<class F> Vectorn<typename F::result_type> apply(const F &func, const Self &other) const$/;"	f	language:C++	class:Vectorn
+apply	Pinocchio/vector.h	/^    static Vector<typename F::result_type, D> apply(const F &func, const VRD &v)$/;"	f	language:C++	class:_VectorPrivate::VecOp
+apply	Pinocchio/vector.h	/^    static Vector<typename F::result_type, D> apply(const F &func, const VRD &v, const VRD &other)$/;"	f	language:C++	class:_VectorPrivate::VecOp
+apply	Pinocchio/vector.h	/^    template<class F> Vector<typename F::result_type, -1> apply(const F &func) const$/;"	f	language:C++	class:Vector
+apply	Pinocchio/vector.h	/^    template<class F> Vector<typename F::result_type, -1> apply(const F &func, const Self &other) const$/;"	f	language:C++	class:Vector
+apply	Pinocchio/vector.h	/^    template<class F> Vector<typename F::result_type, Dim> apply(const F &func) const$/;"	f	language:C++	class:Vector
+apply	Pinocchio/vector.h	/^    template<class F> Vector<typename F::result_type, Dim> apply(const F &func, const Self &other) const$/;"	f	language:C++	class:Vector
+assign	Pinocchio/vector.h	/^    static void assign(const R1 &from, VRD &to) { to[last] = from; Next::assign(from, to); }$/;"	f	language:C++	class:_VectorPrivate::VecOp
+assign	Pinocchio/vector.h	/^    static void assign(const VRD1 &from, VRD &to) { to[last] = from[last]; Next::assign(from, to); }$/;"	f	language:C++	class:_VectorPrivate::VecOp
+assign	Pinocchio/vector.h	/^    template<class R, class R1, int D> static void assign(const R1 &from, VRD &to) { to[0] = from; }$/;"	f	language:C++	class:_VectorPrivate::VecOp
+assign	Pinocchio/vector.h	/^    template<class R, class R1, int D> static void assign(const VRD1 &from, VRD &to) { to[0] = from[0]; }$/;"	f	language:C++	class:_VectorPrivate::VecOp
+assignCorner	Pinocchio/vector.h	/^    template<class R, int D> static void assignCorner(int idx, const VRD &v1, const VRD &v2, VRD &out)$/;"	f	language:C++	class:BitComparator
+attachment	DemoUI/defmesh.h	/^    Attachment attachment;$/;"	m	language:C++	class:DefMesh
+attachment	Pinocchio/pinocchioApi.h	/^    Attachment *attachment; \/\/user responsible for deletion$/;"	m	language:C++	struct:PinocchioOutput
+attachment	myMain/defMesh.h	/^    Attachment attachment;$/;"	m	language:C++	class:DefMesh
+autorig	Pinocchio/pinocchioApi.cpp	/^PinocchioOutput autorig(const Skeleton &given, const Mesh &m)$/;"	f	language:C++
+backward	leapSDK/include/LeapMath.h	/^  static const Vector& backward() {$/;"	f	language:C++	struct:Leap::Vector
+bits	Pinocchio/indexer.h	/^        static const int bits = 16;$/;"	m	language:C++	class:HashIndexer
+bits	Pinocchio/indexer.h	/^    static const int bits = 16 - (16 % Dim);$/;"	m	language:C++	class:ArrayIndexer
+bits	Pinocchio/indexer.h	/^    static const int bits = 16;$/;"	m	language:C++	class:HashIndex
+boundingRect	Pinocchio/pointprojector.h	/^    Rect3 boundingRect() const { return Rect3(v); }$/;"	f	language:C++	struct:Vec3Object
+boundingRect	Pinocchio/pointprojector.h	/^    Rect3 boundingRect() const { return Rect3(v1) | Rect3(v2) | Rect3(v3); }$/;"	f	language:C++	struct:Tri3Object
+bounds	Pinocchio/intersector.h	/^    Rect2 bounds; \/\/within the basis$/;"	m	language:C++	class:Intersector
+cFat	Pinocchio/skeleton.h	/^    const vector<bool> &cFat() const { return cFatV; }$/;"	f	language:C++	class:Skeleton
+cFatV	Pinocchio/skeleton.h	/^    vector<bool> cFatV; \/\/whether the vertex should be in a large region$/;"	m	language:C++	class:Skeleton
+cFeet	Pinocchio/skeleton.h	/^    const vector<bool> &cFeet() const { return cFeetV; }$/;"	f	language:C++	class:Skeleton
+cFeetV	Pinocchio/skeleton.h	/^    vector<bool> cFeetV; \/\/whether the vertex should be near the ground$/;"	m	language:C++	class:Skeleton
+cGraph	Pinocchio/skeleton.h	/^    const PtGraph &cGraph() const { return cGraphV; }$/;"	f	language:C++	class:Skeleton
+cGraphV	Pinocchio/skeleton.h	/^    PtGraph cGraphV; $/;"	m	language:C++	class:Skeleton
+cLength	Pinocchio/skeleton.h	/^    const vector<double> &cLength() const { return cLengthV; }$/;"	f	language:C++	class:Skeleton
+cLengthV	Pinocchio/skeleton.h	/^    vector<double> cLengthV; \/\/lengths of the compressed bones$/;"	m	language:C++	class:Skeleton
+cPrev	Pinocchio/skeleton.h	/^    const vector<int> &cPrev() const { return cPrevV; }$/;"	f	language:C++	class:Skeleton
+cPrevV	Pinocchio/skeleton.h	/^    vector<int> cPrevV; \/\/previous vertices$/;"	m	language:C++	class:Skeleton
+cSym	Pinocchio/skeleton.h	/^    const vector<int> &cSym() const { return cSymV; }$/;"	f	language:C++	class:Skeleton
+cSymV	Pinocchio/skeleton.h	/^    vector<int> cSymV; \/\/symmetry$/;"	m	language:C++	class:Skeleton
+cache	Pinocchio/quaddisttree.h	/^        mutable hash_map<unsigned int, double> cache;$/;"	m	language:C++	class:OctTreeMaker::PointObjDistEval
+cache	Pinocchio/quaddisttree.h	/^        mutable map<unsigned int, double> cache;$/;"	m	language:C++	class:OctTreeMaker::DistObjEval
+canSee	Pinocchio/attachment.h	/^    virtual bool canSee(const Vector3 &v1, const Vector3 &v2) const \/\/faster when v2 is farther inside than v1$/;"	f	language:C++	class:VisTester
+cells	Pinocchio/intersector.cpp	/^static const int cells = 200;$/;"	v	language:C++	file:
+center	Pinocchio/pinocchioApi.h	/^    Vector3 center;$/;"	m	language:C++	struct:Sphere
+cfMap	Pinocchio/skeleton.h	/^    const vector<int> &cfMap() const { return cfMapV; }$/;"	f	language:C++	class:Skeleton
+cfMapV	Pinocchio/skeleton.h	/^    vector<int> cfMapV; \/\/compressed to full map$/;"	m	language:C++	class:Skeleton
+changeSize	myMain/main.cpp	/^void changeSize(int w, int h)$/;"	f	language:C++
+checkDim	Pinocchio/vector.h	/^    template<int WantedDim> void checkDim(const _VectorPrivate::VecOp<WantedDim> &) const {}$/;"	f	language:C++	class:Vector
+child1	Pinocchio/pointprojector.h	/^        int child1, child2; \/\/if child1 is -1, child2 is the object index$/;"	m	language:C++	struct:ObjectProjector::RNode
+child2	Pinocchio/pointprojector.h	/^        int child1, child2; \/\/if child1 is -1, child2 is the object index$/;"	m	language:C++	struct:ObjectProjector::RNode
+childIndex	Pinocchio/dtree.h	/^    int childIndex;$/;"	m	language:C++	class:DNode
+children	Pinocchio/dtree.h	/^    Self *children[numChildren];$/;"	m	language:C++	class:DNode
+classType	leapSDK/include/Leap.h	/^    static Type classType() { return TYPE_CIRCLE; }$/;"	f	language:C++	class:Leap::CircleGesture
+classType	leapSDK/include/Leap.h	/^    static Type classType() { return TYPE_KEY_TAP; }$/;"	f	language:C++	class:Leap::KeyTapGesture
+classType	leapSDK/include/Leap.h	/^    static Type classType() { return TYPE_SCREEN_TAP; }$/;"	f	language:C++	class:Leap::ScreenTapGesture
+classType	leapSDK/include/Leap.h	/^    static Type classType() { return TYPE_SWIPE; }$/;"	f	language:C++	class:Leap::SwipeGesture
+clearLines	DemoUI/MyWindow.h	/^    void clearLines() { lines.clear(); }$/;"	f	language:C++	class:MyWindow
+clone	Pinocchio/attachment.cpp	/^    AttachmentPrivate *clone() const$/;"	f	language:C++	class:AttachmentPrivate1
+closest_screen	leapSDK/lib/Leap.py	/^    def closest_screen(self, *args): return LeapPython.ScreenList_closest_screen(self, *args)$/;"	m	language:Python	class:ScreenList
+closest_screen_hit	leapSDK/lib/Leap.py	/^    def closest_screen_hit(self, *args): return LeapPython.ScreenList_closest_screen_hit(self, *args)$/;"	m	language:Python	class:ScreenList
+color	DemoUI/MyWindow.h	/^    Vector3 p1, p2, color;$/;"	m	language:C++	struct:LineSegment
+compute	Pinocchio/quaddisttree.h	/^        double compute(const Vector3 &vec) const$/;"	f	language:C++	class:OctTreeMaker::DistObjEval
+computeDirs	Pinocchio/embedding.cpp	/^vector<Vector3> computeDirs(FP * fp, const PartialMatch &cur, int next, int idx = -1)$/;"	f	language:C++
+computeFineError	Pinocchio/refinement.cpp	/^template<class Real> Real computeFineError(const vector<Vector<Real, 3> > &match, RP *rp)$/;"	f	language:C++
+computePenalty	Pinocchio/embedding.cpp	/^double computePenalty(const vector<PenaltyFunction *> &penaltyFunctions,$/;"	f	language:C++
+computePerm	Pinocchio/lsqSolver.cpp	/^vector<int> SPDMatrix::computePerm() const$/;"	f	language:C++	class:SPDMatrix
+computePose	DemoUI/motion.cpp	/^vector<Vector3> computePose(const vector<Vector3> &nums, const int *prev)$/;"	f	language:C++
+computePossibilities	Pinocchio/embedding.cpp	/^vector<vector<int> > computePossibilities(const PtGraph &graph, const vector<Sphere> &spheres,$/;"	f	language:C++
+computeTopology	Pinocchio/mesh.cpp	/^void Mesh::computeTopology()$/;"	f	language:C++	class:Mesh
+computeTransforms	DemoUI/defmesh.cpp	/^vector<Transform<> > DefMesh::computeTransforms() const$/;"	f	language:C++	class:DefMesh
+computeTransforms	myMain/defMesh.cpp	/^vector<Transform<> > DefMesh::computeTransforms() const$/;"	f	language:C++	class:DefMesh
+computeTransfs	DemoUI/motion.cpp	/^vector<Transform<> > computeTransfs(const vector<Vector3> &nums, const vector<Vector3> &refNums, const int *prev)$/;"	f	language:C++
+computeVertexNormals	Pinocchio/mesh.cpp	/^void Mesh::computeVertexNormals()$/;"	f	language:C++	class:Mesh
+connectSamples	Pinocchio/discretization.cpp	/^PtGraph connectSamples(TreeType *distanceField, const vector<Sphere> &spheres)$/;"	f	language:C++
+const_iterator	leapSDK/include/Leap.h	/^    typedef ConstListIterator<DeviceList, Device> const_iterator;$/;"	t	language:C++	class:Leap::DeviceList
+const_iterator	leapSDK/include/Leap.h	/^    typedef ConstListIterator<FingerList, Finger> const_iterator;$/;"	t	language:C++	class:Leap::FingerList
+const_iterator	leapSDK/include/Leap.h	/^    typedef ConstListIterator<GestureList, Gesture> const_iterator;$/;"	t	language:C++	class:Leap::GestureList
+const_iterator	leapSDK/include/Leap.h	/^    typedef ConstListIterator<HandList, Hand> const_iterator;$/;"	t	language:C++	class:Leap::HandList
+const_iterator	leapSDK/include/Leap.h	/^    typedef ConstListIterator<PointableList, Pointable> const_iterator;$/;"	t	language:C++	class:Leap::PointableList
+const_iterator	leapSDK/include/Leap.h	/^    typedef ConstListIterator<ScreenList, Screen> const_iterator;$/;"	t	language:C++	class:Leap::ScreenList
+const_iterator	leapSDK/include/Leap.h	/^    typedef ConstListIterator<ToolList, Tool> const_iterator;$/;"	t	language:C++	class:Leap::ToolList
+constraintMap	Pinocchio/lsqSolver.h	/^    map<pair<C, int>, int> constraintMap;$/;"	m	language:C++	class:LSQSystem
+constraints	Pinocchio/lsqSolver.h	/^    map<pair<C, int>, Constraint> constraints;$/;"	m	language:C++	class:LSQSystem
+construct	Pinocchio/mathutils.h	/^template<class T> class construct$/;"	c	language:C++
+constructDistanceField	Pinocchio/discretization.cpp	/^TreeType *constructDistanceField(const Mesh &m, double tol)$/;"	f	language:C++
+contains	Pinocchio/rect.h	/^    bool contains(const Self &other) const$/;"	f	language:C++	class:Rect
+contains	Pinocchio/rect.h	/^    bool contains(const Vec &other) const$/;"	f	language:C++	class:Rect
+controller	myMain/main.cpp	/^Leap::Controller controller;$/;"	v	language:C++
+copy	leapSDK/lib/Leap.py	/^    def copy(self): return LeapPython.SwigPyIterator_copy(self)$/;"	m	language:Python	class:SwigPyIterator
+countNodes	Pinocchio/dtree.h	/^    int countNodes() const$/;"	f	language:C++	class:DNode
+cross	leapSDK/include/LeapMath.h	/^  Vector cross(const Vector& other) const {$/;"	f	language:C++	struct:Leap::Vector
+cross	leapSDK/lib/Leap.py	/^    def cross(self, *args): return LeapPython.Vector_cross(self, *args)$/;"	m	language:Python	class:Vector
+curMesh	DemoUI/defmesh.h	/^    mutable Mesh curMesh;$/;"	m	language:C++	class:DefMesh
+curMesh	myMain/defMesh.h	/^    mutable Mesh curMesh;$/;"	m	language:C++	class:DefMesh
+curTransforms	DemoUI/filter.h	/^    vector<Transform<> > curTransforms;$/;"	m	language:C++	class:MotionFilter
+cvar	leapSDK/lib/Leap.py	/^cvar = LeapPython.cvar$/;"	v	language:Python
+d	Pinocchio/deriv.h	/^    Vector<Real, Vars> d;$/;"	m	language:C++	class:Deriv
+dTree	Pinocchio/quaddisttree.h	/^        const RootNode *dTree;$/;"	m	language:C++	class:OctTreeMaker::PointObjDistEval
+data	DemoUI/motion.h	/^    vector<vector<Transform<> > > data;$/;"	m	language:C++	class:Motion
+decr	leapSDK/lib/Leap.py	/^    def decr(self, n=1): return LeapPython.SwigPyIterator_decr(self, n)$/;"	m	language:Python	class:SwigPyIterator
+defaultTreeTol	Pinocchio/pinocchioApi.h	/^static const double defaultTreeTol = 0.003;$/;"	v	language:C++
+deform	Pinocchio/attachment.cpp	/^    Mesh deform(const Mesh &mesh, const vector<Transform<> > &transforms) const$/;"	f	language:C++	class:AttachmentPrivate1
+deform	Pinocchio/attachment.cpp	/^Mesh Attachment::deform(const Mesh &mesh, const vector<Transform<> > &transforms) const$/;"	f	language:C++	class:Attachment
+denormalize_point	leapSDK/lib/Leap.py	/^    def denormalize_point(self, *args): return LeapPython.InteractionBox_denormalize_point(self, *args)$/;"	m	language:Python	class:InteractionBox
+det	Pinocchio/matrix.h	/^    Real det() const$/;"	f	language:C++	class:Matrixn
+det	Pinocchio/transform.h	/^    Real det() const$/;"	f	language:C++	class:Matrix3
+diag	Pinocchio/lsqSolver.cpp	/^    vector<double> diag; \/\/values on diagonal$/;"	m	language:C++	class:MyLLTMatrix	file:
+difference_type	leapSDK/include/Leap.h	/^    typedef std::ptrdiff_t difference_type;$/;"	t	language:C++	class:Leap::ConstListIterator
+dim	Pinocchio/pointprojector.h	/^        int dim;$/;"	m	language:C++	class:ObjectProjector::DLess
+dir	Pinocchio/intersector.h	/^    Vector3 dir;$/;"	m	language:C++	class:Intersector
+discreteEmbed	Pinocchio/embedding.cpp	/^vector<int> discreteEmbed(const PtGraph &graph, const vector<Sphere> &spheres,$/;"	f	language:C++
+display	myMain/main.cpp	/^void display()$/;"	f	language:C++
+dist	Pinocchio/graphutils.h	/^        double dist;$/;"	m	language:C++	struct:ShortestPather::Inf
+dist	Pinocchio/graphutils.h	/^    double dist(int from, int to) const { return paths[to].distFrom(from); }$/;"	f	language:C++	class:AllShortestPather
+dist	Pinocchio/graphutils.h	/^    vector<double> dist;$/;"	m	language:C++	class:ShortestPather
+distFrom	Pinocchio/graphutils.h	/^    double distFrom(int vtx) const { return dist[vtx]; }$/;"	f	language:C++	class:ShortestPather
+distPlayFactor	Pinocchio/embedding.cpp	/^static const double distPlayFactor = .7;$/;"	v	language:C++	file:
+distSq	Pinocchio/rect.h	/^    static R distSq(const RRD &r, const RRD &r2)$/;"	f	language:C++	class:_RectPrivate::RectOp
+distSq	Pinocchio/rect.h	/^    static R distSq(const RRD &r, const VRD &v)$/;"	f	language:C++	class:_RectPrivate::RectOp
+distSqTo	Pinocchio/rect.h	/^    Real distSqTo(const Self &other) const { return RO::distSq(*this, other); }$/;"	f	language:C++	class:Rect
+distSqTo	Pinocchio/rect.h	/^    Real distSqTo(const Vec &other) const { return RO::distSq(*this, other); }$/;"	f	language:C++	class:Rect
+distance	leapSDK/lib/Leap.py	/^    def distance(self, *args): return LeapPython.SwigPyIterator_distance(self, *args)$/;"	m	language:Python	class:SwigPyIterator
+distanceField	Pinocchio/refinement.cpp	/^    TreeType *distanceField;$/;"	m	language:C++	struct:RP	file:
+distanceTo	leapSDK/include/LeapMath.h	/^  float distanceTo(const Vector& other) const {$/;"	f	language:C++	struct:Leap::Vector
+distance_to	leapSDK/lib/Leap.py	/^    def distance_to(self, *args): return LeapPython.Vector_distance_to(self, *args)$/;"	m	language:Python	class:Vector
+distance_to_boundary	leapSDK/lib/Leap.py	/^    def distance_to_boundary(self, *args): return LeapPython.Device_distance_to_boundary(self, *args)$/;"	m	language:Python	class:Device
+distance_to_point	leapSDK/lib/Leap.py	/^    def distance_to_point(self, *args): return LeapPython.Screen_distance_to_point(self, *args)$/;"	m	language:Python	class:Screen
+distsqToLine	Pinocchio/vecutils.h	/^Real distsqToLine(const Vector<Real, Dim> &v, const Vector<Real, Dim> &l, const Vector<Real, Dim> &dir)$/;"	f	language:C++
+distsqToSeg	Pinocchio/vecutils.h	/^Real distsqToSeg(const Vector<Real, Dim> &v, const Vector<Real, Dim> &p1, const Vector<Real, Dim> &p2)$/;"	f	language:C++
+dot	leapSDK/include/LeapMath.h	/^  float dot(const Vector& other) const {$/;"	f	language:C++	struct:Leap::Vector
+dot	leapSDK/lib/Leap.py	/^    def dot(self, *args): return LeapPython.Vector_dot(self, *args)$/;"	m	language:Python	class:Vector
+down	leapSDK/include/LeapMath.h	/^  static const Vector& down() {$/;"	f	language:C++	struct:Leap::Vector
+draw	DemoUI/MyWindow.cpp	/^void MyWindow::draw() {$/;"	f	language:C++	class:MyWindow
+drawFloor	DemoUI/MyWindow.cpp	/^void MyWindow::drawFloor()$/;"	f	language:C++	class:MyWindow
+drawMesh	DemoUI/MyWindow.cpp	/^void MyWindow::drawMesh(const Mesh &m, bool flatShading, Vector3 trans)$/;"	f	language:C++	class:MyWindow
+drawMesh	myMain/main.cpp	/^void drawMesh(const Mesh &m, bool flatShading, Vector3 trans)$/;"	f	language:C++
+drawSkeleton	myMain/main.cpp	/^void drawSkeleton(const vector<Vector3> v)$/;"	f	language:C++
+edge	Pinocchio/mesh.h	/^    int edge; \/\/an edge such that edge->prev->vertex is this$/;"	m	language:C++	struct:MeshVertex
+edges	Pinocchio/graphutils.h	/^    vector<vector<int> > edges;$/;"	m	language:C++	struct:PtGraph
+edges	Pinocchio/mesh.h	/^    vector<MeshEdge> edges; \/\/halfEdges, really$/;"	m	language:C++	class:Mesh
+embedding	Pinocchio/pinocchioApi.h	/^    vector<Vector3> embedding;$/;"	m	language:C++	struct:PinocchioOutput
+empty	DemoUI/motion.h	/^    bool empty() const { return data.empty(); }$/;"	f	language:C++	class:Motion
+empty	Pinocchio/rect.h	/^    bool empty;$/;"	m	language:C++	class:Rect
+enable_gesture	leapSDK/lib/Leap.py	/^    def enable_gesture(self, *args): return LeapPython.Controller_enable_gesture(self, *args)$/;"	m	language:Python	class:Controller
+equal	leapSDK/lib/Leap.py	/^    def equal(self, *args): return LeapPython.SwigPyIterator_equal(self, *args)$/;"	m	language:Python	class:SwigPyIterator
+evaluate	Pinocchio/multilinear.h	/^  Real evaluate(const Vector<Real, Dim> &v) const$/;"	f	language:C++	class:Multilinear
+evaluate	Pinocchio/quaddisttree.h	/^    template<class Real> Real evaluate(const Vector<Real, Dim> &v)$/;"	f	language:C++	class:DistData
+fGraph	Pinocchio/skeleton.h	/^    const PtGraph &fGraph() const { return fGraphV; }$/;"	f	language:C++	class:Skeleton
+fGraphV	Pinocchio/skeleton.h	/^    PtGraph fGraphV;$/;"	m	language:C++	class:Skeleton
+fPrev	Pinocchio/skeleton.h	/^    const vector<int> &fPrev() const { return fPrevV; }$/;"	f	language:C++	class:Skeleton
+fPrevV	Pinocchio/skeleton.h	/^    vector<int> fPrevV; \/\/previous vertices$/;"	m	language:C++	class:Skeleton
+fSym	Pinocchio/skeleton.h	/^    const vector<int> &fSym() const { return fSymV; }$/;"	f	language:C++	class:Skeleton
+fSymV	Pinocchio/skeleton.h	/^    vector<int> fSymV; \/\/symmetry$/;"	m	language:C++	class:Skeleton
+factor	Pinocchio/lsqSolver.cpp	/^LLTMatrix *SPDMatrix::factor() const$/;"	f	language:C++	class:SPDMatrix
+factor	Pinocchio/lsqSolver.h	/^    bool factor()$/;"	f	language:C++	class:LSQSystem
+factoredMatrix	Pinocchio/lsqSolver.h	/^    LLTMatrix *factoredMatrix;$/;"	m	language:C++	class:LSQSystem
+factorization	Pinocchio/lsqSolver.cpp	/^    void *factorization;$/;"	m	language:C++	class:TaucsLLTMatrix	file:
+fcFraction	Pinocchio/skeleton.h	/^    const vector<double> &fcFraction() const { return fcFractionV; }$/;"	f	language:C++	class:Skeleton
+fcFractionV	Pinocchio/skeleton.h	/^    vector<double> fcFractionV; \/\/maps full vertex number to ratio of its prev edge length to total length of$/;"	m	language:C++	class:Skeleton
+fcMap	Pinocchio/skeleton.h	/^    const vector<int> &fcMap() const { return fcMapV; }$/;"	f	language:C++	class:Skeleton
+fcMapV	Pinocchio/skeleton.h	/^    vector<int> fcMapV; \/\/full to compressed map, -1 when vertex is not in compressed$/;"	m	language:C++	class:Skeleton
+filename	DemoUI/processor.cpp	/^    string filename;$/;"	m	language:C++	struct:ArgData	file:
+filter	DemoUI/defmesh.h	/^    mutable MotionFilter filter;$/;"	m	language:C++	class:DefMesh
+findMaxAbs	Pinocchio/matrix.cpp	/^    pair<int, double> findMaxAbs(const Vectorn<double> &vec, int maxElem)$/;"	f	language:C++	namespace:EigPrivate
+finger	leapSDK/lib/Leap.py	/^    def finger(self, *args): return LeapPython.Frame_finger(self, *args)$/;"	m	language:Python	class:Frame
+finger	leapSDK/lib/Leap.py	/^    def finger(self, *args): return LeapPython.Hand_finger(self, *args)$/;"	m	language:Python	class:Hand
+fixDupFaces	Pinocchio/mesh.cpp	/^void Mesh::fixDupFaces()$/;"	f	language:C++	class:Mesh
+fixedFrame	DemoUI/motion.h	/^    int fixedFrame;$/;"	m	language:C++	class:Motion
+flatShading	DemoUI/MyWindow.h	/^    bool flatShading, floor, skeleton;$/;"	m	language:C++	class:MyWindow
+floor	DemoUI/MyWindow.h	/^    bool flatShading, floor, skeleton;$/;"	m	language:C++	class:MyWindow
+footBase	Pinocchio/embedding.cpp	/^    double footBase;$/;"	m	language:C++	struct:FP	file:
+footOffsets	DemoUI/defmesh.h	/^    vector<double> footOffsets;$/;"	m	language:C++	class:DefMesh
+forward	leapSDK/include/LeapMath.h	/^  static const Vector& forward() {$/;"	f	language:C++	struct:Leap::Vector
+fovy	myMain/main.cpp	/^double fovy = 45.0;$/;"	v	language:C++
+fp	Pinocchio/embedding.cpp	/^    FP *fp;$/;"	m	language:C++	class:PenaltyFunction	file:
+frame	leapSDK/lib/Leap.py	/^    def frame(self, history=0): return LeapPython.Controller_frame(self, history)$/;"	m	language:Python	class:Controller
+frame	myMain/main.cpp	/^Leap::Frame frame;$/;"	v	language:C++
+fromVector	DemoUI/filter.cpp	/^vector<Transform<> > fromVector(const Vectorn<double> &v)$/;"	f	language:C++
+fullSplit	Pinocchio/quaddisttree.h	/^    void fullSplit(const Eval &eval, double tol, DRootNode<DistData<Dim>, Dim, Indexer> *rootNode, int level = 0, bool cropOutside = false)$/;"	f	language:C++	class:DistData
+gesture	leapSDK/lib/Leap.py	/^    def gesture(self, *args): return LeapPython.Frame_gesture(self, *args)$/;"	m	language:Python	class:Frame
+gestures	leapSDK/lib/Leap.py	/^    def gestures(self, *args): return LeapPython.Frame_gestures(self, *args)$/;"	m	language:Python	class:Frame
+get	DemoUI/motion.cpp	/^vector<Transform<> > Motion::get() const$/;"	f	language:C++	class:Motion
+get	Pinocchio/embedding.cpp	/^    double get(const PartialMatch &, int next, int idx) const$/;"	f	language:C++	class:FootPF
+get	Pinocchio/embedding.cpp	/^    double get(const PartialMatch &cur, int next, int idx) const$/;"	f	language:C++	class:DisjointPF
+get	Pinocchio/embedding.cpp	/^    double get(const PartialMatch &cur, int next, int idx) const$/;"	f	language:C++	class:DistPF
+get	Pinocchio/embedding.cpp	/^    double get(const PartialMatch &cur, int next, int idx) const$/;"	f	language:C++	class:DotPF
+get	Pinocchio/embedding.cpp	/^    double get(const PartialMatch &cur, int next, int idx) const$/;"	f	language:C++	class:DoublePF
+get	Pinocchio/embedding.cpp	/^    double get(const PartialMatch &cur, int next, int idx) const$/;"	f	language:C++	class:DupPF
+get	Pinocchio/embedding.cpp	/^    double get(const PartialMatch &cur, int next, int idx) const$/;"	f	language:C++	class:ExtremPF
+get	Pinocchio/embedding.cpp	/^    double get(const PartialMatch &cur, int next, int idx) const$/;"	f	language:C++	class:GlobalDotPF
+get	Pinocchio/embedding.cpp	/^    double get(const PartialMatch &cur, int next, int idx) const$/;"	f	language:C++	class:SymPF
+get	leapSDK/include/Leap.h	/^    template<typename T> T* get() const { return static_cast<T*>(reference()); }$/;"	f	language:C++	class:Leap::Interface
+get	leapSDK/lib/Leap.py	/^    def get(self, *args):$/;"	m	language:Python	class:Config
+getAngle	Pinocchio/transform.h	/^    Real getAngle() const { return Real(2.) * atan2(v.length(), r); }$/;"	f	language:C++	class:Quaternion
+getAttachment	DemoUI/defmesh.h	/^    const Attachment &getAttachment() const { return attachment; }$/;"	f	language:C++	class:DefMesh
+getAttachment	myMain/defMesh.h	/^    const Attachment &getAttachment() const { return attachment; }$/;"	f	language:C++	class:DefMesh
+getAxis	Pinocchio/transform.h	/^    Vector<Real, 3> getAxis() const { return v.normalize(); }$/;"	f	language:C++	class:Quaternion
+getBasis	Pinocchio/vecutils.h	/^void getBasis(const Vector<Real, 3> &n, Vector<Real, 3> &v1, Vector<Real, 3> &v2)$/;"	f	language:C++
+getCenter	Pinocchio/rect.h	/^    Vec getCenter() const { return (lo + hi) \/ Real(2); }$/;"	f	language:C++	class:Rect
+getChild	Pinocchio/dtree.h	/^    Self *getChild(int idx) const { return children[idx]; }$/;"	f	language:C++	class:DNode
+getChildIndex	Pinocchio/dtree.h	/^    int getChildIndex() const { return childIndex; }$/;"	f	language:C++	class:DNode
+getCircleIntersectionArea	Pinocchio/vecutils.h	/^Real getCircleIntersectionArea(const Real &d, const Real &r1, const Real &r2)$/;"	f	language:C++
+getCols	Pinocchio/matrix.h	/^    int getCols() const { return m[0].size(); }$/;"	f	language:C++	class:Matrixn
+getColumn	Pinocchio/matrix.h	/^    Vec getColumn(int idx) const$/;"	f	language:C++	class:Matrixn
+getColumn	Pinocchio/transform.h	/^    Vec getColumn(int col) const { return Vec(m[col], m[col + 3], m[col + 6]); }$/;"	f	language:C++	class:Matrix3
+getContent	Pinocchio/rect.h	/^    Real getContent() const { return empty ? Real() : (hi - lo).accumulate(ident<Real>(), multiplies<Real>()); }$/;"	f	language:C++	class:Rect
+getCorner	Pinocchio/rect.h	/^    Vec getCorner(int idx) const$/;"	f	language:C++	class:Rect
+getData	DemoUI/motion.h	/^    const vector<vector<Transform<> > > &getData() const { return data; }$/;"	f	language:C++	class:Motion
+getDeriv	Pinocchio/deriv.h	/^    Real getDeriv(int num = 0) const { return d[num]; }$/;"	f	language:C++	class:Deriv
+getDiagLength	Pinocchio/rect.h	/^    Real getDiagLength() const { return empty ? Real() : (hi - lo).length(); }$/;"	f	language:C++	class:Rect
+getDir	Pinocchio/intersector.h	/^    const Vector3 &getDir() const { return dir; }$/;"	f	language:C++	class:Intersector
+getEigensystem	Pinocchio/matrix.cpp	/^Vectorn<double> getEigensystem(Matrixn<double> m, Matrixn<double> *vectors)$/;"	f	language:C++
+getFeet	DemoUI/filter.cpp	/^Vectorn<Real> getFeet(const vector<Transform<Real> > &transforms, const vector<Vector3> &joints,$/;"	f	language:C++
+getFrameIdx	DemoUI/motion.cpp	/^int Motion::getFrameIdx() const$/;"	f	language:C++	class:Motion
+getHi	Pinocchio/rect.h	/^    const Vec &getHi() const { return hi; }$/;"	f	language:C++	class:Rect
+getIndex	Pinocchio/indexer.h	/^        unsigned int getIndex(Node *n) const$/;"	f	language:C++	class:HashIndexer
+getIndex	Pinocchio/intersector.cpp	/^void Intersector::getIndex(const Vector2 &pt, int &x, int &y) const$/;"	f	language:C++	class:Intersector
+getJac	DemoUI/filter.cpp	/^Matrixn<double> MotionFilter::getJac(const vector<Transform<> > &transforms) const$/;"	f	language:C++	class:MotionFilter
+getJointForName	Pinocchio/skeleton.h	/^    int getJointForName(const std::string &name) const { if(jointNames.count(name)) return jointNames.find(name)->second; return -1; }$/;"	f	language:C++	class:Skeleton
+getLegLength	DemoUI/motion.h	/^    double getLegLength() const { return legLength; }$/;"	f	language:C++	class:Motion
+getLegRatio	DemoUI/defmesh.cpp	/^double DefMesh::getLegRatio() const$/;"	f	language:C++	class:DefMesh
+getLegWidth	DemoUI/motion.h	/^    double getLegWidth() const { return legWidth; }$/;"	f	language:C++	class:Motion
+getLevel	Pinocchio/indexer.h	/^        int getLevel(Node *n) const$/;"	f	language:C++	class:HashIndexer
+getLo	Pinocchio/rect.h	/^    const Vec &getLo() const { return lo; }$/;"	f	language:C++	class:Rect
+getMatrix	myMain/main.cpp	/^void getMatrix()$/;"	f	language:C++
+getMaxDist	Pinocchio/discretization.cpp	/^double getMaxDist(TreeType *distanceField, const Vector3 &v1, const Vector3 &v2, double maxAllowed)$/;"	f	language:C++
+getMesh	DemoUI/DisplayMesh.h	/^    virtual const Mesh &getMesh() { return m; }$/;"	f	language:C++	class:StaticDisplayMesh
+getMesh	DemoUI/defmesh.h	/^    const Mesh &getMesh() { updateMesh(); return curMesh; }$/;"	f	language:C++	class:DefMesh
+getMesh	myMain/defMesh.h	/^    const Mesh &getMesh() { updateMesh(); return curMesh; }$/;"	f	language:C++	class:DefMesh
+getMinDot	Pinocchio/discretization.cpp	/^double getMinDot(TreeType *distanceField, const Vector3 &c, double step)$/;"	f	language:C++
+getMotion	DemoUI/defmesh.h	/^    Motion *getMotion() const { return motion; }$/;"	f	language:C++	class:DefMesh
+getMsecs	DemoUI/motion.cpp	/^int getMsecs()$/;"	f	language:C++
+getOrigSkel	DemoUI/defmesh.h	/^    const Skeleton &getOrigSkel() const { return origSkel; }$/;"	f	language:C++	class:DefMesh
+getOrigSkel	myMain/defMesh.h	/^    const Skeleton &getOrigSkel() const { return origSkel; }$/;"	f	language:C++	class:DefMesh
+getParent	Pinocchio/dtree.h	/^    Self *getParent() const { return parent; }$/;"	f	language:C++	class:DNode
+getPenaltyFunctions	Pinocchio/embedding.cpp	/^vector<PenaltyFunction *> getPenaltyFunctions(FP *fp) \/\/user responsible for deletion of penalties$/;"	f	language:C++
+getPose	DemoUI/motion.cpp	/^vector<Vector3> Motion::getPose() const$/;"	f	language:C++	class:Motion
+getRNodes	Pinocchio/pointprojector.h	/^    const vector<RNode> &getRNodes() const { return rnodes; }$/;"	f	language:C++	class:ObjectProjector
+getReal	Pinocchio/deriv.h	/^    Real getReal() const { return x; }$/;"	f	language:C++	class:Deriv
+getRect	Pinocchio/dtree.h	/^    const MyRect &getRect() const { return rect; }$/;"	f	language:C++	class:DNode
+getRefPose	DemoUI/motion.h	/^    vector<Vector3> getRefPose() const { return refPose; }$/;"	f	language:C++	class:Motion
+getResult	Pinocchio/lsqSolver.h	/^    double getResult(const V &var) const$/;"	f	language:C++	class:LSQSystem
+getRot	Pinocchio/transform.h	/^    Quaternion<Real> getRot() const { return rot; }$/;"	f	language:C++	class:Transform
+getRow	Pinocchio/transform.h	/^    Vec getRow(int row) const { row *= 3; return Vec(m[row], m[row + 1], m[row + 2]); }$/;"	f	language:C++	class:Matrix3
+getRows	Pinocchio/matrix.h	/^    int getRows() const { return m.size(); }$/;"	f	language:C++	class:Matrixn
+getScale	Pinocchio/transform.h	/^    Real getScale() const { return scale; }$/;"	f	language:C++	class:Transform
+getSize	Pinocchio/rect.h	/^    Vec getSize() const { return empty ? Vec() : hi - lo; }$/;"	f	language:C++	class:Rect
+getSkel	DemoUI/DisplayMesh.h	/^    virtual vector<Vector3> getSkel() const { return vector<Vector3>(); }$/;"	f	language:C++	class:DisplayMesh
+getSkel	DemoUI/defmesh.cpp	/^vector<Vector3> DefMesh::getSkel() const$/;"	f	language:C++	class:DefMesh
+getSkel	myMain/defMesh.cpp	/^vector<Vector3> DefMesh::getSkel() const$/;"	f	language:C++	class:DefMesh
+getT	DemoUI/motion.cpp	/^long getT()$/;"	f	language:C++
+getTrans	Pinocchio/transform.h	/^    Vec getTrans() const { return trans; }$/;"	f	language:C++	class:Transform
+getTransforms	DemoUI/filter.h	/^    const vector<Transform<> > &getTransforms() const { return curTransforms; }$/;"	f	language:C++	class:MotionFilter
+getValue	Pinocchio/multilinear.h	/^  const Value &getValue(int idx) const { return values[idx]; }$/;"	f	language:C++	class:Multilinear
+getWeights	Pinocchio/attachment.cpp	/^    Vector<double, -1> getWeights(int i) const { return weights[i]; }$/;"	f	language:C++	class:AttachmentPrivate1
+getWeights	Pinocchio/attachment.cpp	/^Vector<double, -1> Attachment::getWeights(int i) const { return a->getWeights(i); }$/;"	f	language:C++	class:Attachment
+given	Pinocchio/embedding.cpp	/^    const Skeleton &given;$/;"	m	language:C++	struct:FP	file:
+given	Pinocchio/refinement.cpp	/^    const Skeleton &given;$/;"	m	language:C++	struct:RP	file:
+graph	Pinocchio/embedding.cpp	/^    const PtGraph &graph;$/;"	m	language:C++	struct:FP	file:
+hNodes	Pinocchio/indexer.h	/^        HashIndex<Node, hlev> hNodes;$/;"	m	language:C++	class:HashIndexer
+hand	leapSDK/lib/Leap.py	/^    def hand(self, *args): return LeapPython.Frame_hand(self, *args)$/;"	m	language:Python	class:Frame
+handle	DemoUI/MyWindow.cpp	/^int MyWindow::handle(int event) {$/;"	f	language:C++	class:MyWindow
+handleKeyPress	myMain/main.cpp	/^void handleKeyPress(int key, int x, int y)$/;"	f	language:C++
+hard	Pinocchio/lsqSolver.h	/^        bool hard;$/;"	m	language:C++	struct:LSQSystem::Constraint
+hash	Pinocchio/hashutils.h	/^    template<class T1, class T2> struct hash<pair<T1, T2> >$/;"	s	language:C++	namespace:_HASH_NAMESPACE
+hash	Pinocchio/hashutils.h	/^    template<class T> struct hash<T *>$/;"	s	language:C++	namespace:_HASH_NAMESPACE
+height	myMain/main.cpp	/^int height = 768;$/;"	v	language:C++
+heuristic	Pinocchio/embedding.cpp	/^    double heuristic;$/;"	m	language:C++	struct:PartialMatch	file:
+hi	Pinocchio/rect.h	/^    Vec lo, hi;$/;"	m	language:C++	class:Rect
+hlev	Pinocchio/indexer.h	/^        static const int hlev = 22;$/;"	m	language:C++	class:HashIndexer
+human	DemoUI/MyWindow.cpp	/^static HumanSkeleton human;$/;"	v	language:C++	file:
+human	myMain/main.cpp	/^static HumanSkeleton human;$/;"	v	language:C++	file:
+ident	Pinocchio/mathutils.h	/^template <class T> class ident : public unary_function<T, T>$/;"	c	language:C++
+identity	Pinocchio/matrix.h	/^    static Self identity(const Vec &diag)$/;"	f	language:C++	class:Matrixn
+identity	Pinocchio/matrix.h	/^    static Self identity(int sz, const Real &diag = Real(1.))$/;"	f	language:C++	class:Matrixn
+identity	leapSDK/include/LeapMath.h	/^  static const Matrix& identity() {$/;"	f	language:C++	struct:Leap::Matrix
+idle	DemoUI/MyWindow.cpp	/^void idle(void *s)$/;"	f	language:C++
+incr	leapSDK/lib/Leap.py	/^    def incr(self, n=1): return LeapPython.SwigPyIterator_incr(self, n)$/;"	m	language:Python	class:SwigPyIterator
+init	Pinocchio/intersector.cpp	/^void Intersector::init()$/;"	f	language:C++	class:Intersector
+init	Pinocchio/quaddisttree.h	/^    void init() { }$/;"	f	language:C++	class:DistData
+init	myMain/main.cpp	/^void init()$/;"	f	language:C++
+initCompressed	Pinocchio/skeleton.cpp	/^void Skeleton::initCompressed()$/;"	f	language:C++	class:Skeleton
+initFunc	Pinocchio/quaddisttree.h	/^    template<class Eval> void initFunc(const Eval &eval, const MyRect &rect)$/;"	f	language:C++	class:DistFunction
+initGL	DemoUI/MyWindow.cpp	/^void MyWindow::initGL()$/;"	f	language:C++	class:MyWindow
+initHelper	Pinocchio/pointprojector.h	/^    int initHelper(vector<int> orders[Dim], int curDim = 0)$/;"	f	language:C++	class:ObjectProjector
+initMt	Pinocchio/lsqSolver.cpp	/^void MyLLTMatrix::initMt()  \/\/compute the transposed entries (by rows)$/;"	f	language:C++	class:MyLLTMatrix
+inside	Pinocchio/quaddisttree.h	/^        mutable int inside[11];$/;"	m	language:C++	class:OctTreeMaker::DistObjEval
+int32_t	leapSDK/include/Leap.h	/^typedef __int32 int32_t;$/;"	t	language:C++
+int64_t	leapSDK/include/Leap.h	/^typedef __int64 int64_t;$/;"	t	language:C++
+integrate	Pinocchio/multilinear.h	/^  Real integrate(const Rect<Real, Dim> &r) const$/;"	f	language:C++	class:Multilinear
+integrate	Pinocchio/quaddisttree.h	/^    template<class Real> Real integrate(Rect<Real, Dim> r)$/;"	f	language:C++	class:DistData
+integrityCheck	Pinocchio/graphutils.cpp	/^bool PtGraph::integrityCheck() const$/;"	f	language:C++	class:PtGraph
+integrityCheck	Pinocchio/mesh.cpp	/^bool Mesh::integrityCheck() const$/;"	f	language:C++	class:Mesh
+interLeave3LookupTable	Pinocchio/indexer.cpp	/^unsigned int interLeave3LookupTable[1024];$/;"	v	language:C++
+interLeaveLookupTable	Pinocchio/indexer.cpp	/^unsigned int interLeaveLookupTable[32768];$/;"	v	language:C++
+intersect	Pinocchio/intersector.cpp	/^vector<Vector3> Intersector::intersect(const Vector3 &pt, vector<int> *outIndices) const$/;"	f	language:C++	class:Intersector
+intersect	leapSDK/lib/Leap.py	/^    def intersect(self, *args): return LeapPython.Screen_intersect(self, *args)$/;"	m	language:Python	class:Screen
+inverse	Pinocchio/transform.h	/^    Quaternion inverse() const { return Quaternion(-r, v); }$/;"	f	language:C++	class:Quaternion
+inverse	Pinocchio/transform.h	/^    Transform inverse() const { return Transform(rot.inverse(), 1. \/ scale, rot.inverse() * -trans * (1. \/ scale)); }$/;"	f	language:C++	class:Transform
+invertMatrix	myMain/main.cpp	/^void invertMatrix(const GLdouble * m, GLdouble * out)$/;"	f	language:C++
+isConnected	Pinocchio/mesh.cpp	/^bool Mesh::isConnected() const$/;"	f	language:C++	class:Mesh
+isEmpty	Pinocchio/rect.h	/^    bool isEmpty() const { return empty; }$/;"	f	language:C++	class:Rect
+isValid	leapSDK/include/LeapMath.h	/^  bool isValid() const {$/;"	f	language:C++	struct:Leap::Vector
+is_gesture_enabled	leapSDK/lib/Leap.py	/^    def is_gesture_enabled(self, *args): return LeapPython.Controller_is_gesture_enabled(self, *args)$/;"	m	language:Python	class:Controller
+is_valid	leapSDK/lib/Leap.py	/^    def is_valid(self): return LeapPython.Vector_is_valid(self)$/;"	m	language:Python	class:Vector
+iterator_category	leapSDK/include/Leap.h	/^    typedef std::forward_iterator_tag iterator_category;$/;"	t	language:C++	class:Leap::ConstListIterator
+jacobi	Pinocchio/matrix.cpp	/^    void jacobi(int row, int col, Matrixn<double> &m, Matrixn<double> *vectors)$/;"	f	language:C++	namespace:EigPrivate
+jointNames	Pinocchio/skeleton.h	/^    map<string, int> jointNames;$/;"	m	language:C++	class:Skeleton
+joints	DemoUI/filter.h	/^    vector<Vector3> joints;$/;"	m	language:C++	class:MotionFilter
+last	Pinocchio/rect.h	/^    static const int last = Dim - 1;$/;"	m	language:C++	class:_RectPrivate::RectOp
+last	Pinocchio/vector.h	/^    static const int last = Dim - 1;$/;"	m	language:C++	class:BitComparator
+last	Pinocchio/vector.h	/^    static const int last = Dim - 1;$/;"	m	language:C++	class:_VectorPrivate::VecOp
+left	leapSDK/include/LeapMath.h	/^  static const Vector& left() {$/;"	f	language:C++	struct:Leap::Vector
+legLength	DemoUI/motion.h	/^    double legLength;$/;"	m	language:C++	class:Motion
+legWidth	DemoUI/motion.h	/^    double legWidth;$/;"	m	language:C++	class:Motion
+length	Pinocchio/matrix.h	/^    Real length() const { return sqrt(lengthsq()); }$/;"	f	language:C++	class:Vectorn
+length	Pinocchio/vector.h	/^    Real length() const { return sqrt(lengthsq()); }$/;"	f	language:C++	class:Vector
+lengthsq	Pinocchio/matrix.h	/^    Real lengthsq() const { return (*this) * (*this); }$/;"	f	language:C++	class:Vectorn
+lengthsq	Pinocchio/vector.h	/^    Real lengthsq() const { return (*this) * (*this); }$/;"	f	language:C++	class:Vector
+less	Pinocchio/vector.h	/^    template<class R, int D> static unsigned int less(const VRD &v1, const VRD &v2)$/;"	f	language:C++	class:BitComparator
+level	Pinocchio/quaddisttree.h	/^        mutable int level; \/\/essentially index of last rect$/;"	m	language:C++	class:OctTreeMaker::DistObjEval
+lhs	Pinocchio/lsqSolver.h	/^        map<V, double> lhs;$/;"	m	language:C++	struct:LSQSystem::Constraint
+linearComponent	Pinocchio/transform.h	/^    Transform linearComponent() const { return Transform(rot, scale); }$/;"	f	language:C++	class:Transform
+lines	DemoUI/MyWindow.h	/^    vector<LineSegment> lines;$/;"	m	language:C++	class:MyWindow
+lo	Pinocchio/rect.h	/^    Vec lo, hi;$/;"	m	language:C++	class:Rect
+locate	Pinocchio/indexer.h	/^        Node *locate(const Vec &v) const$/;"	f	language:C++	class:DumbIndexer
+locate	Pinocchio/indexer.h	/^        Node *locate(const Vec &v) const$/;"	f	language:C++	class:HashIndexer
+locate	Pinocchio/indexer.h	/^    Node *locate(const Vec &v) const$/;"	f	language:C++	class:ArrayIndexer
+locate	Pinocchio/indexer.h	/^    Node *locate(const Vec &v) const$/;"	f	language:C++	class:Indexer
+lookup	Pinocchio/indexer.h	/^    Node *lookup(unsigned int idx) const$/;"	f	language:C++	class:HashIndex
+lt	Pinocchio/indexer.cpp	/^static LookupTable lt;$/;"	v	language:C++	file:
+lt3	Pinocchio/indexer.cpp	/^static LookupTable3 lt3;$/;"	v	language:C++	file:
+m	DemoUI/DisplayMesh.h	/^    Mesh m;$/;"	m	language:C++	class:StaticDisplayMesh
+m	Pinocchio/lsqSolver.cpp	/^    taucs_ccs_matrix *m;$/;"	m	language:C++	class:TaucsLLTMatrix	file:
+m	Pinocchio/lsqSolver.cpp	/^    vector<vector<pair<int, double> > > m; \/\/off-diagonal values stored by rows$/;"	m	language:C++	class:MyLLTMatrix	file:
+m	Pinocchio/lsqSolver.h	/^    vector<vector<pair<int, double> > > m; \/\/rows -- lower triangle$/;"	m	language:C++	class:SPDMatrix
+m	Pinocchio/matrix.h	/^    Vectorn<Vectorn<Real> > m;$/;"	m	language:C++	class:Matrixn
+m	Pinocchio/transform.h	/^    Real m[9];$/;"	m	language:C++	class:Matrix3
+m	Pinocchio/vector.h	/^    Real m[Dim];$/;"	m	language:C++	class:Vector
+m	Pinocchio/vector.h	/^    vector<Real> m;$/;"	m	language:C++	class:Vector
+m11	myMain/main.cpp	148;"	d	language:C++	file:
+m11	myMain/main.cpp	70;"	d	language:C++	file:
+m12	myMain/main.cpp	149;"	d	language:C++	file:
+m12	myMain/main.cpp	71;"	d	language:C++	file:
+m13	myMain/main.cpp	150;"	d	language:C++	file:
+m13	myMain/main.cpp	72;"	d	language:C++	file:
+m14	myMain/main.cpp	151;"	d	language:C++	file:
+m14	myMain/main.cpp	73;"	d	language:C++	file:
+m21	myMain/main.cpp	152;"	d	language:C++	file:
+m21	myMain/main.cpp	74;"	d	language:C++	file:
+m22	myMain/main.cpp	153;"	d	language:C++	file:
+m22	myMain/main.cpp	75;"	d	language:C++	file:
+m23	myMain/main.cpp	154;"	d	language:C++	file:
+m23	myMain/main.cpp	76;"	d	language:C++	file:
+m24	myMain/main.cpp	155;"	d	language:C++	file:
+m24	myMain/main.cpp	77;"	d	language:C++	file:
+m31	myMain/main.cpp	156;"	d	language:C++	file:
+m31	myMain/main.cpp	78;"	d	language:C++	file:
+m32	myMain/main.cpp	157;"	d	language:C++	file:
+m32	myMain/main.cpp	79;"	d	language:C++	file:
+m33	myMain/main.cpp	158;"	d	language:C++	file:
+m33	myMain/main.cpp	80;"	d	language:C++	file:
+m34	myMain/main.cpp	159;"	d	language:C++	file:
+m34	myMain/main.cpp	81;"	d	language:C++	file:
+m41	myMain/main.cpp	160;"	d	language:C++	file:
+m41	myMain/main.cpp	82;"	d	language:C++	file:
+m42	myMain/main.cpp	161;"	d	language:C++	file:
+m42	myMain/main.cpp	83;"	d	language:C++	file:
+m43	myMain/main.cpp	162;"	d	language:C++	file:
+m43	myMain/main.cpp	84;"	d	language:C++	file:
+m44	myMain/main.cpp	163;"	d	language:C++	file:
+m44	myMain/main.cpp	85;"	d	language:C++	file:
+m_array	leapSDK/include/LeapMath.h	/^  float m_array[16];$/;"	m	language:C++	struct:Leap::FloatArray
+m_index	leapSDK/include/Leap.h	/^    int m_index;$/;"	m	language:C++	class:Leap::ConstListIterator
+m_list	leapSDK/include/Leap.h	/^    const L& m_list;$/;"	m	language:C++	class:Leap::ConstListIterator
+m_object	leapSDK/include/Leap.h	/^    class SharedObject* m_object;$/;"	m	language:C++	class:Leap::Interface	typeref:class:Leap::Interface::SharedObject
+magnitude	leapSDK/include/LeapMath.h	/^  float magnitude() const {$/;"	f	language:C++	struct:Leap::Vector
+magnitudeSquared	leapSDK/include/LeapMath.h	/^  float magnitudeSquared() const {$/;"	f	language:C++	struct:Leap::Vector
+main	DemoUI/demoUI.cpp	/^int main(int argc, char **argv) {$/;"	f	language:C++
+main	myMain/main.cpp	/^int main(int argc, char **argv)$/;"	f	language:C++
+make	Pinocchio/quaddisttree.h	/^    static RootNode *make(const ObjectProjector<3, Tri3Object> &proj, const Mesh &m, double tol)$/;"	f	language:C++	class:OctTreeMaker
+make	Pinocchio/quaddisttree.h	/^    static RootNode *make(const ObjectProjector<3, Vec3Object> &proj, double tol, const RootNode *dTree = NULL)$/;"	f	language:C++	class:OctTreeMaker
+makeJoint	Pinocchio/skeleton.cpp	/^void Skeleton::makeJoint(const string &name, const Vector3 &pos, const string &previous)$/;"	f	language:C++	class:Skeleton
+makeSymmetric	Pinocchio/skeleton.cpp	/^void Skeleton::makeSymmetric(const string &name1, const string &name2)$/;"	f	language:C++	class:Skeleton
+makeVisibilityTester	Pinocchio/attachment.h	/^template<class T> VisibilityTester *makeVisibilityTester(const T *tree) { return new VisTester<T>(tree); } \/\/be sure to delete afterwards$/;"	f	language:C++
+markEmpty	Pinocchio/rect.h	/^    void markEmpty() { empty = hi.accumulate(less<Real>(), logical_or<bool>(), lo); }$/;"	f	language:C++	class:Rect
+match	DemoUI/defmesh.h	/^    vector<Vector3> match;$/;"	m	language:C++	class:DefMesh
+match	Pinocchio/embedding.cpp	/^    vector<int> match;$/;"	m	language:C++	struct:PartialMatch	file:
+match	myMain/defMesh.h	/^    vector<Vector3> match;$/;"	m	language:C++	class:DefMesh
+maxLevel	Pinocchio/dtree.h	/^    int maxLevel() const$/;"	f	language:C++	class:DNode
+maximum	Pinocchio/mathutils.h	/^template <class T> class maximum : public binary_function<T, T, T>$/;"	c	language:C++
+medProjector	Pinocchio/refinement.cpp	/^    ObjectProjector<3, Vec3Object> medProjector;$/;"	m	language:C++	struct:RP	file:
+mesh	Pinocchio/intersector.h	/^    const Mesh *mesh;$/;"	m	language:C++	class:Intersector
+meshTransform	DemoUI/processor.cpp	/^    Quaternion<> meshTransform;$/;"	m	language:C++	struct:ArgData	file:
+meshes	DemoUI/MyWindow.h	/^    vector<DisplayMesh *> meshes;$/;"	m	language:C++	class:MyWindow
+minimum	Pinocchio/mathutils.h	/^template <class T> class minimum : public binary_function<T, T, T>$/;"	c	language:C++
+mint	Pinocchio/quaddisttree.h	/^        Intersector mint;$/;"	m	language:C++	class:OctTreeMaker::DistObjEval
+motion	DemoUI/defmesh.h	/^    Motion *motion;$/;"	m	language:C++	class:DefMesh
+motionname	DemoUI/processor.cpp	/^    string motionname;$/;"	m	language:C++	struct:ArgData	file:
+mouseEvent	myMain/main.cpp	/^void mouseEvent(int button, int state, int x, int y)$/;"	f	language:C++
+mouseMoveEvent	myMain/main.cpp	/^void mouseMoveEvent(int x, int y)$/;"	f	language:C++
+mt	Pinocchio/lsqSolver.cpp	/^    vector<vector<pair<int, double> > > mt; \/\/off-diagonal values transposed stored by rows$/;"	m	language:C++	class:MyLLTMatrix	file:
+mult3	Pinocchio/transform.h	/^    Vec mult3(const Vec &v) const { return rot * (v * scale); }$/;"	f	language:C++	class:Transform
+myDefMesh	myMain/main.cpp	/^DefMesh *myDefMesh;$/;"	v	language:C++
+myDiv	Pinocchio/mathutils.h	/^template <class A1, class A2, class R> class myDiv : public binary_function<A1, A2, R>$/;"	c	language:C++
+myMult	Pinocchio/mathutils.h	/^template <class A1, class A2, class R> class myMult : public binary_function<A1, A2, R>$/;"	c	language:C++
+myabs	Pinocchio/matrix.h	/^    static double myabs(double d) { return fabs(d); }$/;"	f	language:C++	class:Matrixn
+next	leapSDK/lib/Leap.py	/^    def next(self): return LeapPython.SwigPyIterator_next(self)$/;"	m	language:Python	class:SwigPyIterator
+noFit	DemoUI/processor.cpp	/^    bool noFit;$/;"	m	language:C++	struct:ArgData	file:
+node	Pinocchio/graphutils.h	/^        int node, prev;$/;"	m	language:C++	struct:ShortestPather::Inf
+node	Pinocchio/quaddisttree.h	/^    NodeType *node;$/;"	m	language:C++	class:DistData
+nodeMap	Pinocchio/indexer.h	/^    pair<int, Node *> nodeMap[num];$/;"	m	language:C++	class:HashIndex
+normal	Pinocchio/mesh.h	/^    Vector3 normal;$/;"	m	language:C++	struct:MeshVertex
+normal	leapSDK/lib/Leap.py	/^    def normal(self): return LeapPython.Screen_normal(self)$/;"	m	language:Python	class:Screen
+normalize	Pinocchio/matrix.h	/^    Self normalize() const { return (*this) \/ length(); }$/;"	f	language:C++	class:Vectorn
+normalize	Pinocchio/vector.h	/^    Self normalize() const { return (*this) \/ length(); }$/;"	f	language:C++	class:Vector
+normalizeBoundingBox	Pinocchio/mesh.cpp	/^void Mesh::normalizeBoundingBox()$/;"	f	language:C++	class:Mesh
+normalize_point	leapSDK/lib/Leap.py	/^    def normalize_point(self, *args): return LeapPython.InteractionBox_normalize_point(self, *args)$/;"	m	language:Python	class:InteractionBox
+normalized	leapSDK/include/LeapMath.h	/^  Vector normalized() const {$/;"	f	language:C++	struct:Leap::Vector
+num	Pinocchio/indexer.h	/^    static const int num = (1 << bits);$/;"	m	language:C++	class:HashIndex
+num	Pinocchio/multilinear.h	/^  static const int num = (1 << Dim);$/;"	m	language:C++	class:Multilinear
+numChildren	Pinocchio/dtree.h	/^    static const int numChildren = 1 << Dim;$/;"	m	language:C++	class:DNode
+nzweights	Pinocchio/attachment.cpp	/^    vector<vector<pair<int, double> > > nzweights; \/\/sparse representation$/;"	m	language:C++	class:AttachmentPrivate1	file:
+objs	Pinocchio/pointprojector.h	/^        const vector<Obj> &objs;$/;"	m	language:C++	class:ObjectProjector::DLess
+objs	Pinocchio/pointprojector.h	/^    vector<Obj> objs;$/;"	m	language:C++	class:ObjectProjector
+onConnect	leapSDK/include/Leap.h	/^    LEAP_EXPORT virtual void onConnect(const Controller&) {}$/;"	f	language:C++	class:Leap::Listener
+onConnect	myMain/leapListener.cpp	/^void LeapListener::onConnect(const Controller& controller) {$/;"	f	language:C++	class:LeapListener
+onDisconnect	leapSDK/include/Leap.h	/^    LEAP_EXPORT virtual void onDisconnect(const Controller&) {}$/;"	f	language:C++	class:Leap::Listener
+onDisconnect	myMain/leapListener.cpp	/^void LeapListener::onDisconnect(const Controller& controller) {$/;"	f	language:C++	class:LeapListener
+onExit	leapSDK/include/Leap.h	/^    LEAP_EXPORT virtual void onExit(const Controller&) {}$/;"	f	language:C++	class:Leap::Listener
+onExit	myMain/leapListener.cpp	/^void LeapListener::onExit(const Controller& controller) {$/;"	f	language:C++	class:LeapListener
+onFocusGained	leapSDK/include/Leap.h	/^    LEAP_EXPORT virtual void onFocusGained(const Controller&) {}$/;"	f	language:C++	class:Leap::Listener
+onFocusGained	myMain/leapListener.cpp	/^void LeapListener::onFocusGained(const Controller& controller) {$/;"	f	language:C++	class:LeapListener
+onFocusLost	leapSDK/include/Leap.h	/^    LEAP_EXPORT virtual void onFocusLost(const Controller&) {}$/;"	f	language:C++	class:Leap::Listener
+onFocusLost	myMain/leapListener.cpp	/^void LeapListener::onFocusLost(const Controller& controller) {$/;"	f	language:C++	class:LeapListener
+onFrame	leapSDK/include/Leap.h	/^    LEAP_EXPORT virtual void onFrame(const Controller&) {}$/;"	f	language:C++	class:Leap::Listener
+onFrame	myMain/leapListener.cpp	/^void LeapListener::onFrame(const Controller& controller) {$/;"	f	language:C++	class:LeapListener
+onInit	leapSDK/include/Leap.h	/^    LEAP_EXPORT virtual void onInit(const Controller&) {}$/;"	f	language:C++	class:Leap::Listener
+onInit	myMain/leapListener.cpp	/^void LeapListener::onInit(const Controller& controller) {$/;"	f	language:C++	class:LeapListener
+on_connect	leapSDK/lib/Leap.py	/^    def on_connect(self, *args): return LeapPython.Listener_on_connect(self, *args)$/;"	m	language:Python	class:Listener
+on_disconnect	leapSDK/lib/Leap.py	/^    def on_disconnect(self, *args): return LeapPython.Listener_on_disconnect(self, *args)$/;"	m	language:Python	class:Listener
+on_exit	leapSDK/lib/Leap.py	/^    def on_exit(self, *args): return LeapPython.Listener_on_exit(self, *args)$/;"	m	language:Python	class:Listener
+on_focus_gained	leapSDK/lib/Leap.py	/^    def on_focus_gained(self, *args): return LeapPython.Listener_on_focus_gained(self, *args)$/;"	m	language:Python	class:Listener
+on_focus_lost	leapSDK/lib/Leap.py	/^    def on_focus_lost(self, *args): return LeapPython.Listener_on_focus_lost(self, *args)$/;"	m	language:Python	class:Listener
+on_frame	leapSDK/lib/Leap.py	/^    def on_frame(self, *args): return LeapPython.Listener_on_frame(self, *args)$/;"	m	language:Python	class:Listener
+on_init	leapSDK/lib/Leap.py	/^    def on_init(self, *args): return LeapPython.Listener_on_init(self, *args)$/;"	m	language:Python	class:Listener
+operator !	Pinocchio/matrix.h	/^    Self operator!() const \/\/invert$/;"	f	language:C++	class:Matrixn
+operator !	Pinocchio/transform.h	/^    Self operator!() const { \/\/invert$/;"	f	language:C++	class:Matrix3
+operator !=	Pinocchio/deriv.h	/^    bool operator!=(const Self &other) const { return x != other.x; }$/;"	f	language:C++	class:Deriv
+operator !=	leapSDK/include/Leap.h	/^    bool operator!=(const ConstListIterator<L,T>& rhs) const { return m_index != rhs.m_index; }$/;"	f	language:C++	class:Leap::ConstListIterator
+operator !=	leapSDK/include/LeapMath.h	/^  bool operator!=(const Matrix& other) const {$/;"	f	language:C++	struct:Leap::Matrix
+operator !=	leapSDK/include/LeapMath.h	/^  bool operator!=(const Vector& other) const {$/;"	f	language:C++	struct:Leap::Vector
+operator %	Pinocchio/vector.h	/^Vector<Real, 3> operator%(const Vector<Real, 3> &v1, const Vector<Real, 3> &v2)$/;"	f	language:C++
+operator &	Pinocchio/rect.h	/^    Self operator&(const Self &other) const$/;"	f	language:C++	class:Rect
+operator ()	Pinocchio/hashutils.h	/^        size_t operator()(T *p) const { return (size_t)p; }$/;"	f	language:C++	struct:_HASH_NAMESPACE::hash
+operator ()	Pinocchio/hashutils.h	/^        size_t operator()(const pair<T1, T2> &p) const { return hash<T1>()(p.first) + 37 * hash<T2>()(p.second); }$/;"	f	language:C++	struct:_HASH_NAMESPACE::hash
+operator ()	Pinocchio/mathutils.h	/^    R operator()(const A1 &a1, const A2 &a2) const { return a1 * a2; }$/;"	f	language:C++	class:myMult
+operator ()	Pinocchio/mathutils.h	/^    R operator()(const A1 &a1, const A2 &a2) const { return a1 \/ a2; }$/;"	f	language:C++	class:myDiv
+operator ()	Pinocchio/mathutils.h	/^    T operator()(const T &a1, const T &a2) const { return max(a1, a2); }$/;"	f	language:C++	class:maximum
+operator ()	Pinocchio/mathutils.h	/^    T operator()(const T &a1, const T &a2) const { return min(a1, a2); }$/;"	f	language:C++	class:minimum
+operator ()	Pinocchio/mathutils.h	/^    T operator()(const T &v) const { return v; }$/;"	f	language:C++	class:ident
+operator ()	Pinocchio/mathutils.h	/^    template<class From> T operator()(const From &x) const { return T(x); }$/;"	f	language:C++	class:construct
+operator ()	Pinocchio/matrix.h	/^    Real &operator()(int row, int col) { return m[row][col]; }$/;"	f	language:C++	class:Matrixn
+operator ()	Pinocchio/matrix.h	/^    const Real &operator()(int row, int col) const { return m[row][col]; }$/;"	f	language:C++	class:Matrixn
+operator ()	Pinocchio/pointprojector.h	/^        bool operator()(int i1, int i2) { return objs[i1][dim] < objs[i2][dim]; }$/;"	f	language:C++	class:ObjectProjector::DLess
+operator ()	Pinocchio/pointprojector.h	/^    struct DL { bool operator()(const pair<double, int> &p1,$/;"	f	language:C++	struct:ObjectProjector::DL
+operator ()	Pinocchio/quaddisttree.h	/^        double operator()(const Vector3 &vec) const$/;"	f	language:C++	class:OctTreeMaker::DistObjEval
+operator ()	Pinocchio/quaddisttree.h	/^        double operator()(const Vector3 &vec) const$/;"	f	language:C++	class:OctTreeMaker::PointObjDistEval
+operator ()	Pinocchio/transform.h	/^    Real &operator()(int row, int col) { return m[row * 3 + col]; }$/;"	f	language:C++	class:Matrix3
+operator ()	Pinocchio/transform.h	/^    const Real &operator()(int row, int col) const { return m[row * 3 + col]; }$/;"	f	language:C++	class:Matrix3
+operator *	Pinocchio/deriv.h	/^    Self operator*(const Self &other) const { return Self(x * other.x, x * other.d + other.x * d); }$/;"	f	language:C++	class:Deriv
+operator *	Pinocchio/matrix.h	/^    Real operator*(const Self &other) const { return accumulate(multiplies<Real>(), plus<Real>(), other); }$/;"	f	language:C++	class:Vectorn
+operator *	Pinocchio/matrix.h	/^    Self operator*(const Real &scalar) const { return apply(bind2nd(multiplies<Real>(), scalar)); }$/;"	f	language:C++	class:Vectorn
+operator *	Pinocchio/matrix.h	/^    Self operator*(const Self &oth) const$/;"	f	language:C++	class:Matrixn
+operator *	Pinocchio/matrix.h	/^    Self operator*(double oth) const { return Self(m.apply(bind2nd(myMult<Vec, Real, Vec>(), oth))); }$/;"	f	language:C++	class:Matrixn
+operator *	Pinocchio/matrix.h	/^    Vec operator*(const Vec &oth) const { return m.apply(bind2nd(myMult<Vec, Vec, Real>(), oth)); }$/;"	f	language:C++	class:Matrixn
+operator *	Pinocchio/transform.h	/^    Quaternion operator*(const Quaternion &q) const { return Quaternion(r * q.r - v * q.v, r * q.v + q.r * v + v % q.v); }$/;"	f	language:C++	class:Quaternion
+operator *	Pinocchio/transform.h	/^    Self operator*(const Real &x) { Self out(S(0)); for(int i = 0; i < 9; ++i) out[i] = m[i] * x; return out; }$/;"	f	language:C++	class:Matrix3
+operator *	Pinocchio/transform.h	/^    Self operator*(const Self &o) const {$/;"	f	language:C++	class:Matrix3
+operator *	Pinocchio/transform.h	/^    Transform operator*(const Transform &t) const { return Transform(rot * t.rot, scale * t.scale, trans + rot * (scale * t.trans)); }$/;"	f	language:C++	class:Transform
+operator *	Pinocchio/transform.h	/^    Vec operator*(const Vec &v) const { $/;"	f	language:C++	class:Matrix3
+operator *	Pinocchio/transform.h	/^    Vec operator*(const Vec &v) const { return rot * (v * scale) + trans; }$/;"	f	language:C++	class:Transform
+operator *	Pinocchio/transform.h	/^    Vector<Real, 3> operator*(const Vector<Real, 3> &p) const$/;"	f	language:C++	class:Quaternion
+operator *	Pinocchio/vector.h	/^    Real operator*(const Self &other) const { return accumulate(multiplies<Real>(), plus<Real>(), other); }$/;"	f	language:C++	class:Vector
+operator *	Pinocchio/vector.h	/^    Self operator*(const Real &scalar) const { return apply(bind2nd(multiplies<Real>(), scalar)); }$/;"	f	language:C++	class:Vector
+operator *	Pinocchio/vector.h	/^Vector<Real, Dim> operator*(const Real &scalar, const Vector<Real, Dim> &vec)$/;"	f	language:C++
+operator *	leapSDK/include/Leap.h	/^    const T operator*() const { return m_list[m_index]; }$/;"	f	language:C++	class:Leap::ConstListIterator
+operator *	leapSDK/include/LeapMath.h	/^  Matrix operator*(const Matrix& other) const {$/;"	f	language:C++	struct:Leap::Matrix
+operator *	leapSDK/include/LeapMath.h	/^  Vector operator*(float scalar) const {$/;"	f	language:C++	struct:Leap::Vector
+operator *	leapSDK/include/LeapMath.h	/^  friend Vector operator*(float scalar, const Vector& vector) {$/;"	f	language:C++	struct:Leap::Vector
+operator *=	Pinocchio/deriv.h	/^    Self &operator*=(const Self &other) { (*this) = (*this) * other; return *this; }$/;"	f	language:C++	class:Deriv
+operator *=	leapSDK/include/LeapMath.h	/^  Matrix& operator*=(const Matrix& other) {$/;"	f	language:C++	struct:Leap::Matrix
+operator *=	leapSDK/include/LeapMath.h	/^  Vector& operator*=(float scalar) {$/;"	f	language:C++	struct:Leap::Vector
+operator +	Pinocchio/deriv.h	/^    Self operator+(const Self &other) const { return Self(x + other.x, d + other.d); }$/;"	f	language:C++	class:Deriv
+operator +	Pinocchio/matrix.h	/^    Self operator+(const Self &oth) const { return Self(m + oth.m); }$/;"	f	language:C++	class:Matrixn
+operator +	Pinocchio/matrix.h	/^    Self operator+(const Self &other) const { return apply(plus<Real>(), other); }$/;"	f	language:C++	class:Vectorn
+operator +	Pinocchio/transform.h	/^    Self operator+(const Self &o) { Self out(S(0)); for(int i = 0; i < 9; ++i) out[i] = m[i] + o[i]; return out; }$/;"	f	language:C++	class:Matrix3
+operator +	Pinocchio/vector.h	/^    Self operator+(const Self &other) const { return apply(plus<Real>(), other); }$/;"	f	language:C++	class:Vector
+operator +	leapSDK/include/LeapMath.h	/^  Vector operator+(const Vector& other) const {$/;"	f	language:C++	struct:Leap::Vector
+operator ++	leapSDK/include/Leap.h	/^    const ConstListIterator<L,T>& operator++() { ++m_index; return *this; }$/;"	f	language:C++	class:Leap::ConstListIterator
+operator ++	leapSDK/include/Leap.h	/^    void operator++(int) {++m_index;}$/;"	f	language:C++	class:Leap::ConstListIterator
+operator +=	Pinocchio/deriv.h	/^    Self &operator+=(const Self &other) { x += other.x; d += other.d; return *this; }$/;"	f	language:C++	class:Deriv
+operator +=	leapSDK/include/LeapMath.h	/^  Vector& operator+=(const Vector& other) {$/;"	f	language:C++	struct:Leap::Vector
+operator -	Pinocchio/deriv.h	/^    Self operator-() const { return Self(-x, -d); }$/;"	f	language:C++	class:Deriv
+operator -	Pinocchio/deriv.h	/^    Self operator-(const Self &other) const { return Self(x - other.x, d - other.d); }$/;"	f	language:C++	class:Deriv
+operator -	Pinocchio/matrix.h	/^    Self operator-() const { return Self(-m); }$/;"	f	language:C++	class:Matrixn
+operator -	Pinocchio/matrix.h	/^    Self operator-() const { return apply(negate<Real>()); }$/;"	f	language:C++	class:Vectorn
+operator -	Pinocchio/matrix.h	/^    Self operator-(const Self &oth) const { return Self(m - oth.m); }$/;"	f	language:C++	class:Matrixn
+operator -	Pinocchio/matrix.h	/^    Self operator-(const Self &other) const { return apply(minus<Real>(), other); }$/;"	f	language:C++	class:Vectorn
+operator -	Pinocchio/transform.h	/^    Self operator-(const Self &o) { Self out(S(0)); for(int i = 0; i < 9; ++i) out[i] = m[i] - o[i]; return out; }$/;"	f	language:C++	class:Matrix3
+operator -	Pinocchio/vector.h	/^    Self operator-() const { return apply(negate<Real>()); }$/;"	f	language:C++	class:Vector
+operator -	Pinocchio/vector.h	/^    Self operator-(const Self &other) const { return apply(minus<Real>(), other); }$/;"	f	language:C++	class:Vector
+operator -	leapSDK/include/LeapMath.h	/^  Vector operator-() const {$/;"	f	language:C++	struct:Leap::Vector
+operator -	leapSDK/include/LeapMath.h	/^  Vector operator-(const Vector& other) const {$/;"	f	language:C++	struct:Leap::Vector
+operator -=	Pinocchio/deriv.h	/^    Self &operator-=(const Self &other) { x -= other.x; d -= other.d; return *this; }$/;"	f	language:C++	class:Deriv
+operator -=	leapSDK/include/LeapMath.h	/^  Vector& operator-=(const Vector& other) {$/;"	f	language:C++	struct:Leap::Vector
+operator /	Pinocchio/deriv.h	/^    Self operator\/(const Self &other) const { return Self(x \/ other.x, (other.x * d - x * other.d) \/ SQR(other.x)); }$/;"	f	language:C++	class:Deriv
+operator /	Pinocchio/matrix.h	/^    Self operator\/(const Real &scalar) const { return apply(bind2nd(divides<Real>(), scalar)); }$/;"	f	language:C++	class:Vectorn
+operator /	Pinocchio/matrix.h	/^    Self operator\/(double oth) const { return Self(m.apply(bind2nd(myDiv<Vec, Real, Vec>(), oth))); }$/;"	f	language:C++	class:Matrixn
+operator /	Pinocchio/transform.h	/^    Self operator\/(const Real &x) { Self out(S(0)); for(int i = 0; i < 9; ++i) out[i] = m[i] \/ x; return out; }$/;"	f	language:C++	class:Matrix3
+operator /	Pinocchio/vector.h	/^    Self operator\/(const Real &scalar) const { return apply(bind2nd(divides<Real>(), scalar)); }$/;"	f	language:C++	class:Vector
+operator /	leapSDK/include/LeapMath.h	/^  Vector operator\/(float scalar) const {$/;"	f	language:C++	struct:Leap::Vector
+operator /=	Pinocchio/deriv.h	/^    Self &operator\/=(const Self &other) { (*this) = (*this) \/ other; return *this; }$/;"	f	language:C++	class:Deriv
+operator /=	leapSDK/include/LeapMath.h	/^  Vector& operator\/=(float scalar) {$/;"	f	language:C++	struct:Leap::Vector
+operator <	Pinocchio/deriv.h	/^    bool operator<(const Self &other) const { return x < other.x; }$/;"	f	language:C++	class:Deriv
+operator <	Pinocchio/embedding.cpp	/^    bool operator<(const PartialMatch &pm) const { return heuristic > pm.heuristic; } \/\/smallest penalty first$/;"	f	language:C++	struct:PartialMatch
+operator <	Pinocchio/graphutils.h	/^        bool operator<(const Inf &inf) const { return dist > inf.dist; }$/;"	f	language:C++	struct:ShortestPather::Inf
+operator <	Pinocchio/mathutils.h	/^inline bool operator<(const string &s1, const string &s2) { return s1.compare(s2) < 0; }$/;"	f	language:C++
+operator <	Pinocchio/mesh.cpp	/^    bool operator<(const MFace &f) const { return lexicographical_compare(v, v + 3, f.v, f.v + 3); }$/;"	f	language:C++	struct:MFace
+operator <	Pinocchio/mesh.cpp	/^    bool operator<(const StlVtx &o) const { return (*this)[0] < o[0] || ((*this)[0] == o[0] &&$/;"	f	language:C++	class:StlVtx
+operator <<	Pinocchio/deriv.h	/^basic_ostream<charT,traits>& operator<<(basic_ostream<charT,traits>& os, const Deriv<Real, Vars> &d)$/;"	f	language:C++
+operator <<	Pinocchio/matrix.h	/^inline ostream &operator<<(ostream &os, const Matrixn<Real> &m)$/;"	f	language:C++
+operator <<	Pinocchio/matrix.h	/^inline ostream &operator<<(ostream &os, const Vectorn<Real> &v)$/;"	f	language:C++
+operator <<	Pinocchio/rect.h	/^        basic_ostream<charT,traits>& operator<<(basic_ostream<charT,traits>& os, const Rect<Real, Dim> &r)$/;"	f	language:C++
+operator <<	Pinocchio/transform.h	/^        basic_ostream<charT,traits>& operator<<(basic_ostream<charT,traits>& os, const Matrix3<Real> &m)$/;"	f	language:C++
+operator <<	Pinocchio/vector.h	/^basic_ostream<charT,traits>& operator<<(basic_ostream<charT,traits>& os, const Vector<Real, Dim> &v)$/;"	f	language:C++
+operator <<	leapSDK/include/LeapMath.h	/^  friend std::ostream& operator<<(std::ostream& out, const Matrix& matrix) {$/;"	f	language:C++	struct:Leap::Matrix
+operator <<	leapSDK/include/LeapMath.h	/^  friend std::ostream& operator<<(std::ostream& out, const Vector& vector) {$/;"	f	language:C++	struct:Leap::Vector
+operator <=	Pinocchio/deriv.h	/^    bool operator<=(const Self &other) const { return x <= other.x; }$/;"	f	language:C++	class:Deriv
+operator ==	Pinocchio/deriv.h	/^    bool operator==(const Self &other) const { return x == other.x; }$/;"	f	language:C++	class:Deriv
+operator ==	Pinocchio/mathutils.h	/^inline bool operator==(const string &s1, const string &s2) { return s1.compare(s2) == 0; }$/;"	f	language:C++
+operator ==	Pinocchio/matrix.h	/^    bool operator==(const Self &other) const { return accumulate(equal_to<Real>(), logical_and<Real>(), other); }$/;"	f	language:C++	class:Vectorn
+operator ==	Pinocchio/mesh.cpp	/^    bool operator==(const StlVtx &o) const { return (*this)[0] == o[0] && (*this)[1] == o[1] && (*this)[2] == o[2]; }$/;"	f	language:C++	class:StlVtx
+operator ==	Pinocchio/rect.h	/^    bool operator==(const Self &other) const$/;"	f	language:C++	class:Rect
+operator ==	Pinocchio/transform.h	/^    template<class R> bool operator==(const Quaternion<R> &oth) const$/;"	f	language:C++	class:Quaternion
+operator ==	Pinocchio/vector.h	/^    bool operator==(const Self &other) const { return accumulate(equal_to<Real>(), logical_and<Real>(), other); }$/;"	f	language:C++	class:Vector
+operator ==	leapSDK/include/Leap.h	/^    bool operator==(const ConstListIterator<L,T>& rhs) const { return m_index == rhs.m_index; }$/;"	f	language:C++	class:Leap::ConstListIterator
+operator ==	leapSDK/include/LeapMath.h	/^  bool operator==(const Matrix& other) const {$/;"	f	language:C++	struct:Leap::Matrix
+operator ==	leapSDK/include/LeapMath.h	/^  bool operator==(const Vector& other) const {$/;"	f	language:C++	struct:Leap::Vector
+operator >	Pinocchio/deriv.h	/^    bool operator>(const Self &other) const { return x > other.x; }$/;"	f	language:C++	class:Deriv
+operator >=	Pinocchio/deriv.h	/^    bool operator>=(const Self &other) const { return x >= other.x; }$/;"	f	language:C++	class:Deriv
+operator Real	Pinocchio/deriv.h	/^    operator Real() const { return x; }$/;"	f	language:C++	class:Deriv
+operator []	Pinocchio/matrix.h	/^    Vec &operator[](int row) { return m[row]; }$/;"	f	language:C++	class:Matrixn
+operator []	Pinocchio/matrix.h	/^    const Vec &operator[](int row) const { return m[row]; }$/;"	f	language:C++	class:Matrixn
+operator []	Pinocchio/pointprojector.h	/^    double operator[](int i) const { return v1[i] + v2[i] + v3[i]; } \/\/for comparison only, no need to divide by 3$/;"	f	language:C++	struct:Tri3Object
+operator []	Pinocchio/pointprojector.h	/^    double operator[](int i) const { return v[i]; }$/;"	f	language:C++	struct:Vec3Object
+operator []	Pinocchio/transform.h	/^    Real &operator[](int idx) { return m[idx]; }$/;"	f	language:C++	class:Matrix3
+operator []	Pinocchio/transform.h	/^    const Real &operator[](int i) const { return (i == 0) ? r : v[i - 1]; }$/;"	f	language:C++	class:Quaternion
+operator []	Pinocchio/transform.h	/^    const Real &operator[](int idx) const { return m[idx]; }$/;"	f	language:C++	class:Matrix3
+operator []	Pinocchio/vector.h	/^    Real &operator[](int n) { if((int)m.size() <= n) m.resize(n + 1); return m[n]; }$/;"	f	language:C++	class:Vector
+operator []	Pinocchio/vector.h	/^    Real &operator[](int n) { return m[n]; }$/;"	f	language:C++	class:Vector
+operator []	Pinocchio/vector.h	/^    const Real &operator[](int n) const { if((int)m.size() <= n) const_cast<Vector<Real, -1> *>(this)->m.resize(n + 1); return m[n]; }$/;"	f	language:C++	class:Vector
+operator []	Pinocchio/vector.h	/^    const Real &operator[](int n) const { return m[n]; }$/;"	f	language:C++	class:Vector
+operator []	leapSDK/include/LeapMath.h	/^  float operator[](unsigned int index) const {$/;"	f	language:C++	struct:Leap::Vector
+operator []	leapSDK/include/LeapMath.h	/^  float& operator[] (unsigned int index) {$/;"	f	language:C++	struct:Leap::FloatArray
+operator const float*	leapSDK/include/LeapMath.h	/^  operator const float* () const {$/;"	f	language:C++	struct:Leap::FloatArray
+operator float*	leapSDK/include/LeapMath.h	/^  operator float* () {$/;"	f	language:C++	struct:Leap::FloatArray
+operator |	Pinocchio/rect.h	/^    Self operator|(const Self &other) const$/;"	f	language:C++	class:Rect
+operator ~	Pinocchio/matrix.h	/^    Self operator~() const \/\/transpose$/;"	f	language:C++	class:Matrixn
+operator ~	Pinocchio/transform.h	/^    Self operator~() const { \/\/transpose$/;"	f	language:C++	class:Matrix3
+optimizeEmbedding1D	Pinocchio/refinement.cpp	/^vector<Vector3> optimizeEmbedding1D(vector<Vector3> fineEmbedding, vector<Vector3> dir, RP *rp)$/;"	f	language:C++
+origMesh	DemoUI/defmesh.h	/^    Mesh origMesh;$/;"	m	language:C++	class:DefMesh
+origMesh	myMain/defMesh.h	/^    Mesh origMesh;$/;"	m	language:C++	class:DefMesh
+origSkel	DemoUI/defmesh.h	/^    Skeleton origSkel;$/;"	m	language:C++	class:DefMesh
+origSkel	myMain/defMesh.h	/^    Skeleton origSkel;$/;"	m	language:C++	class:DefMesh
+origin	leapSDK/include/LeapMath.h	/^  Vector origin;$/;"	m	language:C++	struct:Leap::Matrix
+out	Pinocchio/debugging.h	/^    static ostream &out() { return *outStream; }$/;"	f	language:C++	class:Debugging
+outStream	Pinocchio/debugging.h	/^    static ostream *outStream;$/;"	m	language:C++	class:Debugging
+outStream	Pinocchio/pinocchioApi.cpp	/^ostream *Debugging::outStream = new ofstream();$/;"	m	language:C++	class:Debugging	file:
+p1	DemoUI/MyWindow.h	/^    Vector3 p1, p2, color;$/;"	m	language:C++	struct:LineSegment
+p2	DemoUI/MyWindow.h	/^    Vector3 p1, p2, color;$/;"	m	language:C++	struct:LineSegment
+packSpheres	Pinocchio/discretization.cpp	/^vector<Sphere> packSpheres(const vector<Sphere> &samples, int maxSpheres)$/;"	f	language:C++
+parent	Pinocchio/dtree.h	/^    Self *parent;$/;"	m	language:C++	class:DNode
+path	Pinocchio/graphutils.h	/^    vector<int> path(int from, int to) const { return paths[to].pathFrom(from); }$/;"	f	language:C++	class:AllShortestPather
+pathFrom	Pinocchio/graphutils.h	/^    vector<int> pathFrom(int vtx) const$/;"	f	language:C++	class:ShortestPather
+paths	Pinocchio/embedding.cpp	/^    AllShortestPather paths;$/;"	m	language:C++	struct:FP	file:
+paths	Pinocchio/graphutils.h	/^    vector<ShortestPather> paths;$/;"	m	language:C++	class:AllShortestPather
+penalty	Pinocchio/embedding.cpp	/^    double penalty;$/;"	m	language:C++	struct:PartialMatch	file:
+perm	Pinocchio/lsqSolver.cpp	/^    vector<int> perm; \/\/permutation$/;"	m	language:C++	class:MyLLTMatrix	file:
+pitch	leapSDK/include/LeapMath.h	/^  float pitch() const {$/;"	f	language:C++	struct:Leap::Vector
+pointable	leapSDK/lib/Leap.py	/^    def pointable(self, *args): return LeapPython.Frame_pointable(self, *args)$/;"	m	language:Python	class:Frame
+pointable	leapSDK/lib/Leap.py	/^    def pointable(self, *args): return LeapPython.Hand_pointable(self, *args)$/;"	m	language:Python	class:Hand
+pointer	leapSDK/include/Leap.h	/^    typedef const T* pointer;$/;"	t	language:C++	class:Leap::ConstListIterator
+points	Pinocchio/intersector.h	/^    vector<Vector2> points;$/;"	m	language:C++	class:Intersector
+pos	Pinocchio/mesh.h	/^    Vector3 pos;$/;"	m	language:C++	struct:MeshVertex
+pos	Pinocchio/multilinear.h	/^  static Real pos(const Real &r1, const Real &r2)$/;"	f	language:C++	class:Multilinear
+pos	myMain/main.cpp	/^void pos(double *px, double *py, double *pz, const int x, const int y,$/;"	f	language:C++
+poses	DemoUI/motion.h	/^    vector<vector<Vector3> > poses;$/;"	m	language:C++	class:Motion
+prepareMesh	Pinocchio/discretization.cpp	/^Mesh  prepareMesh(const Mesh &m)$/;"	f	language:C++
+preprocessIndex	Pinocchio/indexer.h	/^        void preprocessIndex() {}$/;"	f	language:C++	class:DumbIndexer
+preprocessIndex	Pinocchio/indexer.h	/^        void preprocessIndex()$/;"	f	language:C++	class:HashIndexer
+preprocessIndex	Pinocchio/indexer.h	/^    void preprocessIndex() {}$/;"	f	language:C++	class:Indexer
+preprocessIndex	Pinocchio/indexer.h	/^    void preprocessIndex()$/;"	f	language:C++	class:ArrayIndexer
+prev	DemoUI/filter.h	/^    vector<int> prev;$/;"	m	language:C++	class:MotionFilter
+prev	Pinocchio/graphutils.h	/^        int node, prev;$/;"	m	language:C++	struct:ShortestPather::Inf
+prev	Pinocchio/graphutils.h	/^    vector<int> prev;$/;"	m	language:C++	class:ShortestPather
+prev	Pinocchio/mesh.h	/^    int prev; \/\/ccw, next is prev->prev$/;"	m	language:C++	struct:MeshEdge
+prevFeet	DemoUI/filter.h	/^    Vectorn<double> prevFeet;$/;"	m	language:C++	class:MotionFilter
+prevTrans	DemoUI/filter.h	/^    Vector3 prevTrans;$/;"	m	language:C++	class:MotionFilter
+prevX	DemoUI/MyWindow.cpp	/^static int prevX, prevY;$/;"	v	language:C++	file:
+prevY	DemoUI/MyWindow.cpp	/^static int prevX, prevY;$/;"	v	language:C++	file:
+prev_z	myMain/main.cpp	/^double prev_z = 0;$/;"	v	language:C++
+previous	leapSDK/lib/Leap.py	/^    def previous(self): return LeapPython.SwigPyIterator_previous(self)$/;"	m	language:Python	class:SwigPyIterator
+printUsageAndExit	DemoUI/processor.cpp	/^void printUsageAndExit()$/;"	f	language:C++
+process	DemoUI/processor.cpp	/^void process(const vector<string> &args, MyWindow *w)$/;"	f	language:C++
+processArgs	DemoUI/processor.cpp	/^ArgData processArgs(const vector<string> &args)$/;"	f	language:C++
+proj	Pinocchio/quaddisttree.h	/^        const ObjectProjector<3, Tri3Object> &proj;$/;"	m	language:C++	class:OctTreeMaker::DistObjEval
+proj	Pinocchio/quaddisttree.h	/^        const ObjectProjector<3, Vec3Object> &proj;$/;"	m	language:C++	class:OctTreeMaker::PointObjDistEval
+projToLine	Pinocchio/vecutils.h	/^Vector<Real, Dim> projToLine(const Vector<Real, Dim> &v, const Vector<Real, Dim> &l, const Vector<Real, Dim> &dir)$/;"	f	language:C++
+projToSeg	Pinocchio/vecutils.h	/^Vector<Real, Dim> projToSeg(const Vector<Real, Dim> &v, const Vector<Real, Dim> &p1, const Vector<Real, Dim> &p2)$/;"	f	language:C++
+projToTri	Pinocchio/vecutils.h	/^Vector<Real, 3> projToTri(const Vector<Real, 3> &from, const Vector<Real, 3> &p1, const Vector<Real, 3> &p2, const Vector<Real, 3> &p3)$/;"	f	language:C++
+project	Pinocchio/pointprojector.h	/^    Vec project(const Vec &from) const$/;"	f	language:C++	class:ObjectProjector
+project	Pinocchio/pointprojector.h	/^    Vector3 project(const Vector3 &) const { return v; }$/;"	f	language:C++	struct:Vec3Object
+project	Pinocchio/pointprojector.h	/^    Vector3 project(const Vector3 &v) const { return projToTri(v, v1, v2, v3); }$/;"	f	language:C++	struct:Tri3Object
+project	leapSDK/lib/Leap.py	/^    def project(self, *args): return LeapPython.Screen_project(self, *args)$/;"	m	language:Python	class:Screen
+r	Pinocchio/transform.h	/^    Real r;$/;"	m	language:C++	class:Quaternion
+radius	Pinocchio/pinocchioApi.h	/^    double radius;$/;"	m	language:C++	struct:Sphere
+readGts	Pinocchio/mesh.cpp	/^void Mesh::readGts(istream &strm)$/;"	f	language:C++	class:Mesh
+readH	DemoUI/motion.cpp	/^void Motion::readH(istream &strm)$/;"	f	language:C++	class:Motion
+readObj	Pinocchio/mesh.cpp	/^void Mesh::readObj(istream &strm)$/;"	f	language:C++	class:Mesh
+readOff	Pinocchio/mesh.cpp	/^void Mesh::readOff(istream &strm)$/;"	f	language:C++	class:Mesh
+readPly	Pinocchio/mesh.cpp	/^void Mesh::readPly(istream &strm)$/;"	f	language:C++	class:Mesh
+readStl	Pinocchio/mesh.cpp	/^void Mesh::readStl(istream &strm)$/;"	f	language:C++	class:Mesh
+readWords	Pinocchio/utils.h	/^inline vector<string> readWords(istream &stream)$/;"	f	language:C++
+reallyDeform	DemoUI/defmesh.cpp	/^bool reallyDeform = true;$/;"	v	language:C++
+rect	Pinocchio/dtree.h	/^    MyRect rect;$/;"	m	language:C++	class:DNode
+rect	Pinocchio/pointprojector.h	/^        Rec rect;$/;"	m	language:C++	struct:ObjectProjector::RNode
+rects	Pinocchio/quaddisttree.h	/^        mutable Rect3 rects[11];$/;"	m	language:C++	class:OctTreeMaker::DistObjEval
+refPose	DemoUI/motion.h	/^    vector<Vector3> refPose;$/;"	m	language:C++	class:Motion
+reference	leapSDK/include/Leap.h	/^    typedef const T& reference;$/;"	t	language:C++	class:Leap::ConstListIterator
+refineEmbedding	Pinocchio/refinement.cpp	/^vector<Vector3> refineEmbedding(TreeType *distanceField, const vector<Vector3> &medialSurface,$/;"	f	language:C++
+remove_listener	leapSDK/lib/Leap.py	/^    def remove_listener(self, *args): return LeapPython.Controller_remove_listener(self, *args)$/;"	m	language:Python	class:Controller
+resetTransform	DemoUI/MyWindow.cpp	/^void MyWindow::resetTransform()$/;"	f	language:C++	class:MyWindow
+result	Pinocchio/lsqSolver.h	/^    map<V, double> result;$/;"	m	language:C++	class:LSQSystem
+result_type	Pinocchio/mathutils.h	/^    typedef T result_type;$/;"	t	language:C++	class:construct
+rhs	Pinocchio/lsqSolver.h	/^        double rhs;$/;"	m	language:C++	struct:LSQSystem::Constraint
+rhsTransform	Pinocchio/lsqSolver.h	/^    vector<vector<pair<int, double> > > rhsTransform;$/;"	m	language:C++	class:LSQSystem
+right	leapSDK/include/LeapMath.h	/^  static const Vector& right() {$/;"	f	language:C++	struct:Leap::Vector
+rigidInverse	leapSDK/include/LeapMath.h	/^  Matrix rigidInverse() const {$/;"	f	language:C++	struct:Leap::Matrix
+rigid_inverse	leapSDK/lib/Leap.py	/^    def rigid_inverse(self): return LeapPython.Matrix_rigid_inverse(self)$/;"	m	language:Python	class:Matrix
+rnodes	Pinocchio/pointprojector.h	/^    vector<RNode> rnodes;$/;"	m	language:C++	class:ObjectProjector
+roll	leapSDK/include/LeapMath.h	/^  float roll() const {$/;"	f	language:C++	struct:Leap::Vector
+root	Pinocchio/indexer.h	/^        Node *root;$/;"	m	language:C++	class:DumbIndexer
+root	Pinocchio/indexer.h	/^        Node *root;$/;"	m	language:C++	class:HashIndexer
+root	Pinocchio/indexer.h	/^    Node *root;$/;"	m	language:C++	class:ArrayIndexer
+root	Pinocchio/indexer.h	/^    Node *root;$/;"	m	language:C++	class:Indexer
+rot	Pinocchio/transform.h	/^    Quaternion<Real> rot;$/;"	m	language:C++	class:Transform
+rotateY	myMain/main.cpp	/^double rotateY = 0.0;$/;"	v	language:C++
+rotation_angle	leapSDK/lib/Leap.py	/^    def rotation_angle(self, *args): return LeapPython.Frame_rotation_angle(self, *args)$/;"	m	language:Python	class:Frame
+rotation_angle	leapSDK/lib/Leap.py	/^    def rotation_angle(self, *args): return LeapPython.Hand_rotation_angle(self, *args)$/;"	m	language:Python	class:Hand
+rotation_axis	leapSDK/lib/Leap.py	/^    def rotation_axis(self, *args): return LeapPython.Frame_rotation_axis(self, *args)$/;"	m	language:Python	class:Frame
+rotation_axis	leapSDK/lib/Leap.py	/^    def rotation_axis(self, *args): return LeapPython.Hand_rotation_axis(self, *args)$/;"	m	language:Python	class:Hand
+rotation_matrix	leapSDK/lib/Leap.py	/^    def rotation_matrix(self, *args): return LeapPython.Frame_rotation_matrix(self, *args)$/;"	m	language:Python	class:Frame
+rotation_matrix	leapSDK/lib/Leap.py	/^    def rotation_matrix(self, *args): return LeapPython.Hand_rotation_matrix(self, *args)$/;"	m	language:Python	class:Hand
+rotation_probability	leapSDK/lib/Leap.py	/^    def rotation_probability(self, *args): return LeapPython.Frame_rotation_probability(self, *args)$/;"	m	language:Python	class:Frame
+rotation_probability	leapSDK/lib/Leap.py	/^    def rotation_probability(self, *args): return LeapPython.Hand_rotation_probability(self, *args)$/;"	m	language:Python	class:Hand
+sNormals	Pinocchio/intersector.h	/^    vector<Vector3> sNormals; \/\/they are scaled for intersection$/;"	m	language:C++	class:Intersector
+sampleMedialSurface	Pinocchio/discretization.cpp	/^vector<Sphere> sampleMedialSurface(TreeType *distanceField, double tol)$/;"	f	language:C++
+save	leapSDK/lib/Leap.py	/^    def save(self): return LeapPython.Config_save(self)$/;"	m	language:Python	class:Config
+scale	Pinocchio/mesh.h	/^    double scale;$/;"	m	language:C++	class:Mesh
+scale	Pinocchio/skeleton.cpp	/^void Skeleton::scale(double factor)$/;"	f	language:C++	class:Skeleton
+scale	Pinocchio/transform.h	/^    Real scale;$/;"	m	language:C++	class:Transform
+scale_factor	leapSDK/lib/Leap.py	/^    def scale_factor(self, *args): return LeapPython.Frame_scale_factor(self, *args)$/;"	m	language:Python	class:Frame
+scale_factor	leapSDK/lib/Leap.py	/^    def scale_factor(self, *args): return LeapPython.Hand_scale_factor(self, *args)$/;"	m	language:Python	class:Hand
+scale_probability	leapSDK/lib/Leap.py	/^    def scale_probability(self, *args): return LeapPython.Frame_scale_probability(self, *args)$/;"	m	language:Python	class:Frame
+scale_probability	leapSDK/lib/Leap.py	/^    def scale_probability(self, *args): return LeapPython.Hand_scale_probability(self, *args)$/;"	m	language:Python	class:Hand
+set	Pinocchio/transform.h	/^    void set(const Real &inR, const Vector<Real, 3> &inV) {$/;"	f	language:C++	class:Quaternion
+set	leapSDK/lib/Leap.py	/^    def set(self, *args):$/;"	m	language:Python	class:Config
+setFat	Pinocchio/skeleton.cpp	/^void Skeleton::setFat(const string &name)$/;"	f	language:C++	class:Skeleton
+setFixedFrame	DemoUI/motion.h	/^    void setFixedFrame(int inFrame) { fixedFrame = inFrame < 0 ? -1 : (int)(inFrame % data.size()); }$/;"	f	language:C++	class:Motion
+setFoot	Pinocchio/skeleton.cpp	/^void Skeleton::setFoot(const string &name)$/;"	f	language:C++	class:Skeleton
+setMotion	DemoUI/defmesh.h	/^    void setMotion(Motion *inMotion) { motion = inMotion; }$/;"	f	language:C++	class:DefMesh
+setOutStream	Pinocchio/debugging.h	/^    static void PINOCCHIO_API setOutStream(ostream &os) { outStream = &os; }$/;"	f	language:C++	class:Debugging
+setRect	Pinocchio/quaddisttree.h	/^        void setRect(const Rect3 &r) const { }$/;"	f	language:C++	class:OctTreeMaker::PointObjDistEval
+setRect	Pinocchio/quaddisttree.h	/^        void setRect(const Rect3 &r) const$/;"	f	language:C++	class:OctTreeMaker::DistObjEval
+setRhs	Pinocchio/lsqSolver.h	/^    void setRhs(const C &id, double rhs)$/;"	f	language:C++	class:LSQSystem
+setRoot	Pinocchio/indexer.h	/^        void setRoot(Node *n) $/;"	f	language:C++	class:DumbIndexer
+setRoot	Pinocchio/indexer.h	/^        void setRoot(Node *n) $/;"	f	language:C++	class:HashIndexer
+setRoot	Pinocchio/indexer.h	/^    void setRoot(Node *n) $/;"	f	language:C++	class:ArrayIndexer
+setRoot	Pinocchio/indexer.h	/^    void setRoot(Node *n) $/;"	f	language:C++	class:Indexer
+setRotation	leapSDK/include/LeapMath.h	/^  void setRotation(const Vector& axis, float angleRadians) {$/;"	f	language:C++	struct:Leap::Matrix
+setValue	Pinocchio/multilinear.h	/^  void setValue(int idx, const Value &value) { values[idx] = value; }$/;"	f	language:C++	class:Multilinear
+set_policy_flags	leapSDK/lib/Leap.py	/^    def set_policy_flags(self, *args): return LeapPython.Controller_set_policy_flags(self, *args)$/;"	m	language:Python	class:Controller
+set_rotation	leapSDK/lib/Leap.py	/^    def set_rotation(self, *args): return LeapPython.Matrix_set_rotation(self, *args)$/;"	m	language:Python	class:Matrix
+size	Pinocchio/lsqSolver.cpp	/^    int size() const { return m.size(); }$/;"	f	language:C++	class:MyLLTMatrix
+size	Pinocchio/lsqSolver.cpp	/^    int size() const { return sz; }$/;"	f	language:C++	class:TaucsLLTMatrix
+size	Pinocchio/vector.h	/^    int size() const { return Dim; }$/;"	f	language:C++	class:Vector
+size	Pinocchio/vector.h	/^    int size() const { return m.size(); }$/;"	f	language:C++	class:Vector
+skelScale	DemoUI/processor.cpp	/^    double skelScale;$/;"	m	language:C++	struct:ArgData	file:
+skeleton	DemoUI/MyWindow.h	/^    bool flatShading, floor, skeleton;$/;"	m	language:C++	class:MyWindow
+skeleton	DemoUI/processor.cpp	/^    Skeleton skeleton;$/;"	m	language:C++	struct:ArgData	file:
+skeletonname	DemoUI/processor.cpp	/^    string skeletonname;$/;"	m	language:C++	struct:ArgData	file:
+smoothInterp	Pinocchio/embedding.cpp	/^double smoothInterp(double val, double low, double atLow, double hi, double atHi)$/;"	f	language:C++
+softMatrix	Pinocchio/lsqSolver.h	/^    vector<vector<pair<int, double> > > softMatrix;$/;"	m	language:C++	class:LSQSystem
+softNum	Pinocchio/lsqSolver.h	/^    int softNum; \/\/number of soft constraints$/;"	m	language:C++	class:LSQSystem
+solve	Pinocchio/lsqSolver.cpp	/^    bool solve(vector<double> &b) const$/;"	f	language:C++	class:TaucsLLTMatrix
+solve	Pinocchio/lsqSolver.cpp	/^bool MyLLTMatrix::solve(vector<double> &b) const$/;"	f	language:C++	class:MyLLTMatrix
+solve	Pinocchio/lsqSolver.h	/^    bool solve()$/;"	f	language:C++	class:LSQSystem
+sortEdges	Pinocchio/mesh.cpp	/^void Mesh::sortEdges()$/;"	f	language:C++	class:Mesh
+sph	Pinocchio/embedding.cpp	/^    const vector<Sphere> &sph;$/;"	m	language:C++	struct:FP	file:
+sphereComp	Pinocchio/discretization.cpp	/^bool sphereComp(const Sphere &s1, const Sphere &s2) { return s1.radius > s2.radius; }$/;"	f	language:C++
+split	Pinocchio/dtree.h	/^    void split()$/;"	f	language:C++	class:DNode
+split	Pinocchio/dtree.h	/^    void split(Node *node)$/;"	f	language:C++	class:DRootNode
+splitPath	Pinocchio/embedding.cpp	/^vector<Vector3> splitPath(FP *fp, int joint, int curIdx, int prevIdx)$/;"	f	language:C++
+splitPaths	Pinocchio/embedding.cpp	/^vector<Vector3> splitPaths(const vector<int> &discreteEmbedding, const PtGraph &graph,$/;"	f	language:C++
+step	DemoUI/filter.cpp	/^void MotionFilter::step(const vector<Transform<> > &transforms, vector<Vector3> feet)$/;"	f	language:C++	class:MotionFilter
+stopAfterCircles	DemoUI/processor.cpp	/^    bool stopAfterCircles;$/;"	m	language:C++	struct:ArgData	file:
+stopAtMesh	DemoUI/processor.cpp	/^    bool stopAtMesh;$/;"	m	language:C++	struct:ArgData	file:
+substitutedHard	Pinocchio/lsqSolver.h	/^    vector<vector<pair<int, double> > > substitutedHard;$/;"	m	language:C++	class:LSQSystem
+sum	Pinocchio/matrix.h	/^    Real sum() const { return accumulate(ident<Real>(), plus<Real>()); }$/;"	f	language:C++	class:Vectorn
+sum	Pinocchio/matrix.h	/^    Real sum() const { return m.sum().sum(); }$/;"	f	language:C++	class:Matrixn
+super	Pinocchio/matrix.h	/^    typedef vector<Real> super;$/;"	t	language:C++	class:Vectorn
+super	Pinocchio/quaddisttree.h	/^    typedef DistFunction<Dim> super;$/;"	t	language:C++	class:DistData
+super	Pinocchio/quaddisttree.h	/^    typedef Multilinear<double, Dim> super;$/;"	t	language:C++	class:DistFunction
+swig_import_helper	leapSDK/lib/Leap.py	/^    def swig_import_helper():$/;"	f	language:Python
+sz	Pinocchio/lsqSolver.cpp	/^    int sz;$/;"	m	language:C++	class:TaucsLLTMatrix	file:
+table	Pinocchio/indexer.h	/^        Node *table[(1 << bits)];$/;"	m	language:C++	class:HashIndexer
+table	Pinocchio/indexer.h	/^    Node *table[(1 << bits)];$/;"	m	language:C++	class:ArrayIndexer
+thickness	DemoUI/MyWindow.h	/^    double thickness;$/;"	m	language:C++	struct:LineSegment
+timerFunction	myMain/main.cpp	/^void timerFunction(int value)       $/;"	f	language:C++
+toAdd	Pinocchio/mesh.h	/^    Vector3 toAdd;$/;"	m	language:C++	class:Mesh
+toArray3x3	leapSDK/include/LeapMath.h	/^  FloatArray toArray3x3() const {$/;"	f	language:C++	struct:Leap::Matrix
+toArray3x3	leapSDK/include/LeapMath.h	/^  T* toArray3x3(T* output) const {$/;"	f	language:C++	struct:Leap::Matrix
+toArray4x4	leapSDK/include/LeapMath.h	/^  FloatArray toArray4x4() const {$/;"	f	language:C++	struct:Leap::Matrix
+toArray4x4	leapSDK/include/LeapMath.h	/^  T* toArray4x4(T* output) const {$/;"	f	language:C++	struct:Leap::Matrix
+toFloatPointer	leapSDK/include/LeapMath.h	/^  const float* toFloatPointer() const {$/;"	f	language:C++	struct:Leap::Vector
+toMatrix3x3	leapSDK/include/LeapMath.h	/^  const Matrix3x3Type toMatrix3x3() const {$/;"	f	language:C++	struct:Leap::Matrix
+toMatrix4x4	leapSDK/include/LeapMath.h	/^  const Matrix4x4Type toMatrix4x4() const {$/;"	f	language:C++	struct:Leap::Matrix
+toString	Pinocchio/utils.h	/^inline string toString(const T& obj) {$/;"	f	language:C++
+toString	leapSDK/include/LeapMath.h	/^  std::string toString() const {$/;"	f	language:C++	struct:Leap::Matrix
+toString	leapSDK/include/LeapMath.h	/^  std::string toString() const {$/;"	f	language:C++	struct:Leap::Vector
+toVector	DemoUI/filter.cpp	/^Vectorn<double> toVector(const vector<Transform<> > &transforms)$/;"	f	language:C++
+toVector3	leapSDK/include/LeapMath.h	/^  const Vector3Type toVector3() const {$/;"	f	language:C++	struct:Leap::Vector
+toVector4	leapSDK/include/LeapMath.h	/^  const Vector4Type toVector4(float w=0.0f) const {$/;"	f	language:C++	struct:Leap::Vector
+to_array_3x3	leapSDK/lib/Leap.py	/^    def to_array_3x3(self, output = None):$/;"	m	language:Python	class:Matrix
+to_array_4x4	leapSDK/lib/Leap.py	/^    def to_array_4x4(self, output = None):$/;"	m	language:Python	class:Matrix
+to_float_array	leapSDK/lib/Leap.py	/^    def to_float_array(self): return [self.x, self.y, self.z]$/;"	m	language:Python	class:Vector
+to_tuple	leapSDK/lib/Leap.py	/^    def to_tuple(self): return (self.x, self.y, self.z)$/;"	m	language:Python	class:Vector
+tool	leapSDK/lib/Leap.py	/^    def tool(self, *args): return LeapPython.Frame_tool(self, *args)$/;"	m	language:Python	class:Frame
+tool	leapSDK/lib/Leap.py	/^    def tool(self, *args): return LeapPython.Hand_tool(self, *args)$/;"	m	language:Python	class:Hand
+trans	Pinocchio/transform.h	/^    Vec trans;$/;"	m	language:C++	class:Transform
+transform	DemoUI/MyWindow.h	/^    Transform<> transform;$/;"	m	language:C++	class:MyWindow
+transformDirection	leapSDK/include/LeapMath.h	/^  Vector transformDirection(const Vector& in) const {$/;"	f	language:C++	struct:Leap::Matrix
+transformPoint	leapSDK/include/LeapMath.h	/^  Vector transformPoint(const Vector& in) const {$/;"	f	language:C++	struct:Leap::Matrix
+transform_direction	leapSDK/lib/Leap.py	/^    def transform_direction(self, *args): return LeapPython.Matrix_transform_direction(self, *args)$/;"	m	language:Python	class:Matrix
+transform_point	leapSDK/lib/Leap.py	/^    def transform_point(self, *args): return LeapPython.Matrix_transform_point(self, *args)$/;"	m	language:Python	class:Matrix
+transforms	DemoUI/defmesh.h	/^    vector<Quaternion<> > transforms;$/;"	m	language:C++	class:DefMesh
+transforms	myMain/defMesh.h	/^    vector<Quaternion<> > transforms;$/;"	m	language:C++	class:DefMesh
+translation	leapSDK/lib/Leap.py	/^    def translation(self, *args): return LeapPython.Frame_translation(self, *args)$/;"	m	language:Python	class:Frame
+translation	leapSDK/lib/Leap.py	/^    def translation(self, *args): return LeapPython.Hand_translation(self, *args)$/;"	m	language:Python	class:Hand
+translation_probability	leapSDK/lib/Leap.py	/^    def translation_probability(self, *args): return LeapPython.Frame_translation_probability(self, *args)$/;"	m	language:Python	class:Frame
+translation_probability	leapSDK/lib/Leap.py	/^    def translation_probability(self, *args): return LeapPython.Hand_translation_probability(self, *args)$/;"	m	language:Python	class:Hand
+tree	Pinocchio/attachment.h	/^    const T *tree;$/;"	m	language:C++	class:VisTester
+triangles	Pinocchio/intersector.h	/^    vector<vector<int> > triangles;$/;"	m	language:C++	class:Intersector
+twin	Pinocchio/mesh.h	/^    int twin;$/;"	m	language:C++	struct:MeshEdge
+uint32_t	leapSDK/include/Leap.h	/^typedef unsigned __int32 uint32_t;$/;"	t	language:C++
+uint64_t	leapSDK/include/Leap.h	/^typedef unsigned __int64 uint64_t;$/;"	t	language:C++
+up	leapSDK/include/LeapMath.h	/^  static const Vector& up() {$/;"	f	language:C++	struct:Leap::Vector
+updateIfHasMotion	DemoUI/defmesh.h	/^    void updateIfHasMotion() const { if(motion) updateMesh(); }$/;"	f	language:C++	class:DefMesh
+updateMesh	DemoUI/defmesh.cpp	/^void DefMesh::updateMesh() const$/;"	f	language:C++	class:DefMesh
+updateMesh	myMain/defMesh.cpp	/^void DefMesh::updateMesh() const$/;"	f	language:C++	class:DefMesh
+v	Pinocchio/mesh.cpp	/^    int v[3];$/;"	m	language:C++	struct:MFace	file:
+v	Pinocchio/pointprojector.h	/^    Vector3 v;$/;"	m	language:C++	struct:Vec3Object
+v	Pinocchio/transform.h	/^    Vector<Real, 3> v;$/;"	m	language:C++	class:Quaternion
+v1	Pinocchio/intersector.h	/^    Vector3 v1, v2; \/\/basis$/;"	m	language:C++	class:Intersector
+v1	Pinocchio/pointprojector.h	/^    Vector3 v1, v2, v3;$/;"	m	language:C++	struct:Tri3Object
+v2	Pinocchio/intersector.h	/^    Vector3 v1, v2; \/\/basis$/;"	m	language:C++	class:Intersector
+v2	Pinocchio/pointprojector.h	/^    Vector3 v1, v2, v3;$/;"	m	language:C++	struct:Tri3Object
+v3	Pinocchio/pointprojector.h	/^    Vector3 v1, v2, v3;$/;"	m	language:C++	struct:Tri3Object
+vTaken	Pinocchio/embedding.cpp	/^    vector<bool> vTaken;$/;"	m	language:C++	struct:PartialMatch	file:
+value	leapSDK/lib/Leap.py	/^    def value(self): return LeapPython.SwigPyIterator_value(self)$/;"	m	language:Python	class:SwigPyIterator
+value_type	leapSDK/include/Leap.h	/^    typedef T value_type;$/;"	t	language:C++	class:Leap::ConstListIterator
+values	Pinocchio/multilinear.h	/^  Value values[num];$/;"	m	language:C++	class:Multilinear
+varIds	Pinocchio/lsqSolver.h	/^    vector<V> varIds; \/\/first the variables softly solved for, then the ones substituted$/;"	m	language:C++	class:LSQSystem
+vectorInCone	Pinocchio/attachment.cpp	/^bool vectorInCone(const Vector3 &v, const vector<Vector3> &ns)$/;"	f	language:C++
+vertex	Pinocchio/mesh.h	/^    int vertex; \/\/the vertex the edge points to--the start vertex is prev->vertex$/;"	m	language:C++	struct:MeshEdge
+vertices	Pinocchio/mesh.h	/^    vector<MeshVertex> vertices;$/;"	m	language:C++	class:Mesh
+verts	Pinocchio/graphutils.h	/^    vector<Vector3> verts;$/;"	m	language:C++	struct:PtGraph
+vlen	myMain/main.cpp	/^double vlen(double x, double y, double z)$/;"	f	language:C++
+weakref_proxy	leapSDK/lib/Leap.py	/^    weakref_proxy = lambda x: x$/;"	v	language:Python
+weakref_proxy	leapSDK/lib/Leap.py	/^    weakref_proxy = weakref.proxy$/;"	v	language:Python
+weight	Pinocchio/embedding.cpp	/^    double weight;$/;"	m	language:C++	class:PenaltyFunction	file:
+weights	Pinocchio/attachment.cpp	/^    vector<Vector<double, -1> > weights;$/;"	m	language:C++	class:AttachmentPrivate1	file:
+width	myMain/main.cpp	/^int width = 1024;$/;"	v	language:C++
+win	DemoUI/MyWindow.cpp	/^MyWindow *win = NULL;$/;"	v	language:C++
+writeObj	Pinocchio/mesh.cpp	/^void Mesh::writeObj(const string &filename) const$/;"	f	language:C++	class:Mesh
+x	Pinocchio/deriv.h	/^    Real x;$/;"	m	language:C++	class:Deriv
+x	leapSDK/include/LeapMath.h	/^  float x;$/;"	m	language:C++	struct:Leap::Vector
+xAxis	leapSDK/include/LeapMath.h	/^  static const Vector& xAxis() {$/;"	f	language:C++	struct:Leap::Vector
+xBasis	leapSDK/include/LeapMath.h	/^  Vector xBasis;$/;"	m	language:C++	struct:Leap::Matrix
+y	leapSDK/include/LeapMath.h	/^  float y;$/;"	m	language:C++	struct:Leap::Vector
+yAxis	leapSDK/include/LeapMath.h	/^  static const Vector& yAxis() {$/;"	f	language:C++	struct:Leap::Vector
+yBasis	leapSDK/include/LeapMath.h	/^  Vector yBasis;$/;"	m	language:C++	struct:Leap::Matrix
+yaw	leapSDK/include/LeapMath.h	/^  float yaw() const {$/;"	f	language:C++	struct:Leap::Vector
+z	leapSDK/include/LeapMath.h	/^  float z;$/;"	m	language:C++	struct:Leap::Vector
+zAxis	leapSDK/include/LeapMath.h	/^  static const Vector& zAxis() {$/;"	f	language:C++	struct:Leap::Vector
+zBasis	leapSDK/include/LeapMath.h	/^  Vector zBasis;$/;"	m	language:C++	struct:Leap::Matrix
+zero	leapSDK/include/LeapMath.h	/^  static const Vector& zero() {$/;"	f	language:C++	struct:Leap::Vector
+zeroChildren	Pinocchio/dtree.h	/^    void zeroChildren() { for(int i = 0; i < numChildren; ++i) children[i] = NULL; }$/;"	f	language:C++	class:DNode
+~Attachment	Pinocchio/attachment.cpp	/^Attachment::~Attachment()$/;"	f	language:C++	class:Attachment
+~AttachmentPrivate	Pinocchio/attachment.cpp	/^    virtual ~AttachmentPrivate() {}$/;"	f	language:C++	class:AttachmentPrivate
+~DNode	Pinocchio/dtree.h	/^    ~DNode()$/;"	f	language:C++	class:DNode
+~DisplayMesh	DemoUI/DisplayMesh.h	/^    virtual ~DisplayMesh() {}$/;"	f	language:C++	class:DisplayMesh
+~Implementation	leapSDK/include/Leap.h	/^      LEAP_EXPORT virtual ~Implementation() {}$/;"	f	language:C++	struct:Leap::Interface::Implementation
+~LLTMatrix	Pinocchio/lsqSolver.h	/^    virtual ~LLTMatrix() {}$/;"	f	language:C++	class:LLTMatrix
+~LSQSystem	Pinocchio/lsqSolver.h	/^    ~LSQSystem() { if(factoredMatrix) delete factoredMatrix; }$/;"	f	language:C++	class:LSQSystem
+~Listener	leapSDK/include/Leap.h	/^    LEAP_EXPORT virtual ~Listener() {}$/;"	f	language:C++	class:Leap::Listener
+~MyWindow	DemoUI/MyWindow.h	/^    virtual ~MyWindow() {}$/;"	f	language:C++	class:MyWindow
+~PenaltyFunction	Pinocchio/embedding.cpp	/^    virtual ~PenaltyFunction() {}$/;"	f	language:C++	class:PenaltyFunction
+~TaucsLLTMatrix	Pinocchio/lsqSolver.cpp	/^    ~TaucsLLTMatrix()$/;"	f	language:C++	class:TaucsLLTMatrix
+~VisibilityTester	Pinocchio/attachment.h	/^    virtual ~VisibilityTester() {}$/;"	f	language:C++	class:VisibilityTester

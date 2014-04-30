@@ -195,14 +195,12 @@ void getMatrix()
 
 
 
-Mesh mesh1("Model1.obj");
-Mesh mesh2("Model2.obj");
-Mesh mesh3("Model3.obj");
-DefMesh *myDefMesh1;
-DefMesh *myDefMesh2;
-DefMesh *myDefMesh3;
+Mesh mesh1("./armadillo.obj");
+Mesh mesh2("./cheb.obj");
+Mesh mesh3("./Model1.obj");
+Mesh mesh4("./Model2.obj");
 
-vector<DefMesh*> defMeshList;
+vector<DefMesh> defMeshList;
 int meshID = 0;
 
 double rotateY = 0.0;
@@ -296,49 +294,73 @@ void init()
      
     //====Initialize meshes=================================================
     //
-     Skeleton given = HumanSkeleton();
-     given.scale(0.7);
 
+     Skeleton given1 = HumanSkeleton();
+     given1.scale(0.7);
      std::cout<<"Rigging 1st mesh\n";
      mesh1.normalizeBoundingBox();
-     //mesh.computeVertexNormals();
+     mesh1.computeVertexNormals();
      PinocchioOutput o1;
-     o1 = autorig(given, mesh1);
+     o1 = autorig(given1, mesh1);
 
      if(o1.embedding.size() == 0) {
         cout << "Error embedding" << endl;
         exit(0);
      }
-     myDefMesh1 = new DefMesh(mesh1, given, o1.embedding, *(o1.attachment));   
+     DefMesh myDefMesh1(mesh1, given1, o1.embedding, *(o1.attachment));   
      defMeshList.push_back(myDefMesh1);
 
      //--------------
-     std::cout<<"Rigging 1st mesh\n";
+     Skeleton given2 = HumanSkeleton();
+     given2.scale(0.7);
+     std::cout<<"Rigging 2nd mesh\n";
      mesh2.normalizeBoundingBox();
-     //mesh.computeVertexNormals();
+     mesh2.computeVertexNormals();
      PinocchioOutput o2;
-     o2 = autorig(given, mesh2);
+     o2 = autorig(given2, mesh2);
 
      if(o2.embedding.size() == 0) {
         cout << "Error embedding" << endl;
         exit(0);
      }
-     myDefMesh2 = new DefMesh(mesh2, given, o2.embedding, *(o2.attachment));   
-     defMeshList.push_back(myDefMesh2);
-     //----------------
 
-     std::cout<<"Rigging 1st mesh\n";
+     DefMesh myDefMesh2(mesh2, given2, o2.embedding, *(o2.attachment));   
+
+     defMeshList.push_back(myDefMesh2);
+     ////----------------
+
+     Skeleton given3 = HumanSkeleton();
+     given3.scale(0.7);
+     std::cout<<"Rigging 3rd mesh\n";
      mesh3.normalizeBoundingBox();
-     //mesh.computeVertexNormals();
+     mesh3.computeVertexNormals();
      PinocchioOutput o3;
-     o3 = autorig(given, mesh3);
+     o3 = autorig(given3, mesh3);
 
      if(o3.embedding.size() == 0) {
         cout << "Error embedding" << endl;
         exit(0);
      }
-     myDefMesh3 = new DefMesh(mesh3, given, o3.embedding, *(o3.attachment));   
+     DefMesh myDefMesh3(mesh3, given3, o3.embedding, *(o3.attachment));   
      defMeshList.push_back(myDefMesh3);
+     //---------------
+
+
+
+     Skeleton given4 = HumanSkeleton();
+     given4.scale(0.7);
+     std::cout<<"Rigging 4th mesh\n";
+     mesh4.normalizeBoundingBox();
+     mesh4.computeVertexNormals();
+     PinocchioOutput o4;
+     o4 = autorig(given4, mesh4);
+
+     if(o4.embedding.size() == 0) {
+        cout << "Error embedding" << endl;
+        exit(0);
+     }
+     DefMesh myDefMesh4(mesh4, given4, o4.embedding, *(o4.attachment));   
+     defMeshList.push_back(myDefMesh4);
 }
 
 void changeSize(int w, int h)
@@ -380,11 +402,13 @@ void timerFunction(int value)
         const Leap::Hand hand = frame.hands()[0];
         const Leap::FingerList fingers = hand.fingers();
         //std::cout<<fingers.count()<<std::endl;
-        if (fingers.count() <= 4){
+        if (fingers.count() <= 4 && fingers.count()>2){
             if (!calib)
-                defMeshList[meshID]->dir.setCurDir(fingers);
-            else
-                defMeshList[meshID]->dir.setOriginDir(fingers);
+                defMeshList[meshID].dir.setCurDir(fingers);
+            else{
+                defMeshList[meshID].dir.setOriginDir(fingers);
+                defMeshList[meshID].dir.setCurDir(fingers);
+            }
         }
 
     }
@@ -424,6 +448,10 @@ void handleKeyPress(unsigned char key, int x, int y)
         case 'm':
         case 'M': 
             dMesh = !dMesh; 
+            break;
+        case 'c':
+        case 'C': 
+            calib = !calib; 
             break;
         case 'a':
         case 'A':
@@ -545,22 +573,23 @@ void display()
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glLoadIdentity();
     glMultMatrixd(_matrix);
-    Vector3 vec(-defMeshList[meshID]->getSkel()[0]);
-    defMeshList[meshID]->updateMesh();
+    Vector3 vec(-defMeshList[meshID].getSkel()[0]);
+    defMeshList[meshID].updateMesh();
 
     if (dMesh)
     {
-        glColor3d(0.5, 0.5, 0.5);
-        drawMesh(defMeshList[meshID]->getMesh(), false, vec);
+        glColor3d(0.8, 0.8, 0.8);
+        drawMesh(defMeshList[meshID].getMesh(), false, vec);
+        //drawMesh(mesh1, false, vec);
     }
     if (dSkeleton)
-        drawSkeleton(defMeshList[meshID]->getSkel(), vec);
+        drawSkeleton(defMeshList[meshID].getSkel(), vec);
 
     //Draw fingers
     glBegin(GL_LINES);
         glColor3d(0.0, 1.0, 1.0);
         for (int i=0; i<3; i++){
-            Vector3 curDir = defMeshList[meshID]->dir.curDir[i];
+            Vector3 curDir = defMeshList[meshID].dir.curDir[i];
             glVertex3d(0.0, 0.0, 0.0);
             glVertex3d(curDir[0], curDir[1], curDir[2]);
         }
@@ -569,7 +598,7 @@ void display()
     glBegin(GL_LINES);
         glColor3d(0.0, 1.0, 0.0);
         for (int i=0; i<3; i++){
-            Vector3 curDir = defMeshList[meshID]->dir.originDir[i];
+            Vector3 curDir = defMeshList[meshID].dir.originDir[i];
             glVertex3d(0.0, 0.0, 0.0);
             glVertex3d(curDir[0], curDir[1], curDir[2]);
         }
@@ -600,8 +629,7 @@ int main(int argc, char **argv)
  
     init();
     glutMainLoop();
-    for (unsigned i=0; i<defMeshList.size(); i++)
-        delete defMeshList[i];
+    //delete something
     return 0;
 }
 

@@ -195,15 +195,21 @@ void getMatrix()
 
 
 
-Mesh mesh;
-DefMesh *myDefMesh;
+Mesh mesh1("Model1.obj");
+Mesh mesh2("Model2.obj");
+Mesh mesh3("Model3.obj");
+DefMesh *myDefMesh1;
+DefMesh *myDefMesh2;
+DefMesh *myDefMesh3;
+
+vector<DefMesh*> defMeshList;
+int meshID = 0;
 
 double rotateY = 0.0;
 
 void drawSkeleton(const vector<Vector3> v, Vector3 trans)
 {
     glLineWidth(5);
-    glColor3d(.5, 0, 0);
 
     const vector<int> &prev = human.fPrev();
     glBegin(GL_LINES);
@@ -287,20 +293,52 @@ void init()
 
      //Fit the skeleton with mesh and calculate the weight
      //Mesh m("./armadillo.obj");
-     mesh.normalizeBoundingBox();
-
+     
+    //====Initialize meshes=================================================
+    //
      Skeleton given = HumanSkeleton();
      given.scale(0.7);
-     PinocchioOutput o;
-     o = autorig(given, mesh);
 
-     if(o.embedding.size() == 0) {
+     std::cout<<"Rigging 1st mesh\n";
+     mesh1.normalizeBoundingBox();
+     //mesh.computeVertexNormals();
+     PinocchioOutput o1;
+     o1 = autorig(given, mesh1);
+
+     if(o1.embedding.size() == 0) {
         cout << "Error embedding" << endl;
         exit(0);
      }
-     mesh.computeVertexNormals();
+     myDefMesh1 = new DefMesh(mesh1, given, o1.embedding, *(o1.attachment));   
+     defMeshList.push_back(myDefMesh1);
 
-     myDefMesh = new DefMesh(mesh, given, o.embedding, *(o.attachment));   
+     //--------------
+     std::cout<<"Rigging 1st mesh\n";
+     mesh2.normalizeBoundingBox();
+     //mesh.computeVertexNormals();
+     PinocchioOutput o2;
+     o2 = autorig(given, mesh2);
+
+     if(o2.embedding.size() == 0) {
+        cout << "Error embedding" << endl;
+        exit(0);
+     }
+     myDefMesh2 = new DefMesh(mesh2, given, o2.embedding, *(o2.attachment));   
+     defMeshList.push_back(myDefMesh2);
+     //----------------
+
+     std::cout<<"Rigging 1st mesh\n";
+     mesh3.normalizeBoundingBox();
+     //mesh.computeVertexNormals();
+     PinocchioOutput o3;
+     o3 = autorig(given, mesh3);
+
+     if(o3.embedding.size() == 0) {
+        cout << "Error embedding" << endl;
+        exit(0);
+     }
+     myDefMesh3 = new DefMesh(mesh3, given, o3.embedding, *(o3.attachment));   
+     defMeshList.push_back(myDefMesh3);
 }
 
 void changeSize(int w, int h)
@@ -344,9 +382,9 @@ void timerFunction(int value)
         //std::cout<<fingers.count()<<std::endl;
         if (fingers.count() <= 4){
             if (!calib)
-                myDefMesh->dir.setCurDir(fingers);
+                defMeshList[meshID]->dir.setCurDir(fingers);
             else
-                myDefMesh->dir.setOriginDir(fingers);
+                defMeshList[meshID]->dir.setOriginDir(fingers);
         }
 
     }
@@ -387,6 +425,12 @@ void handleKeyPress(unsigned char key, int x, int y)
         case 'M': 
             dMesh = !dMesh; 
             break;
+        case 'a':
+        case 'A':
+            meshID = (meshID + defMeshList.size() -1)%defMeshList.size(); break;
+        case 'd':
+        case 'D':
+            meshID = (meshID + 1)%defMeshList.size(); break;
 
         default:break;
     }
@@ -501,30 +545,34 @@ void display()
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glLoadIdentity();
     glMultMatrixd(_matrix);
-    Vector3 vec(-myDefMesh->getSkel()[0]);
-    myDefMesh->updateMesh();
+    Vector3 vec(-defMeshList[meshID]->getSkel()[0]);
+    defMeshList[meshID]->updateMesh();
 
     if (dMesh)
-        drawMesh(myDefMesh->getMesh(), false, vec);
+    {
+        glColor3d(0.5, 0.5, 0.5);
+        drawMesh(defMeshList[meshID]->getMesh(), false, vec);
+    }
     if (dSkeleton)
-        drawSkeleton(myDefMesh->getSkel(), vec);
+        drawSkeleton(defMeshList[meshID]->getSkel(), vec);
 
     //Draw fingers
     glBegin(GL_LINES);
-    for (int i=0; i<3; i++){
-        Vector3 curDir = myDefMesh->dir.curDir[i];
-        glVertex3d(0.0, 0.0, 0.0);
-        glVertex3d(curDir[0], curDir[1], curDir[2]);
-    }
+        glColor3d(0.0, 1.0, 1.0);
+        for (int i=0; i<3; i++){
+            Vector3 curDir = defMeshList[meshID]->dir.curDir[i];
+            glVertex3d(0.0, 0.0, 0.0);
+            glVertex3d(curDir[0], curDir[1], curDir[2]);
+        }
     glEnd();
 
     glBegin(GL_LINES);
-    glColor3d(0.0, 1.0, 0.0);
-    for (int i=0; i<3; i++){
-        Vector3 curDir = myDefMesh->dir.originDir[i];
-        glVertex3d(0.0, 0.0, 0.0);
-        glVertex3d(curDir[0], curDir[1], curDir[2]);
-    }
+        glColor3d(0.0, 1.0, 0.0);
+        for (int i=0; i<3; i++){
+            Vector3 curDir = defMeshList[meshID]->dir.originDir[i];
+            glVertex3d(0.0, 0.0, 0.0);
+            glVertex3d(curDir[0], curDir[1], curDir[2]);
+        }
     glEnd();
 
 
@@ -534,7 +582,7 @@ int main(int argc, char **argv)
 {
     //Init Opengl
     std::string fileName = argv[1];
-    mesh.loadObj(fileName);
+    //mesh.loadObj(fileName);
     glutInit(&argc, argv);
     //Print contex info
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);	//double buffer
@@ -552,8 +600,8 @@ int main(int argc, char **argv)
  
     init();
     glutMainLoop();
-    std::cout<<"Running in two threads\n";
-    delete myDefMesh;
+    for (unsigned i=0; i<defMeshList.size(); i++)
+        delete defMeshList[i];
     return 0;
 }
 

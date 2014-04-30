@@ -30,6 +30,8 @@ int width = 1024;
 int height = 768;
 
 bool calib = false;
+bool dMesh = true;
+bool dSkeleton = true;
 
 //
 ///* Ortho (if used) */
@@ -346,8 +348,6 @@ void timerFunction(int value)
             else
                 myDefMesh->dir.setOriginDir(fingers);
         }
-        
-
 
     }
     //if (!frame.hands().isEmpty())
@@ -374,11 +374,21 @@ void timerFunction(int value)
     glutTimerFunc(10,timerFunction,1);
 }
 
-void handleKeyPress(int key, int x, int y)
+void handleKeyPress(unsigned char key, int x, int y)
 { 
+  
     switch(key)
     {
-                
+        case 's':
+        case 'S': 
+            dSkeleton = !dSkeleton;
+            break;
+        case 'm':
+        case 'M': 
+            dMesh = !dMesh; 
+            break;
+
+        default:break;
     }
 }
 
@@ -494,8 +504,10 @@ void display()
     Vector3 vec(-myDefMesh->getSkel()[0]);
     myDefMesh->updateMesh();
 
-    drawMesh(myDefMesh->getMesh(), false, vec);
-    drawSkeleton(myDefMesh->getSkel(), vec);
+    if (dMesh)
+        drawMesh(myDefMesh->getMesh(), false, vec);
+    if (dSkeleton)
+        drawSkeleton(myDefMesh->getSkel(), vec);
 
     //Draw fingers
     glBegin(GL_LINES);
@@ -535,7 +547,7 @@ int main(int argc, char **argv)
 
     glutMouseFunc(mouseEvent);
     glutMotionFunc(mouseMoveEvent);
-    glutSpecialFunc(handleKeyPress);
+    glutKeyboardFunc(handleKeyPress);
     
  
     init();

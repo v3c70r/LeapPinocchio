@@ -9,4 +9,9 @@ I assume that you are running on X64 linux OS. To compile the code, you have to 
 
 HOW TO RUN
 =============
-In my main folder type "sh run.sh test.obj" to run the binary. It will link Pinnocho library for you. Please have your Leap Motion connected before you run the binary.
+The application will load meshes when it starts. Wait until all of the rigging process are finished and play with it. 
+
+* A - Previous mesh
+* D - Next mesh
+* M - Toggle mesh display
+* S - Toggle skeleton display
